@@ -1,5 +1,4 @@
 ## How are IMDB Ratings Related to Movies and Metascore
------------
 
 1. Have you ever watched or cancelled a movie because of its IMDB rating? 
 2. Ever wondered how movie-goers perceive these ratings? Or what triggers them to rate movies on IMDB? 
