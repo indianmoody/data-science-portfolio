@@ -1,6 +1,6 @@
 ## Drug Use By Age
 
-1. How many Americans in different age groups use alcohol, marijuana or illicit drugs?
+1. What share of Americans in different age groups use alcohol, marijuana or illicit drugs?
 2. How often do they use them? 
 
 This web application [*Drug Use By Age*](https://drug-app-dash.herokuapp.com/) presents interactive graphical representation of these facts by age group.
