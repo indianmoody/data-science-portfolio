@@ -8,3 +8,4 @@ Project | ETL | Analysis | Visualization | Prediction |
 [Fastest Growing Industries and USA States](https://github.com/indianmoody/data-science-portfolio/tree/master/fastest_growing_companies_2017) | &#10003; | &#10003; | &#10003; | 
 [How IMDB Ratings are related to movies and Metascore](https://github.com/indianmoody/data-science-portfolio/tree/master/imdb_vs_metascore) | &#10003; | &#10003; | &#10003; | 
 [Drug Use By Age](https://github.com/indianmoody/data-science-portfolio/tree/master/drug_use_by_age) | | | &#10003; | 
+[Predict Blogs about to receive Maximum Comments](https://github.com/indianmoody/data-science-portfolio/tree/master/blog_comments) | | &#10003; | |&#10003;
