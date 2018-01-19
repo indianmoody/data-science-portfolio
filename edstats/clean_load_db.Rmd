@@ -25,4 +25,62 @@ checkcsv = read.csv(file="/Users/gauravbishnoi/datas/Edstats_csv/EdStatsData.csv
 checkcsv
 ```
 
-Now remove col
+```{r}
+chcol = c(1,2,3,4)
+checkcsv[,chcol] = apply(checkcsv[,chcol], 2, function(x) as.character(x))
+```
+
+```{r}
+# drop columns from year 2015 onwards because they are empty
+checkcsv[,grep('X2015', colnames(checkcsv)):length(colnames(checkcsv))] = NULL
+```
+
+```{r}
+checkcsv[,'Indicator.Name'] = NULL
+```
+
+```{r}
+# delete rows with at least 30 missing values
+checkcsv = checkcsv[rowSums(is.na(checkcsv)) <= 30, ]
+```
+
+```{r}
+# modify column names to avoid period and large cap
+colnames(checkcsv) = sapply(colnames(checkcsv), function(x) tolower(gsub("\\.", "_", x)), USE.NAMES = FALSE)
+```
+
+```{r}
+# make sql stament to create table in db with colnames columns
+
+# col names with types
+col_names = colnames(checkcsv)
+#class(checkcsv[,col_names[5]])
+sql_col_name_type = ""
+for(name in col_names) {
+  sql_col_name_type = paste(sql_col_name_type, " ", name, " ", class(checkcsv[,name]), ",", "\n", sep="")
+}
+sql_col_name_type = substr(sql_col_name_type, 1, nchar(sql_col_name_type)-2)
+
+create_command = paste("CREATE TABLE ", "eddetails", "\n(\n", sql_col_name_type, "\n)\nWITH (\nOIDS = FALSE\n);\n", sep="")
+
+alter_command = "ALTER TABLE eddetails OWNER TO postgres;"
+
+create_table_command = paste(create_command, alter_command, sep="")
+
+cat(create_table_command)
+```
+
+```{r}
+library('RPostgreSQL')
+pg = dbDriver("PostgreSQL")
+con = dbConnect(pg, user="postgres", password="password", host="localhost", port=5432, dbname="edstatsdb")
+```
+
+```{r}
+dbGetQuery(con, create_table_command)
+```
+
+```{r}
+dbDisconnect(con)
+```
+
