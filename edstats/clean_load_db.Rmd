@@ -7,10 +7,6 @@ This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute
 
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
 
-```{r}
-plot(cars)
-```
-
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
 
 When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
@@ -19,6 +15,109 @@ The preview shows you a rendered HTML copy of the contents of the editor. Conseq
 
 ---
 
+```{r}
+create_eddetails_table_db = function() {
+  
+  # read just few rows to get column details
+  tempdf = read.csv(file="/Users/gauravbishnoi/datas/Edstats_csv/EdStatsData.csv", nrows = 10)
+  # change first 4 columns from factor to just characters
+  tempdf[,c(1,2,3,4)] = apply(tempdf[,c(1,2,3,4)], 2, function(x) as.character(x))
+  # drop columns from year 2015 onwards because they are empty
+  tempdf[,grep('X2015', colnames(tempdf)):length(colnames(tempdf))] = NULL
+  # drop column 'Indicator.Name'
+  tempdf[,'Indicator.Name'] = NULL
+  # delete rows with at least 30 missing values
+  tempdf = tempdf[rowSums(is.na(tempdf)) <= 30, ]
+  # modify column names to avoid period and large cap
+  colnames(tempdf) = sapply(colnames(tempdf), function(x) tolower(gsub("\\.", "_", x)), USE.NAMES = FALSE)
+  
+  # make sql stament to create table in db with colnames columns
+
+  # col names with types
+  col_names = colnames(tempdf)
+  
+  # string for modified column names and data types. To be used in command to create table.
+  sql_col_name_type = ""
+  for(name in col_names) {
+    
+    if (class(tempdf[,name]) == 'character') {
+      sql_col_name_type = paste(sql_col_name_type, " ", name, " ", class(tempdf[,name]), " varying,", "\n", sep="")
+    }
+    else {
+      sql_col_name_type = paste(sql_col_name_type, " ", name, " ", class(tempdf[,name]), ",", "\n", sep="")
+    }
+    
+  }
+  # removing comma and newline after last column name and data type.
+  sql_col_name_type = substr(sql_col_name_type, 1, nchar(sql_col_name_type)-2) 
+  
+  # command to create table
+  create_command = paste("CREATE TABLE IF NOT EXISTS ", "eddetails", "\n(\n", sql_col_name_type, "\n)\nWITH (\nOIDS = FALSE\n);\n", sep="")
+  
+  #command to change ownership of table
+  alter_command = "ALTER TABLE eddetails OWNER TO postgres;"
+  
+  # complete command to create table and change ownership
+  create_table_command = paste(create_command, alter_command, sep="")
+  
+  # connect to database
+  con = connect_db()
+  # execute command 
+  dbGetQuery(con, create_table_command)
+  # close connection to database
+  dbDisconnect(con)
+}
+
+```
+
+```{r}
+connect_db = function() {
+  # Connect to data base
+  library('RPostgreSQL')
+  pg = dbDriver("PostgreSQL")
+  con = dbConnect(pg, user="postgres", password="password", host="localhost", port=5432, dbname="edstatsdb")
+  return (con)
+}
+```
+
+
+```{r}
+create_eddetails_table_db()
+```
+
+```{r}
+conn = connect_db()
+```
+
+```{r}
+dff = read.csv(file="/Users/gauravbishnoi/datas/Edstats_csv/EdStatsData.csv", nrows = 10, skip = 1, header = FALSE)
+dff[,c(1,2,3,4)] = apply(dff[,c(1,2,3,4)], 2, function(x) as.character(x))
+dff[,50:length(colnames(dff))] = NULL
+dff[,3] = NULL
+dff = dff[rowSums(is.na(dff)) <= 30, ]
+
+xy = dbGetQuery(conn, "SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'eddetails';")
+colnames(dff) = xy[, 1]
+
+```
+
+```{r}
+dbWriteTable(conn, "eddetails", value = dff, append = TRUE, row.names = FALSE)
+```
+```{r}
+class(dff[,2]) == 'character'
+```
+
+```{r}
+dbDisconnect(conn)
+```
+
+
+
+
+
+
+
 Read first 10 lines of EdStatsData.csv
 ```{r}
 checkcsv = read.csv(file="/Users/gauravbishnoi/datas/Edstats_csv/EdStatsData.csv", nrows = 10)
@@ -26,6 +125,7 @@ checkcsv
 ```
 
 ```{r}
+# change class of first 4 columns from factor to character
 chcol = c(1,2,3,4)
 checkcsv[,chcol] = apply(checkcsv[,chcol], 2, function(x) as.character(x))
 ```
@@ -61,7 +161,7 @@ for(name in col_names) {
 }
 sql_col_name_type = substr(sql_col_name_type, 1, nchar(sql_col_name_type)-2)
 
-create_command = paste("CREATE TABLE ", "eddetails", "\n(\n", sql_col_name_type, "\n)\nWITH (\nOIDS = FALSE\n);\n", sep="")
+create_command = paste("CREATE TABLE IF NOT EXISTS ", "eddetails", "\n(\n", sql_col_name_type, "\n)\nWITH (\nOIDS = FALSE\n);\n", sep="")
 
 alter_command = "ALTER TABLE eddetails OWNER TO postgres;"
 
@@ -79,6 +179,61 @@ con = dbConnect(pg, user="postgres", password="password", host="localhost", port
 ```{r}
 dbGetQuery(con, create_table_command)
 ```
+
+```{r}
+# open connection to csv file
+csv_con = file("/Users/gauravbishnoi/datas/Edstats_csv/EdStatsData.csv", "r")
+```
+
+```{r}
+# read column name line, then the tracker will be on line 2
+read.csv(csv_con, nrows=1, header = FALSE)
+```
+```{r}
+
+```
+
+
+
+```{r}
+close(csv_con)
+```
+
+```{r}
+conn = file("/Users/gauravbishnoi/Desktop/trys.csv", "r")
+```
+
+```{r}
+read.csv(conn, nrows = 1, header = TRUE)
+```
+
+
+```{r}
+while (TRUE) {
+  dfi = read.csv(conn, nrows=4, header = FALSE)
+  print(dfi)
+  if (NROW(dfi) < 4) {
+    break
+  }
+}
+
+#read.csv(conn, nrows=4, header = FALSE)
+```
+
+```{r}
+close(conn)
+```
+
+```{r}
+rm(list=ls())
+```
+
+
+
+
+
+
+
 
 ```{r}
 dbDisconnect(con)
