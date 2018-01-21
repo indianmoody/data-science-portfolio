@@ -3,15 +3,6 @@ title: "R Notebook"
 output: html_notebook
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
-
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
-
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
-
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
 
 ---
 
@@ -113,7 +104,7 @@ fill_db = function() {
     dff = read.csv(file = csv_con, nrows = chunk_size, header = FALSE)
     # save length of rows for later comparison
     dff_lines_original = NROW(dff)
-    # change data type of first 4 rows from factor to character
+    # change data type of first 4 columns from factor to character
     dff[,c(1,2,3,4)] = apply(dff[,c(1,2,3,4)], 2, function(x) as.character(x))
     # drop columns from year 2015 onwards because they are empty
     dff[,50:length(colnames(dff))] = NULL
@@ -125,9 +116,6 @@ fill_db = function() {
     
     # assign those names to current data frame
     colnames(dff) = column_names[, 1]
-    
-    i = i + 1
-    print(i)
     
     # write current data frame into sql db table
     dbWriteTable(con, "eddetails", value = dff, append = TRUE, row.names = FALSE)
@@ -156,157 +144,72 @@ fill_db()
 ```
 
 
-
-
+Load EdStatsSeries.csv, and create 'statseries' table in db.
 ```{r}
-conn = connect_db()
-```
-
-```{r}
-dff = read.csv(file="/Users/gauravbishnoi/datas/Edstats_csv/EdStatsData.csv", nrows = 10, skip = 1, header = FALSE)
-dff[,c(1,2,3,4)] = apply(dff[,c(1,2,3,4)], 2, function(x) as.character(x))
-dff[,50:length(colnames(dff))] = NULL
-dff[,3] = NULL
-dff = dff[rowSums(is.na(dff)) <= 30, ]
-
-xy = dbGetQuery(conn, "SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'eddetails';")
-colnames(dff) = xy[, 1]
-
-```
-
-```{r}
-dbWriteTable(conn, "eddetails", value = dff, append = TRUE, row.names = FALSE)
-```
-```{r}
-# dbGetQuery(conn, "DELETE FROM eddetails;")
-```
-
-```{r}
-dbDisconnect(conn)
-```
-
-
-
-
-
-
-
-Read first 10 lines of EdStatsData.csv
-```{r}
-checkcsv = read.csv(file="/Users/gauravbishnoi/datas/Edstats_csv/EdStatsData.csv", nrows = 10)
-checkcsv
-```
-
-```{r}
-# change class of first 4 columns from factor to character
-chcol = c(1,2,3,4)
-checkcsv[,chcol] = apply(checkcsv[,chcol], 2, function(x) as.character(x))
-```
-
-```{r}
-# drop columns from year 2015 onwards because they are empty
-checkcsv[,grep('X2015', colnames(checkcsv)):length(colnames(checkcsv))] = NULL
-```
-
-```{r}
-checkcsv[,'Indicator.Name'] = NULL
-```
-
-```{r}
-# delete rows with at least 30 missing values
-checkcsv = checkcsv[rowSums(is.na(checkcsv)) <= 30, ]
-```
-
-```{r}
-# modify column names to avoid period and large cap
-colnames(checkcsv) = sapply(colnames(checkcsv), function(x) tolower(gsub("\\.", "_", x)), USE.NAMES = FALSE)
-```
-
-```{r}
-# make sql stament to create table in db with colnames columns
-
-# col names with types
-col_names = colnames(checkcsv)
-#class(checkcsv[,col_names[5]])
-sql_col_name_type = ""
-for(name in col_names) {
-  sql_col_name_type = paste(sql_col_name_type, " ", name, " ", class(checkcsv[,name]), ",", "\n", sep="")
+create_statseries_table_db = function() {
+  
+  stat_create_command = "CREATE TABLE IF NOT EXISTS statseries ( series_code character varying, topic character varying, short_definition character varying ) WITH ( OIDS = FALSE ); ALTER TABLE statseries OWNER TO postgres;"
+  
+  
+  # connect to database
+  con = connect_db()
+  
+  # execute command 
+  dbGetQuery(con, stat_create_command)
+  
+  # close connection to database
+  dbDisconnect(con)
+  
 }
-sql_col_name_type = substr(sql_col_name_type, 1, nchar(sql_col_name_type)-2)
-
-create_command = paste("CREATE TABLE IF NOT EXISTS ", "eddetails", "\n(\n", sql_col_name_type, "\n)\nWITH (\nOIDS = FALSE\n);\n", sep="")
-
-alter_command = "ALTER TABLE eddetails OWNER TO postgres;"
-
-create_table_command = paste(create_command, alter_command, sep="")
-
-cat(create_table_command)
 ```
 
 ```{r}
-library('RPostgreSQL')
-pg = dbDriver("PostgreSQL")
-con = dbConnect(pg, user="postgres", password="password", host="localhost", port=5432, dbname="edstatsdb")
+create_statseries_table_db()
 ```
 
 ```{r}
-dbGetQuery(con, create_table_command)
-```
-
-```{r}
-# open connection to csv file
-csv_con = file("/Users/gauravbishnoi/datas/Edstats_csv/EdStatsData.csv", "r")
-```
-
-```{r}
-# read column name line, then the tracker will be on line 2
-read.csv(csv_con, nrows=1, header = FALSE)
-```
-```{r}
-
-```
-
-
-
-```{r}
-close(csv_con)
-```
-
-```{r}
-conn = file("/Users/gauravbishnoi/Desktop/trys.csv", "r")
-```
-
-```{r}
-read.csv(conn, nrows = 1, header = TRUE)
-```
-
-
-```{r}
-while (TRUE) {
-  dfi = read.csv(conn, nrows=4, header = FALSE)
-  print(dfi)
-  if (NROW(dfi) < 4) {
-    break
-  }
+fill_statseries = function() {
+  
+  # read just few rows to get column details
+  tempdf = read.csv(file="/Users/gauravbishnoi/datas/Edstats_csv/EdStatsSeries.csv")
+  # drop all columns except 1,2,4
+  tempdf = tempdf[,c(1,2,4)]
+  # rename columns
+  colnames(tempdf) = c('series_code', 'topic', 'short_definition')
+  # change data type of all 3 columns from factor to character
+  tempdf[,1:3] = apply(tempdf[,1:3], 2, function(x) as.character(x))
+  
+  # connect to database
+  con = connect_db()
+  
+  # write current data frame into sql db table
+  dbWriteTable(con, "statseries", value = tempdf, append = TRUE, row.names = FALSE)
+  
+  # close connection to database
+  dbDisconnect(con)
+  
 }
-
-#read.csv(conn, nrows=4, header = FALSE)
 ```
 
 ```{r}
-close(conn)
+fill_statseries()
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```{r}
 rm(list=ls())
 ```
-
-
-
-
-
-
-
 
 ```{r}
 dbDisconnect(con)
