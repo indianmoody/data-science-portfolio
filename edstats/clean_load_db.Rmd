@@ -16,6 +16,13 @@ The preview shows you a rendered HTML copy of the contents of the editor. Conseq
 ---
 
 ```{r}
+# packages
+library('RPostgreSQL')
+```
+
+
+
+```{r}
 create_eddetails_table_db = function() {
   
   # read just few rows to get column details
@@ -73,7 +80,6 @@ create_eddetails_table_db = function() {
 ```{r}
 connect_db = function() {
   # Connect to data base
-  library('RPostgreSQL')
   pg = dbDriver("PostgreSQL")
   con = dbConnect(pg, user="postgres", password="password", host="localhost", port=5432, dbname="edstatsdb")
   return (con)
@@ -84,6 +90,73 @@ connect_db = function() {
 ```{r}
 create_eddetails_table_db()
 ```
+
+
+```{r}
+fill_db = function() {
+  
+  con = connect_db() # connection to database
+  chunk_size = 25573 # number of lines to be read at a time from csv file
+  
+  csv_con = file("/Users/gauravbishnoi/datas/Edstats_csv/EdStatsData.csv", "r") # connection to csv file
+  
+  # get column names from sql db table
+  column_names = dbGetQuery(con, "SELECT column_name FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'eddetails';")
+  
+  column_line = read.csv(csv_con, nrows = 1, header = FALSE) # row with column details, now the file will be read from second row
+  
+  i = 0
+  
+  while (TRUE) {
+    
+    # read chunk_size lines from csv and store in temp database
+    dff = read.csv(file = csv_con, nrows = chunk_size, header = FALSE)
+    # save length of rows for later comparison
+    dff_lines_original = NROW(dff)
+    # change data type of first 4 rows from factor to character
+    dff[,c(1,2,3,4)] = apply(dff[,c(1,2,3,4)], 2, function(x) as.character(x))
+    # drop columns from year 2015 onwards because they are empty
+    dff[,50:length(colnames(dff))] = NULL
+    # drop column 'Indicator.Name'
+    dff[,3] = NULL
+    # drop rows that still contain at least 30 missing values
+    dff = dff[rowSums(is.na(dff)) <= 30, ]
+    
+    
+    # assign those names to current data frame
+    colnames(dff) = column_names[, 1]
+    
+    i = i + 1
+    print(i)
+    
+    # write current data frame into sql db table
+    dbWriteTable(con, "eddetails", value = dff, append = TRUE, row.names = FALSE)
+    
+    # delete dff for this iteration
+    rm(dff)
+    
+    # if total read lines from csv were less than chunk_size, reading is finished
+    if (dff_lines_original < chunk_size) {
+      break
+    }
+    
+  }
+  
+  # close connection to csv file
+  close(csv_con)
+    
+  # close connection to database
+  dbDisconnect(con)
+  
+}
+```
+
+```{r}
+fill_db()
+```
+
+
+
 
 ```{r}
 conn = connect_db()
@@ -105,7 +178,7 @@ colnames(dff) = xy[, 1]
 dbWriteTable(conn, "eddetails", value = dff, append = TRUE, row.names = FALSE)
 ```
 ```{r}
-class(dff[,2]) == 'character'
+# dbGetQuery(conn, "DELETE FROM eddetails;")
 ```
 
 ```{r}
