@@ -1,0 +1,28 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+```{r}
+source("csv_to_db.R")
+```
+
+```{r}
+con = connect_db()
+```
+
+
+```{r}
+dbGetQuery(con, "select count(*) from eddetails;")
+```
+
+
+```{r}
+rm(list=ls())
+```
+
+```{r}
+dbDisconnect(con)
+```

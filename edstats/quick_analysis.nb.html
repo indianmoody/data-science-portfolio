@@ -143,7 +143,7 @@ $(document).ready(function () {
 </style>
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("clean_load_db.Rmd");
+  window.initializeSourceEmbed("quick_analysis.Rmd");
   window.initializeCodeFolding("show" === "show");
 });
 </script>
@@ -173,45 +173,32 @@ $(document).ready(function () {
 
 
 <!-- rnb-text-begin -->
-<hr />
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBwYWNrYWdlc1xuc291cmNlKFwiY3N2X3RvX2RiLlJcIilcbmBgYCJ9 -->
-<pre class="r"><code># packages
-source(&quot;csv_to_db.R&quot;)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc291cmNlKFwiY3N2X3RvX2RiLlJcIilcbmBgYCJ9 -->
+<pre class="r"><code>source(&quot;csv_to_db.R&quot;)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>Load EdStatsData.csv and create ‘eddetails’ table, if not already exists, in db.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY3JlYXRlX2VkZGV0YWlsc190YWJsZV9kYigpXG5gYGAifQ== -->
-<pre class="r"><code>create_eddetails_table_db()</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY29uID0gY29ubmVjdF9kYigpXG5gYGAifQ== -->
+<pre class="r"><code>con = connect_db()</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>Clean and load data into ‘eddetails’ table in db.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmlsbF9kYigpXG5gYGAifQ== -->
-<pre class="r"><code>fill_db()</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGJHZXRRdWVyeShjb24sIFwic2VsZWN0IGNvdW50KCopIGZyb20gZWRkZXRhaWxzO1wiKVxuYGBgIn0= -->
+<pre class="r"><code>dbGetQuery(con, &quot;select count(*) from eddetails;&quot;)</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>Load EdStatsSeries.csv and create ‘statseries’ table, if not already exists, in db.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY3JlYXRlX3N0YXRzZXJpZXNfdGFibGVfZGIoKVxuYGBgIn0= -->
-<pre class="r"><code>create_statseries_table_db()</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>Clean and load data into ‘statseries’ table in db.</p>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmlsbF9zdGF0c2VyaWVzKClcbmBgYCJ9 -->
-<pre class="r"><code>fill_statseries()</code></pre>
-<!-- rnb-source-end -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibmNvbCI6MSwibnJvdyI6MX0sInJkZiI6Ikg0c0lBQUFBQUFBQUExMVFRUTZDTUJCY1d0RFFSQ1R4SFhEdzRObURmc0FUMXdxb3hOcVNVcUp2OTRCdVNZbllIcnE3azUzcFRFK0hZc3NLQmdBRWFFaUJVR3hEZ2xjQUljUzJ2Z0RvWmdRQUVsdjM3Mk1LNC9sYmpDUi8xQjAyNlJ3c1ZTK050eGxyOWN5bjdaV1REbnk1VXZET2wyTVZOenkvYU9UaU5IaVVwV3BOb3lTU2lEVWNlZVJBZThDNmw5WkZsWlczWHQ2em5YM2c1MmJ1ekhkSlBrNHFjbEtMV2w0YldVL2VCVC9Yd2cwSnBoM0Q1cTF1OEM5Y0VrUzczQ2pEcHoxV0tqRWhZellZdnNINzhIaWVBUUFBIn0= -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["count"],"name":[1],"type":["dbl"],"align":["right"]}],"data":[{"1":"107601","_rn_":"1"}],"options":{"columns":{"min":{},"max":[10],"total":[1]},"rows":{"min":[10],"max":[10],"total":[1]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -221,17 +208,17 @@ source(&quot;csv_to_db.R&quot;)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>Optional:</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGJEaXNjb25uZWN0KGNvbilcbmBgYCJ9 -->
 <pre class="r"><code>dbDisconnect(con)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFRSVUVcbiJ9 -->
+<pre><code>[1] TRUE</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCi0tLQoKYGBge3J9CiMgcGFja2FnZXMKc291cmNlKCJjc3ZfdG9fZGIuUiIpCmBgYAoKCkxvYWQgRWRTdGF0c0RhdGEuY3N2IGFuZCBjcmVhdGUgJ2VkZGV0YWlscycgdGFibGUsIGlmIG5vdCBhbHJlYWR5IGV4aXN0cywgaW4gZGIuCmBgYHtyfQpjcmVhdGVfZWRkZXRhaWxzX3RhYmxlX2RiKCkKYGBgCgpDbGVhbiBhbmQgbG9hZCBkYXRhIGludG8gJ2VkZGV0YWlscycgdGFibGUgaW4gZGIuCmBgYHtyfQpmaWxsX2RiKCkKYGBgCgpMb2FkIEVkU3RhdHNTZXJpZXMuY3N2IGFuZCBjcmVhdGUgJ3N0YXRzZXJpZXMnIHRhYmxlLCBpZiBub3QgYWxyZWFkeSBleGlzdHMsIGluIGRiLgpgYGB7cn0KY3JlYXRlX3N0YXRzZXJpZXNfdGFibGVfZGIoKQpgYGAKCgpDbGVhbiBhbmQgbG9hZCBkYXRhIGludG8gJ3N0YXRzZXJpZXMnIHRhYmxlIGluIGRiLgpgYGB7cn0KZmlsbF9zdGF0c2VyaWVzKCkKYGBgCgoKCgoKCmBgYHtyfQpybShsaXN0PWxzKCkpCmBgYAoKT3B0aW9uYWw6CmBgYHtyfQpkYkRpc2Nvbm5lY3QoY29uKQpgYGAKCg==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCgpgYGB7cn0Kc291cmNlKCJjc3ZfdG9fZGIuUiIpCmBgYAoKYGBge3J9CmNvbiA9IGNvbm5lY3RfZGIoKQpgYGAKCgpgYGB7cn0KZGJHZXRRdWVyeShjb24sICJzZWxlY3QgY291bnQoKikgZnJvbSBlZGRldGFpbHM7IikKYGBgCgoKYGBge3J9CnJtKGxpc3Q9bHMoKSkKYGBgCgpgYGB7cn0KZGJEaXNjb25uZWN0KGNvbikKYGBg</div>
 
 
 
