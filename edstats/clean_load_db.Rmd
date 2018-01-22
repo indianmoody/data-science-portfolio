@@ -7,7 +7,6 @@ output: html_notebook
 ---
 
 ```{r}
-# packages
 source("csv_to_db.R")
 ```
 

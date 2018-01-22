@@ -124,7 +124,7 @@ fill_db = function() {
 # Function to load EdStatsSeries.csv and create 'statseries' table, if not already exists, in db.
 create_statseries_table_db = function() {
   
-  stat_create_command = "CREATE TABLE IF NOT EXISTS statseries ( series_code character varying, topic character varying, short_definition character varying ) WITH ( OIDS = FALSE ); ALTER TABLE statseries OWNER TO postgres;"
+  stat_create_command = "CREATE TABLE IF NOT EXISTS statseries ( indicator_code character varying, topic character varying, long_definition character varying ) WITH ( OIDS = FALSE ); ALTER TABLE statseries OWNER TO postgres;"
   
   
   # connect to database
@@ -144,10 +144,10 @@ fill_statseries = function() {
   
   # read just few rows to get column details
   tempdf = read.csv(file="/Users/gauravbishnoi/datas/Edstats_csv/EdStatsSeries.csv")
-  # drop all columns except 1,2,4
-  tempdf = tempdf[,c(1,2,4)]
+  # drop all columns except 1,2,5
+  tempdf = tempdf[,c(1,2,5)]
   # rename columns
-  colnames(tempdf) = c('series_code', 'topic', 'short_definition')
+  colnames(tempdf) = c('indicator_code', 'topic', 'long_definition')
   # change data type of all 3 columns from factor to character
   tempdf[,1:3] = apply(tempdf[,1:3], 2, function(x) as.character(x))
   

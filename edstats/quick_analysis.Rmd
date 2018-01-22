@@ -13,10 +13,66 @@ source("csv_to_db.R")
 con = connect_db()
 ```
 
-
+Total number of rows or observations in eddetails table
 ```{r}
 dbGetQuery(con, "select count(*) from eddetails;")
 ```
+
+head of eddetails
+```{r}
+dbGetQuery(con, "select * from eddetails limit 5;")
+```
+
+Number of distinct categories by indicator_code in eddetails
+```{r}
+dbGetQuery(con, "select count(distinct indicator_code) from eddetails;")
+```
+
+Number of distinct countries, continents or regions
+```{r}
+dbGetQuery(con, "select count(distinct country_name) from eddetails;")
+```
+
+List of distinct countries, continents or regions
+```{r}
+dbGetQuery(con, "select distinct country_name from eddetails;")
+```
+
+
+
+Surveys with count who where successfully conducted in at least 200 regions
+```{r}
+dbGetQuery(con, "select indicator_code, count(*) from eddetails group by indicator_code having count(*) >= 200 order by count(*) desc;")
+```
+
+
+get list of definition of surveys from statseries table, who were successfully conducted in at least 200 regions.
+```{r}
+# get list of indicator_code for surveys
+
+code_df = dbGetQuery(con, "select indicator_code from eddetails group by indicator_code having count(*) >= 200 order by count(*) desc;") # dataframe of codes
+code_list = code_df[,1]
+
+```
+```{r}
+# head of statseries table
+dbGetQuery(con, "select * from statseries limit 5;")
+```
+
+
+```{r}
+dbGetQuery(con, "select count(distinct long_definition) from statseries;")
+```
+
+
+
+Thats the answer for now!
+```{r}
+most_frequent_eddetails = "select indicator_code from eddetails group by indicator_code having count(*) >= 200"
+dbGetQuery(con, paste("select * from statseries where indicator_code in (", most_frequent_eddetails, ");", sep = ""))
+```
+
+
 
 
 ```{r}

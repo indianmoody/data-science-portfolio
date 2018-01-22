@@ -176,9 +176,8 @@ $(document).ready(function () {
 <hr />
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBwYWNrYWdlc1xuc291cmNlKFwiY3N2X3RvX2RiLlJcIilcbmBgYCJ9 -->
-<pre class="r"><code># packages
-source(&quot;csv_to_db.R&quot;)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc291cmNlKFwiY3N2X3RvX2RiLlJcIilcbmBgYCJ9 -->
+<pre class="r"><code>source(&quot;csv_to_db.R&quot;)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -204,6 +203,9 @@ source(&quot;csv_to_db.R&quot;)</code></pre>
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY3JlYXRlX3N0YXRzZXJpZXNfdGFibGVfZGIoKVxuYGBgIn0= -->
 <pre class="r"><code>create_statseries_table_db()</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFRSVUVcbiJ9 -->
+<pre><code>[1] TRUE</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Clean and load data into ‘statseries’ table in db.</p>
@@ -212,6 +214,9 @@ source(&quot;csv_to_db.R&quot;)</code></pre>
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmlsbF9zdGF0c2VyaWVzKClcbmBgYCJ9 -->
 <pre class="r"><code>fill_statseries()</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFRSVUVcbiJ9 -->
+<pre><code>[1] TRUE</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -227,11 +232,14 @@ source(&quot;csv_to_db.R&quot;)</code></pre>
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGJEaXNjb25uZWN0KGNvbilcbmBgYCJ9 -->
 <pre class="r"><code>dbDisconnect(con)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFRSVUVcbiJ9 -->
+<pre><code>[1] TRUE</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCi0tLQoKYGBge3J9CiMgcGFja2FnZXMKc291cmNlKCJjc3ZfdG9fZGIuUiIpCmBgYAoKCkxvYWQgRWRTdGF0c0RhdGEuY3N2IGFuZCBjcmVhdGUgJ2VkZGV0YWlscycgdGFibGUsIGlmIG5vdCBhbHJlYWR5IGV4aXN0cywgaW4gZGIuCmBgYHtyfQpjcmVhdGVfZWRkZXRhaWxzX3RhYmxlX2RiKCkKYGBgCgpDbGVhbiBhbmQgbG9hZCBkYXRhIGludG8gJ2VkZGV0YWlscycgdGFibGUgaW4gZGIuCmBgYHtyfQpmaWxsX2RiKCkKYGBgCgpMb2FkIEVkU3RhdHNTZXJpZXMuY3N2IGFuZCBjcmVhdGUgJ3N0YXRzZXJpZXMnIHRhYmxlLCBpZiBub3QgYWxyZWFkeSBleGlzdHMsIGluIGRiLgpgYGB7cn0KY3JlYXRlX3N0YXRzZXJpZXNfdGFibGVfZGIoKQpgYGAKCgpDbGVhbiBhbmQgbG9hZCBkYXRhIGludG8gJ3N0YXRzZXJpZXMnIHRhYmxlIGluIGRiLgpgYGB7cn0KZmlsbF9zdGF0c2VyaWVzKCkKYGBgCgoKCgoKCmBgYHtyfQpybShsaXN0PWxzKCkpCmBgYAoKT3B0aW9uYWw6CmBgYHtyfQpkYkRpc2Nvbm5lY3QoY29uKQpgYGAKCg==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKCi0tLQoKYGBge3J9CnNvdXJjZSgiY3N2X3RvX2RiLlIiKQpgYGAKCgpMb2FkIEVkU3RhdHNEYXRhLmNzdiBhbmQgY3JlYXRlICdlZGRldGFpbHMnIHRhYmxlLCBpZiBub3QgYWxyZWFkeSBleGlzdHMsIGluIGRiLgpgYGB7cn0KY3JlYXRlX2VkZGV0YWlsc190YWJsZV9kYigpCmBgYAoKQ2xlYW4gYW5kIGxvYWQgZGF0YSBpbnRvICdlZGRldGFpbHMnIHRhYmxlIGluIGRiLgpgYGB7cn0KZmlsbF9kYigpCmBgYAoKTG9hZCBFZFN0YXRzU2VyaWVzLmNzdiBhbmQgY3JlYXRlICdzdGF0c2VyaWVzJyB0YWJsZSwgaWYgbm90IGFscmVhZHkgZXhpc3RzLCBpbiBkYi4KYGBge3J9CmNyZWF0ZV9zdGF0c2VyaWVzX3RhYmxlX2RiKCkKYGBgCgoKQ2xlYW4gYW5kIGxvYWQgZGF0YSBpbnRvICdzdGF0c2VyaWVzJyB0YWJsZSBpbiBkYi4KYGBge3J9CmZpbGxfc3RhdHNlcmllcygpCmBgYAoKCgoKCgpgYGB7cn0Kcm0obGlzdD1scygpKQpgYGAKCk9wdGlvbmFsOgpgYGB7cn0KZGJEaXNjb25uZWN0KGNvbikKYGBgCgo=</div>
 
 
 
