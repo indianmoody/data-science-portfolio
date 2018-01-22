@@ -96,7 +96,6 @@ fill_db = function() {
   
   column_line = read.csv(csv_con, nrows = 1, header = FALSE) # row with column details, now the file will be read from second row
   
-  i = 0
   
   while (TRUE) {
     
