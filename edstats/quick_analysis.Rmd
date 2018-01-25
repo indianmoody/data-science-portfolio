@@ -4,6 +4,9 @@ output: html_notebook
 ---
 
 
+```{r}
+library(DMwR)
+```
 
 ```{r}
 source("csv_to_db.R")
@@ -152,7 +155,197 @@ merged_country_codes
 ```
 Now we have a list of 189 countries that have exactly 1 occurence in all 4 surveys.
 
+Create a dataframe for each survey.
+```{r}
+dbGetQuery(con, paste("SELECT * FROM eddetails WHERE indicator_code = '", select_surveys_list[4], "';", sep = ""))
+```
 
+First 32 entries are not countries but assembled regions for first 3 surveys. While for 4th survey, first 33 entries are not countries.
+
+*Create and clean dataframe for female unemployment rate.*
+```{r}
+
+unemployment_fem_df = dbGetQuery(con, paste("SELECT * FROM eddetails WHERE indicator_code = '", select_surveys_list[1], "';", sep = ""))
+
+#remove first 32 rows
+unemployment_fem_df = unemployment_fem_df[33:nrow(unemployment_fem_df), ]
+
+# removes countries' rows that are not in common list
+unemployment_fem_df = subset(unemployment_fem_df, country_code %in% merged_country_codes[,1])
+
+```
+
+```{r}
+head(unemployment_fem_df, 5)
+```
+```{r}
+nrow(unemployment_fem_df)
+```
+
+
+*Create and clean dataframe for male unemployment rate.*
+```{r}
+
+unemployment_male_df = dbGetQuery(con, paste("SELECT * FROM eddetails WHERE indicator_code = '", select_surveys_list[2], "';", sep = ""))
+
+#remove first 32 rows
+unemployment_male_df = unemployment_male_df[33:nrow(unemployment_male_df), ]
+
+# removes countries' rows that are not in common list
+unemployment_male_df = subset(unemployment_male_df, country_code %in% merged_country_codes[,1])
+
+```
+
+```{r}
+head(unemployment_male_df, 5)
+```
+```{r}
+nrow(unemployment_male_df)
+```
+
+
+*Create and clean dataframe for female labor force in percentage.*
+```{r}
+
+labor_share_female_df = dbGetQuery(con, paste("SELECT * FROM eddetails WHERE indicator_code = '", select_surveys_list[3], "';", sep = ""))
+
+#remove first 32 rows
+labor_share_female_df = labor_share_female_df[33:nrow(labor_share_female_df), ]
+
+# removes countries' rows that are not in common list
+labor_share_female_df = subset(labor_share_female_df, country_code %in% merged_country_codes[,1])
+
+```
+
+```{r}
+head(labor_share_female_df, 5)
+```
+```{r}
+nrow(labor_share_female_df)
+```
+
+
+*Create and clean dataframe for countrymen studying abroad.*
+```{r}
+
+foreign_df = dbGetQuery(con, paste("SELECT * FROM eddetails WHERE indicator_code = '", select_surveys_list[4], "';", sep = ""))
+
+#remove first 33 rows
+foreign_df = foreign_df[34:nrow(foreign_df), ]
+
+# removes countries' rows that are not in common list
+foreign_df = subset(foreign_df, country_code %in% merged_country_codes[,1])
+
+```
+
+```{r}
+head(foreign_df, 5)
+```
+```{r}
+nrow(foreign_df)
+```
+
+
+
+**Dealing with missing values.**
+
+*unemployment_fem_df*
+```{r}
+sapply(unemployment_fem_df, function(x) sum(is.na(x)))
+```
+```{r}
+# dropping indicator_code and null value columns
+unemployment_fem_df = subset(unemployment_fem_df, select = (c(country_name:country_code, x1991:x2014)))
+# renaming rows
+rownames(unemployment_fem_df) = 1:nrow(unemployment_fem_df)
+```
+
+
+*unemployment_male_df*
+```{r}
+sapply(unemployment_male_df, function(x) sum(is.na(x)))
+```
+```{r}
+# dropping indicator_code and null value columns
+unemployment_male_df = subset(unemployment_male_df, select = (c(country_name:country_code, x1991:x2014)))
+# renaming rows
+rownames(unemployment_male_df) = 1:nrow(unemployment_male_df)
+```
+
+
+*labor_share_female_df*
+```{r}
+sapply(labor_share_female_df, function(x) sum(is.na(x)))
+```
+Drop columns indicator_code, x1970 : x1989. Then impute remaining missing values by KNN.
+```{r}
+# dropping indicator_code and totally null value columns
+labor_share_female_df = subset(labor_share_female_df, select = (c(country_name:country_code, x1990:x2014)))
+
+# renaming rows
+rownames(labor_share_female_df) = 1:nrow(labor_share_female_df)
+
+```
+KNN Imputation
+```{r}
+
+# Separate numeric columns and apply KNN imputation. Then merge along with others.
+labor_share_female_df = merge( subset( labor_share_female_df, select = c(country_name:country_code) ), knnImputation( subset( labor_share_female_df, select = c(x1990:x2014) ) ), by=0, all = FALSE )
+
+# Change data type of new column 'Row.names'. It formed automatically while merging on rownames.
+labor_share_female_df$Row.names = as.numeric(as.character(labor_share_female_df$Row.names))
+labor_share_female_df = labor_share_female_df[order(labor_share_female_df$Row.names),] # Set in original order
+rownames(labor_share_female_df) = labor_share_female_df$Row.names # Reset Index
+labor_share_female_df$Row.names = NULL
+```
+
+```{r}
+# check if missing values are filled.
+sapply(labor_share_female_df, function(x) sum(is.na(x)))
+```
+
+
+*foreign_df*
+```{r}
+sapply(foreign_df, function(x) sum(is.na(x)))
+```
+```{r}
+# dropping indicator_code and totally null value columns
+foreign_df = subset(foreign_df, select = (c(country_name:country_code, x1998:x2013)))
+
+# renaming rows
+rownames(foreign_df) = 1:nrow(foreign_df)
+```
+
+
+
+*Create folder to store csv files.*
+```{r}
+dir.create("plot_data")
+```
+
+
+*Store these dataframes into csv files.*
+```{r}
+write.csv(unemployment_fem_df, file = "plot_data/female_unemployment.csv", row.names = FALSE)
+write.csv(unemployment_male_df, file = "plot_data/male_unemployment.csv", row.names = FALSE)
+write.csv(labor_share_female_df, file = "plot_data/female_labor_share.csv", row.names = FALSE)
+write.csv(foreign_df, file = "plot_data/foreign_education.csv", row.names = FALSE)
+```
+
+check by reading csv files.
+```{r}
+dff = read.csv(file = "plot_data/foreign_education.csv")
+dff
+```
+
+
+
+
+
+```{r}
+rm(dff)
+```
 
 
 
