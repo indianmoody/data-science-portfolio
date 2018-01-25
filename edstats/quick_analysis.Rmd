@@ -15,34 +15,34 @@ con = connect_db()
 
 Total number of rows or observations in eddetails table
 ```{r}
-dbGetQuery(con, "select count(*) from eddetails;")
+dbGetQuery(con, "SELECT COUNT(*) FROM eddetails;")
 ```
 
 head of eddetails
 ```{r}
-dbGetQuery(con, "select * from eddetails limit 5;")
+dbGetQuery(con, "SELECT * FROM eddetails LIMIT 5;")
 ```
 
 Number of distinct categories by indicator_code in eddetails
 ```{r}
-dbGetQuery(con, "select count(distinct indicator_code) from eddetails;")
+dbGetQuery(con, "SELECT COUNT(DISTINCT indicator_code) FROM eddetails;")
 ```
 
 Number of distinct countries, continents or regions
 ```{r}
-dbGetQuery(con, "select count(distinct country_name) from eddetails;")
+dbGetQuery(con, "SELECT COUNT(DISTINCT country_name) FROM eddetails;")
 ```
 
 List of distinct countries, continents or regions
 ```{r}
-dbGetQuery(con, "select distinct country_name from eddetails;")
+dbGetQuery(con, "SELECT DISTINCT country_name FROM eddetails;")
 ```
 
 
 
 Surveys with count who where successfully conducted in at least 200 regions
 ```{r}
-dbGetQuery(con, "select indicator_code, count(*) from eddetails group by indicator_code having count(*) >= 200 order by count(*) desc;")
+dbGetQuery(con, "SELECT indicator_code, COUNT(*) FROM eddetails GROUP BY indicator_code HAVING COUNT(*) >= 200 ORDER BY COUNT(*) DESC;")
 ```
 
 
@@ -50,27 +50,110 @@ get list of definition of surveys from statseries table, who were successfully c
 ```{r}
 # get list of indicator_code for surveys
 
-code_df = dbGetQuery(con, "select indicator_code from eddetails group by indicator_code having count(*) >= 200 order by count(*) desc;") # dataframe of codes
+code_df = dbGetQuery(con, "SELECT indicator_code FROM eddetails GROUP BY indicator_code HAVING COUNT(*) >= 200 ORDER BY COUNT(*) DESC;") # dataframe of codes
 code_list = code_df[,1]
 
 ```
 ```{r}
 # head of statseries table
-dbGetQuery(con, "select * from statseries limit 5;")
+dbGetQuery(con, "SELECT * FROM statseries LIMIT 5;")
 ```
 
 
 ```{r}
-dbGetQuery(con, "select count(distinct long_definition) from statseries;")
+dbGetQuery(con, "SELECT COUNT(DISTINCT long_definition) FROM statseries;")
 ```
 
 
 
 Thats the answer for now!
 ```{r}
-most_frequent_eddetails = "select indicator_code from eddetails group by indicator_code having count(*) >= 200"
-dbGetQuery(con, paste("select * from statseries where indicator_code in (", most_frequent_eddetails, ");", sep = ""))
+most_frequent_eddetails = "SELECT indicator_code FROM eddetails GROUP BY indicator_code HAVING COUNT(*) >= 200"
+dbGetQuery(con, paste("SELECT * FROM statseries WHERE indicator_code IN (", most_frequent_eddetails, ");", sep = ""))
 ```
+
+Selected surveys are:
+
+SL.UEM.TOTL.FE.ZS : Unemployment, F
+SL.UEM.TOTL.MA.ZS : Unemployment, M
+SL.TLF.TOTL.FE.ZS : Female Labor Force %
+UIS.OE.56.40510 : Foreign Education
+
+
+In order to plot all these graphs by a single selection menu, we need to skip countries that don't have data for all 4 categories.
+```{r}
+# find count for 4 surveys in eddetails.
+select_surveys_list = c("SL.UEM.TOTL.FE.ZS", "SL.UEM.TOTL.MA.ZS", "SL.TLF.TOTL.FE.ZS", "UIS.OE.56.40510")
+
+survey_list_string = paste(select_surveys_list, collapse = "', '")
+
+dbGetQuery(con, paste("SELECT indicator_code, COUNT(*) FROM eddetails WHERE indicator_code IN ('", survey_list_string, "') GROUP BY indicator_code;", sep = ""))
+```
+
+Most probably there are 206 countries common along all 4 surveys. Create csv file for each survey dataframe.
+
+
+```{r}
+# check if country codes are unique for each country or not
+dbGetQuery(con, "SELECT COUNT(DISTINCT country_name), COUNT(DISTINCT country_code) from eddetails;")
+```
+Great!! They are unique. Now get vector for country codes present in each of 4 surveys.
+```{r}
+
+country_list1 = dbGetQuery(con, paste("SELECT DISTINCT country_code FROM eddetails WHERE indicator_code = '", select_surveys_list[1], "';", sep = ""))
+
+country_list2 = dbGetQuery(con, paste("SELECT DISTINCT country_code FROM eddetails WHERE indicator_code = '", select_surveys_list[2], "';", sep = ""))
+
+country_list3 = dbGetQuery(con, paste("SELECT DISTINCT country_code FROM eddetails WHERE indicator_code = '", select_surveys_list[3], "';", sep = ""))
+
+country_list4 = dbGetQuery(con, paste("SELECT DISTINCT country_code FROM eddetails WHERE indicator_code = '", select_surveys_list[4], "';", sep = ""))
+
+```
+
+List of countries that are repeated more than once.
+```{r}
+dbGetQuery(con, paste("SELECT country_code, COUNT(*) FROM eddetails WHERE indicator_code = '", select_surveys_list[4], "' GROUP BY country_code HAVING COUNT(*) > 1;", sep = ""))
+```
+
+```{r}
+dbGetQuery(con, paste("SELECT country_code, COUNT(*) FROM eddetails WHERE indicator_code = '", select_surveys_list[2], "' GROUP BY country_code HAVING COUNT(*) > 1;", sep = ""))
+```
+
+Same countries are repeated more than once in all 4 surveys. Lets check there names.
+```{r}
+repeated_countries_string = paste("SELECT country_code FROM eddetails WHERE indicator_code = '", select_surveys_list[2], "' GROUP BY country_code HAVING COUNT(*) > 1", sep = "")
+
+dbGetQuery(con, paste("SELECT DISTINCT country_name, country_code FROM eddetails WHERE country_code IN (", repeated_countries_string, ");"))
+```
+These countries or regions will be dropped later from common list.
+
+Now merge these 4 dataframes of country codes into one with common names : inner join
+```{r}
+merged_country_codes = merge(country_list1, country_list2, by = 'country_code', all = FALSE)
+merged_country_codes = merge(merged_country_codes, country_list3, by = 'country_code', all=FALSE)
+merged_country_codes = merge(merged_country_codes, country_list4, by = 'country_code', all=FALSE)
+```
+```{r}
+merged_country_codes
+```
+
+Now remove those 7 repeated country codes. Since they are regions, not countries, their all instances can be removed from the list.
+```{r}
+
+repeated_codes = dbGetQuery(con, paste("SELECT country_code FROM eddetails WHERE indicator_code = '", select_surveys_list[4], "' GROUP BY country_code HAVING COUNT(*) > 1;", sep = ""))[,1]
+
+merged_country_codes = subset(merged_country_codes, !country_code %in% repeated_codes)
+
+```
+
+```{r}
+merged_country_codes
+
+```
+Now we have a list of 189 countries that have exactly 1 occurence in all 4 surveys.
+
+
+
 
 
 
