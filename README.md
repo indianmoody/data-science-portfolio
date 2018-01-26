@@ -3,7 +3,7 @@
 
 
 Project | ETL | Analysis | Visualization | Prediction | Language
---- | --- | --- | --- | --- |
+--- | --- | --- | --- | --- | --- |
 [Desired Skill from Data Scientists on Upwork](https://github.com/indianmoody/data-science-portfolio/tree/master/upwork_ds_skills) | &#10003; | &#10003; | &#10003; | | Python
 [Fastest Growing Industries and USA States](https://github.com/indianmoody/data-science-portfolio/tree/master/fastest_growing_companies_2017) | &#10003; | &#10003; | &#10003; | | Python
 [How IMDB Ratings are related to movies and Metascore](https://github.com/indianmoody/data-science-portfolio/tree/master/imdb_vs_metascore) | &#10003; | &#10003; | &#10003; | | Python
