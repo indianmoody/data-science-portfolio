@@ -4,10 +4,6 @@ output: html_notebook
 ---
 
 
-```{r}
-library(reshape2)
-```
-
 
 load dataframes from csv files
 ```{r}
@@ -22,8 +18,9 @@ countries = un_fm_df[,1]
 ```
 
 
+Unemployment refers to the share of the labor force that is without work but available for and seeking employment. This is % of female labor force.
 ```{r}
-plot_un_fm = function(country) {
+plot_un_fm = function(country = "India") {
   
   # select row with 'country' details as dataframe
   temp_df = un_fm_df[un_fm_df$country_name == country, 3:ncol(un_fm_df)]
@@ -33,14 +30,54 @@ plot_un_fm = function(country) {
   rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
   
   # plot
-  plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = 'Unemployment')
-  title(main = "Female Unemployment")
+  plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = '% Unemployed Female')
+  title(main = paste("Unemployed % of Female Labor Force: ", country, sep = ""))
 }
 ```
 
+
+Unemployment refers to the share of the labor force that is without work but available for and seeking employment. This is % of male labor force.
 ```{r}
 
-plot_abroad_ed = function(country) {
+plot_un_ma = function(country = "India") {
+  
+  # select row with 'country' details as dataframe
+  temp_df = un_ma_df[un_ma_df$country_name == country, 3:ncol(un_ma_df)]
+  # get transposed matrix of dataframe with years as rows
+  temp_mat = t(temp_df)
+  # clean row by removing 'x' from years and converting into numeric
+  rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
+  
+  # plot
+  plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = '% Unemployed Male')
+  title(main = paste("Unemployed % of Male Labor Force: ", country, sep = ""))
+}
+```
+
+
+Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who meet the International Labour Organization's definition of the economically active population.
+```{r}
+
+plot_fm_labor_share = function(country = "India") {
+  
+  # select row with 'country' details as dataframe
+  temp_df = labor_share_fm_df[labor_share_fm_df$country_name == country, 3:ncol(labor_share_fm_df)]
+  # get transposed matrix of dataframe with years as rows
+  temp_mat = t(temp_df)
+  # clean row by removing 'x' from years and converting into numeric
+  rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
+  
+  # plot
+  plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = 'Female Share in %')
+  title(main = paste("Female Labor Share in %: ", country, sep = ""))
+}
+```
+
+
+Students who have crossed a national or territorial border for the purpose of education and are now enrolled outside their country of origin.
+```{r}
+
+plot_abroad_ed = function(country = "India") {
   
   # select row with 'country' details as dataframe
   temp_df = abroad_ed_df[abroad_ed_df$country_name == country, 3:ncol(abroad_ed_df)]
@@ -51,17 +88,44 @@ plot_abroad_ed = function(country) {
   
   # plot
   plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = 'Students')
-  title(main = "No. of Students Abroad")
+  title(main = paste("No. of Students Abroad: ", country, sep = ""))
 }
 ```
 
 
 ```{r}
-plot_un_fm(countries[2])
+plot_all = function(country = "India") {
+  plot_un_fm(country)
+  plot_un_ma(country)
+  plot_fm_labor_share(country)
+  plot_abroad_ed(country)
+}
+```
+
+
+```{r}
+plot_all()
+```
+
+
+
+```{r}
+plot_un_fm()
 ```
 
 ```{r}
-plot_abroad_ed(countries[2])
+plot_un_ma(countries[2])
+```
+
+
+
+```{r}
+plot_fm_labor_share()
+```
+
+
+```{r}
+plot_abroad_ed()
 ```
 
 
@@ -69,59 +133,6 @@ plot_abroad_ed(countries[2])
 
 ```{r}
 countries[2]
-```
-
-
-
-```{r}
-df = read.csv(file = "plot_data/foreign_education.csv", stringsAsFactors = FALSE)
-head(df)
-```
-
-
-```{r}
-country_name_list = df[,1]
-```
-
-```{r}
-temp_df = melt(df[df$country_name == 'Albania', 3:ncol(df)], id.vars = )
-```
-
-
-
-
-```{r}
-temp_df$variable = sapply(temp_df$variable, function(x) as.numeric(gsub("x", "", x)))
-```
-
-```{r}
-df2 = df[df$country_name == 'Albania', 3:ncol(df)]
-```
-
-```{r}
-df3 = t(df2)
-df3
-```
-
-```{r}
-rownames(df3)
-```
-```{r}
-rownames(df3) = sapply(rownames(df3), function(x) as.numeric(gsub("x", "", x)))
-```
-
-```{r}
-df3
-```
-
-
-
-
-
-
-```{r}
-plot(rownames(df3), df3[,1], type='o', xlab = 'Year', ylab = 'Students')
-title(main = "No. of Students Abroad")
 ```
 
 
