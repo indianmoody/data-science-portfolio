@@ -9,3 +9,5 @@ Project | ETL | Analysis | Visualization | Prediction |
 [How IMDB Ratings are related to movies and Metascore](https://github.com/indianmoody/data-science-portfolio/tree/master/imdb_vs_metascore) | &#10003; | &#10003; | &#10003; | 
 [Drug Use By Age](https://github.com/indianmoody/data-science-portfolio/tree/master/drug_use_by_age) | | | &#10003; | 
 [Predict Blogs about to receive Maximum Comments](https://github.com/indianmoody/data-science-portfolio/tree/master/blog_comments) | | &#10003; | |&#10003;
+[Minor Projects](https://github.com/indianmoody/data-science-portfolio/tree/master/mini_projects) | | | &#10003; | &#10003;
+[Unemployment, Gender Equality and Foreign Education](https://github.com/indianmoody/data-science-portfolio/tree/master/edstats) | &#10003; | &#10003; | &#10003; | 
