@@ -1,0 +1,141 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(reshape2)
+```
+
+
+load dataframes from csv files
+```{r}
+un_fm_df = read.csv(file = "plot_data/female_unemployment.csv", stringsAsFactors = FALSE)
+un_ma_df = read.csv(file = "plot_data/male_unemployment.csv", stringsAsFactors = FALSE)
+labor_share_fm_df = read.csv(file = "plot_data/female_labor_share.csv", stringsAsFactors = FALSE)
+abroad_ed_df = read.csv(file = "plot_data/foreign_education.csv", stringsAsFactors = FALSE)
+```
+
+```{r}
+countries = un_fm_df[,1]
+```
+
+
+```{r}
+plot_un_fm = function(country) {
+  
+  # select row with 'country' details as dataframe
+  temp_df = un_fm_df[un_fm_df$country_name == country, 3:ncol(un_fm_df)]
+  # get transposed matrix of dataframe with years as rows
+  temp_mat = t(temp_df)
+  # clean row by removing 'x' from years and converting into numeric
+  rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
+  
+  # plot
+  plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = 'Unemployment')
+  title(main = "Female Unemployment")
+}
+```
+
+```{r}
+
+plot_abroad_ed = function(country) {
+  
+  # select row with 'country' details as dataframe
+  temp_df = abroad_ed_df[abroad_ed_df$country_name == country, 3:ncol(abroad_ed_df)]
+  # get transposed matrix of dataframe with years as rows
+  temp_mat = t(temp_df)
+  # clean row by removing 'x' from years and converting into numeric
+  rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
+  
+  # plot
+  plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = 'Students')
+  title(main = "No. of Students Abroad")
+}
+```
+
+
+```{r}
+plot_un_fm(countries[2])
+```
+
+```{r}
+plot_abroad_ed(countries[2])
+```
+
+
+
+
+```{r}
+countries[2]
+```
+
+
+
+```{r}
+df = read.csv(file = "plot_data/foreign_education.csv", stringsAsFactors = FALSE)
+head(df)
+```
+
+
+```{r}
+country_name_list = df[,1]
+```
+
+```{r}
+temp_df = melt(df[df$country_name == 'Albania', 3:ncol(df)], id.vars = )
+```
+
+
+
+
+```{r}
+temp_df$variable = sapply(temp_df$variable, function(x) as.numeric(gsub("x", "", x)))
+```
+
+```{r}
+df2 = df[df$country_name == 'Albania', 3:ncol(df)]
+```
+
+```{r}
+df3 = t(df2)
+df3
+```
+
+```{r}
+rownames(df3)
+```
+```{r}
+rownames(df3) = sapply(rownames(df3), function(x) as.numeric(gsub("x", "", x)))
+```
+
+```{r}
+df3
+```
+
+
+
+
+
+
+```{r}
+plot(rownames(df3), df3[,1], type='o', xlab = 'Year', ylab = 'Students')
+title(main = "No. of Students Abroad")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+rm(list=ls())
+```
+
