@@ -1,6 +1,6 @@
 ---
 title: "edstats_visuals"
-output: html_document: keep_md: true
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -21,7 +21,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r pressure}
 plot(pressure)
 ```
 
