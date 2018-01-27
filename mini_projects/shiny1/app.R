@@ -32,13 +32,17 @@ ui <- fluidPage(
    )
 )
 
+foo = function(x) {
+  return (x^3)
+}
+
 # Define server logic required to draw a histogram
 server <- function(input, output) {
    
    output$simplePlot <- renderPlot({
       # generate bins based on input$bins from ui.R
       x <- 1:input$squares
-      y <- x^2   
+      y <- foo(x)   
       
       
       # draw the histogram with the specified number of bins
