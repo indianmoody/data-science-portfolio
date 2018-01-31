@@ -24,7 +24,7 @@ plot_un_fm_app = function(country = "India") {
   rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
   
   # plot
-  plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = '% Unemployed Female')
+  plot(rownames(temp_mat), temp_mat[,1], type='o', col = 'blue', xlab = 'Year', ylab = '% Unemployed Female')
   title(
     main = paste("Unemployed % of Female Labor Force: ", country, sep = ""),
     sub = "Unemployment is share of the labor force without work but available for and seeking employment."
@@ -41,7 +41,7 @@ plot_un_ma_app = function(country = "India") {
   rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
   
   # plot
-  plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = '% Unemployed Male')
+  plot(rownames(temp_mat), temp_mat[,1], type='o', col = 'blue', xlab = 'Year', ylab = '% Unemployed Male')
   title(
     main = paste("Unemployed % of Male Labor Force: ", country, sep = ""),
     sub = "Unemployment is share of the labor force without work but available for and seeking employment."
@@ -58,7 +58,7 @@ plot_fm_labor_share_app = function(country = "India") {
   rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
   
   # plot
-  plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = 'Female Share in %')
+  plot(rownames(temp_mat), temp_mat[,1], type='o', col = 'blue', xlab = 'Year', ylab = 'Female Share in %')
   title(
     main = paste("Female Labor Share in %: ", country, sep = ""),
     sub = "Female labor force as a percentage of the total labor force."
@@ -75,7 +75,7 @@ plot_abroad_ed_app = function(country = "India") {
   rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
   
   # plot
-  plot(rownames(temp_mat), temp_mat[,1], type='o', xlab = 'Year', ylab = 'Students')
+  plot(rownames(temp_mat), temp_mat[,1], type='o', col = 'blue', xlab = 'Year', ylab = 'Students')
   title(
     main = paste("No. of Students Abroad: ", country, sep = ""),
     sub = "Students who crossed national border for education and are now enrolled outside their country of origin."
