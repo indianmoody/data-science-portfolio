@@ -24,7 +24,7 @@ plot_un_fm_app = function(country = "India") {
   rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
   
   # plot
-  plot(rownames(temp_mat), temp_mat[,1], type='o', col = 'blue', xlab = 'Year', ylab = '% Unemployed Female')
+  plot(rownames(temp_mat), temp_mat[,1], type='o', col = '#900C3F', xlab = 'Year', ylab = '% Unemployed Female')
   title(
     main = paste("Unemployed % of Female Labor Force: ", country, sep = ""),
     sub = "Unemployment is share of the labor force without work but available for and seeking employment."
@@ -41,7 +41,7 @@ plot_un_ma_app = function(country = "India") {
   rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
   
   # plot
-  plot(rownames(temp_mat), temp_mat[,1], type='o', col = 'blue', xlab = 'Year', ylab = '% Unemployed Male')
+  plot(rownames(temp_mat), temp_mat[,1], type='o', col = '#900C3F', xlab = 'Year', ylab = '% Unemployed Male')
   title(
     main = paste("Unemployed % of Male Labor Force: ", country, sep = ""),
     sub = "Unemployment is share of the labor force without work but available for and seeking employment."
@@ -58,7 +58,7 @@ plot_fm_labor_share_app = function(country = "India") {
   rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
   
   # plot
-  plot(rownames(temp_mat), temp_mat[,1], type='o', col = 'blue', xlab = 'Year', ylab = 'Female Share in %')
+  plot(rownames(temp_mat), temp_mat[,1], type='o', col = '#900C3F', xlab = 'Year', ylab = 'Female Share in %')
   title(
     main = paste("Female Labor Share in %: ", country, sep = ""),
     sub = "Female labor force as a percentage of the total labor force."
@@ -75,7 +75,7 @@ plot_abroad_ed_app = function(country = "India") {
   rownames(temp_mat) = sapply(rownames(temp_mat), function(x) as.numeric(gsub("x", "", x)))
   
   # plot
-  plot(rownames(temp_mat), temp_mat[,1], type='o', col = 'blue', xlab = 'Year', ylab = 'Students')
+  plot(rownames(temp_mat), temp_mat[,1], type='o', col = '#900C3F', xlab = 'Year', ylab = 'Students')
   title(
     main = paste("No. of Students Abroad: ", country, sep = ""),
     sub = "Students who crossed national border for education and are now enrolled outside their country of origin."
@@ -83,52 +83,58 @@ plot_abroad_ed_app = function(country = "India") {
 }
 
 
-intro_para = "This app plots stats for 172 countries over the years. The stats are related to male and female unemployment, female share of labor force and students studying outside of their country. Choose a country from drop-down menu below and explore its stats."
+intro_para = "Unemployment, Gender Inequality, and Foreign Education are three of most important issues that describe a country's current status. Here you can see how individual countries are faring in these sectors over the years. There are plots for male and female unemployment, female share of labor force and students studying outside of their country. Select a country from drop-down menu below to explore it's stats."
 
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
+  
+  tags$br(), 
+  tags$hr(),
+  
+  # Application title
+  titlePanel("Unemployment, Gender Equality and Foreign Education"),
    
-   # Application title
-   titlePanel("Unemployment, Gender Equality and Foreign Education"),
+  tags$hr(),
    
-   tags$hr(),
+  tags$p(intro_para),
    
-   tags$p(intro_para),
+  tags$br(),
    
-   tags$br(),
+  # Select Box
+  selectInput(
+    inputId = "country_selection", 
+    label = "Choose a Country:", 
+    choices = countries,
+    selected = "India"
+  ),
    
-   # Select Box
-   selectInput(
-     inputId = "country_selection", 
-     label = "Choose a Country:", 
-     choices = countries,
-     selected = "India"
-   ),
-   
-   tags$br(),
+  tags$br(),
    
    
-   fluidRow(
-     column(6, plotOutput("plot1")),
-     #column(2),
-     column(6, plotOutput("plot2"))
-   ),
+  fluidRow(
+    column(6, plotOutput("plot1")),
+    #column(2),
+    column(6, plotOutput("plot2"))
+  ),
    
-   tags$br(),
+  tags$br(),
+  tags$br(),
    
-   fluidRow(
-     column(6, plotOutput("plot3")),
-     #column(2),
-     column(6, plotOutput("plot4"))
-   ),
+  fluidRow(
+    column(6, plotOutput("plot3")),
+    #column(2),
+    column(6, plotOutput("plot4"))
+  ),
    
-   tags$br(),
+  tags$br(),
+  tags$br(),
+  tags$br(),
    
-   tags$p("Labor force comprises people ages 15 and older who meet the International Labour Organization's definition of the economically active population."),
+  tags$p("* Labor force comprises people ages 15 and older who meet the International Labour Organization's definition of the economically active population.", style = "color:green;"),
    
-   tags$br(),
-   tags$br()
+  tags$br(),
+  tags$br()
    
    
 )
