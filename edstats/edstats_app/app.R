@@ -1,17 +1,13 @@
 
 library(shiny)
 
-#un_fm_df_app = read.csv(file = "https://raw.githubusercontent.com/indianmoody/data-science-portfolio/master/edstats/plot_data/female_unemployment.csv", stringsAsFactors = FALSE)
-#un_ma_df_app = read.csv(file = "https://raw.githubusercontent.com/indianmoody/data-science-portfolio/master/edstats/plot_data/male_unemployment.csv", stringsAsFactors = FALSE)
-#labor_share_fm_df_app = read.csv(file = "https://raw.githubusercontent.com/indianmoody/data-science-portfolio/master/edstats/plot_data/female_labor_share.csv", stringsAsFactors = FALSE)
-#abroad_ed_df_app = read.csv(file = "https://raw.githubusercontent.com/indianmoody/data-science-portfolio/master/edstats/plot_data/foreign_education.csv", stringsAsFactors = FALSE)
 
 un_fm_df_app = read.csv(file = "www/female_unemployment.csv", stringsAsFactors = FALSE)
 un_ma_df_app = read.csv(file = "www/male_unemployment.csv", stringsAsFactors = FALSE)
 labor_share_fm_df_app = read.csv(file = "www/female_labor_share.csv", stringsAsFactors = FALSE)
 abroad_ed_df_app = read.csv(file = "www/foreign_education.csv", stringsAsFactors = FALSE)
 
-
+# list of countries
 countries = un_fm_df_app[,1]
 
 plot_un_fm_app = function(country = "India") {
