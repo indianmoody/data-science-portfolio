@@ -9,7 +9,7 @@ extracted from [data released by World Bank](https://data.worldbank.org/data-cat
 * **clean_load.Rmd :** RStudio file that implements csv_to_db.R script functions.
 * **quick_analysis.Rmd :** RStudio file for exploratory analysis
 * **edstats_visualization.Rmd :** RStudio file to create plots out of relevant data
-* **edstats_app: ** Folder containing Shiny app for visualization of all these features for 172 countries.
+* **edstats_app:** Folder containing Shiny app for visualization of all these features for 172 countries.
 
 ### Tools Used
 * R, RStudio
