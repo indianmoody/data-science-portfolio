@@ -1,8 +1,10 @@
-## Unemployment, Gender Equality and Foreign Education
+## Unemployment, Gender Equality and Foreign Education 
 
 A country's growth can be measured by how it's faring in some important sectors over the years. Some of them are male and
 female unemployment, female share of labor force and students studying outside of their country. The relevant information was
 extracted from [data released by World Bank](https://data.worldbank.org/data-catalog/ed-stats).
+
+*The web app can be accessed [here](https://vanara.shinyapps.io/opportunities_by_countries/).*
 
 ### Files/Folders
 * **csv_to_db.R :** R Script containing functions to read raw data from csv, clean and load it into PostgreSQL.
