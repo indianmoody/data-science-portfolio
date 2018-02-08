@@ -1,0 +1,12 @@
+name: opportunities_by_countries
+title: opportunities_by_countries
+username:
+account: vanara
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 275562
+bundleId: 1213218
+url: https://vanara.shinyapps.io/opportunities_by_countries/
+when: 1518075250.9596
+asMultiple: FALSE
+asStatic: FALSE
