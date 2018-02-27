@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 08beaf68-7411-44b3-842f-31c07386a614
+Etag: W/"ac9e1f227a7aab83d4b6bac0c0c4077f"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.564248
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:36:05 GMT
+Set-Cookie: threshold_value=15; path=/; expires=Sat, 21 Apr 2018 10:36:04 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:36:04 -0000
+Set-Cookie: __vst=3ef7b05a-9847-4db6-8ac7-2df335c14f89; path=/; expires=Sun, 21 Feb 2038 10:36:04 -0000
+Set-Cookie: __ssn=5c35e3a0-3d28-4e5d-ac8d-68b2c15b9a63; path=/
+Set-Cookie: __ssnstarttime=1519209364; path=/
+Set-Cookie: basecamp=true; path=/
+Set-Cookie: criteria=locSlug%3DLacey-Township_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=clV6R3ludG5KVmxUYUVkcmczQmxGRmx5RncvQk9FdktucDVFU2Vwa3hOdnFiajRDa3hvTFJvTGRFaGVQL1lxalY4RnhaYzIwVmRLckw5aHNZVm8rUnRmSVVjMFlucENDTmRZMVhITEMzMUZ6NWVES0ZtMXVqVFN5OUxYN3FrQzRCbWhOMkkzcXNaOWVKSXBOcnNyUTJRPT0tLVlKQTdhVlExYUY5SDY3aDluMmhyVUE9PQ%3D%3D--cc30cded370b83c6de5c64d394a2d344899b9c11; path=/; HttpOnly

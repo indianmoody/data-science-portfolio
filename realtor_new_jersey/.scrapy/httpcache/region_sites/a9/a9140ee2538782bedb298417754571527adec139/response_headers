@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: b96aec30-bb82-4c88-babb-df14a84bc190
+Etag: W/"221bd74286357a37ed1f03b3e9793f36"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.606391
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:40:32 GMT
+Set-Cookie: threshold_value=25; path=/; expires=Sat, 21 Apr 2018 10:40:31 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:40:31 -0000
+Set-Cookie: __vst=fcdba8af-c5cf-4bc4-8166-f6504102f28d; path=/; expires=Sun, 21 Feb 2038 10:40:31 -0000
+Set-Cookie: __ssn=e03908f8-a080-484c-abd4-b088b999af0e; path=/
+Set-Cookie: __ssnstarttime=1519209631; path=/
+Set-Cookie: basecamp=true; path=/
+Set-Cookie: criteria=locSlug%3DManchester-Township_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=SDdHRWJZbGxQeStJY3ZqZ0xFNWpteEFQenNHUXEvRjZGQ1lpN01mMFpWL09RSzJhdmZCdzFKUy8rNGlUMTA1eVdIbUREQmxidlFQdnBLSUxiYnpEMTRWbktyV3pJdXduSmszakpHZ2VTeXl5RjNNYnp6S05PNWV6ajJIUW82VHphbGc4UE9Mbm4rMnZWcHg4bDUxRGZ3PT0tLTQra2ovdVlUV1BJWnFRVmZiVWMyZmc9PQ%3D%3D--2c51abc5c36a761588693b4696e8a0a1343b6ba6; path=/; HttpOnly

@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: e72a3bf3-4b47-4627-9119-5c9564fe6f40
+X-Runtime: 0.632053
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 05:19:01 GMT
+Set-Cookie: threshold_value=95; path=/; expires=Sun, 22 Apr 2018 05:19:00 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 05:19:00 -0000
+Set-Cookie: __vst=ec244675-95ed-48f1-bc31-b025c5fa30b8; path=/; expires=Mon, 22 Feb 2038 05:19:00 -0000
+Set-Cookie: __ssn=c9dc9400-4b4b-45d0-9097-40cce3dfe16c; path=/
+Set-Cookie: __ssnstarttime=1519276740; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DBerkeley-Township_NJ%26lo%3DBerkeley%2BTownship%26st%3Dcity%2Cgs%3DOcean-County_NJ%26lo%3DOcean%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DBerkeley+Township%2C+NJ%26locSlug%3DBerkeley-Township_NJ%26lat%3D39.918371%26long%3D-74.190778%26status%3D1%26pg%3D3%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DBerkeley+Township%26state_id%3DNJ%26county_fips%3D34029%26county_fips_multi%3D34029; domain=realtor.com; path=/
+Set-Cookie: srchID=2a70f129c69e4bb198139f12cb456b3d; path=/
+Set-Cookie: _rdc-next_session=dGJ3MExSeCtkYmx3RUFSbmN4YVMyK0RQYUFIcXArdTFrd1l5Z1RnUytJRDAwYWRYQ0FWQ1lONSt4L1V0MGdnUVMrYXRKT0J1MGN5bVhEUWwrdzNoQVFwRzRYTTVSZFpwUEJOUXN2aU9IdlJQekZZb2lyT2E1Q0VuWWFsQkgrUGdadm1RUWZWaFhpZ2E0enF5cHpuS0FBPT0tLTkrTXErL1oxWGpmM3JJd2VCR1EyckE9PQ%3D%3D--1f5d7eb651fa8b90a23189213b9b38aef50b7a0a; path=/; HttpOnly

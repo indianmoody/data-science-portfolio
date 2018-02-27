@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: f51ce213-9075-4101-8bf2-a5d25e5b7158
+X-Runtime: 0.517820
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 06:55:29 GMT
+Set-Cookie: threshold_value=15; path=/; expires=Sun, 22 Apr 2018 06:55:29 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 06:55:29 -0000
+Set-Cookie: __vst=4565b826-fcc5-4d78-8503-19c528559997; path=/; expires=Mon, 22 Feb 2038 06:55:29 -0000
+Set-Cookie: __ssn=e2e2a6db-a505-4803-a68f-71a059beabb3; path=/
+Set-Cookie: __ssnstarttime=1519282529; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DOcean-City_NJ%26lo%3DOcean%2BCity%26st%3Dcity%2Cgs%3DCape-May-County_NJ%26lo%3DCape%2BMay%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DOcean+City%2C+NJ%26locSlug%3DOcean-City_NJ%26lat%3D39.266082%26long%3D-74.600131%26status%3D1%26pg%3D4%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DOcean+City%26state_id%3DNJ%26county_fips%3D34009%26county_fips_multi%3D34009-34001; domain=realtor.com; path=/
+Set-Cookie: srchID=25b5c176209442ba9c10469b5a465808; path=/
+Set-Cookie: _rdc-next_session=VEQ3eWhpc1ZpVXgwV083V0pHZVR0a0c0ZUNEdUFRR0tJQ0JPZ01IbzRjcXJjLzNIeWVsQUtBSXpHRDhMNzc3RFpqYWxCZ1F6NVhoN0RLSDFJZE5IV0hobjVSUXNZZWdKZE40SGJ5N3VSR2xhQ1B0LzRucTFaVnR0aHVtVGZXNFdvWHBQTFc5Y3lnK2o5MEJhQXhYa2xnPT0tLWpmcUN6MjN0eVFlRTh4T01FaTR4N2c9PQ%3D%3D--f7e8ab67c7aae0fb9857370a2a063928c89db3a5; path=/; HttpOnly

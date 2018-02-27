@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 2fcb728a-8dcf-48a9-bdf1-58ec315659b8
+Etag: W/"e8c8fabcc1bcb411d9e1cac13ee2152b"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.582925
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:39:21 GMT
+Set-Cookie: threshold_value=51; path=/; expires=Sat, 21 Apr 2018 10:39:20 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:39:20 -0000
+Set-Cookie: __vst=51fab62e-828d-4f13-90a4-3c93996c5e32; path=/; expires=Sun, 21 Feb 2038 10:39:20 -0000
+Set-Cookie: __ssn=b5cc821d-aeed-45ac-8767-a43eb6d4aaed; path=/
+Set-Cookie: __ssnstarttime=1519209560; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: criteria=locSlug%3DWest-Deptford_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=bTk3KzBYZHZjOVJwU21rU3NoYTk3MkVOb1FCQzBJcHBrcFkzUVNoa1l0K3ZVaGFuYUVKcEFaclh0b0s0bnlsaFpCY255ZEdpOCtyRVdUc3pNdGRLQ2g3KzNWbXJMdUdKWjdYdUo4WG1yelBMWTJPSE0vQUd6eDBqUDA2RENYdGdjUlNyWEZrV1FIRm9CWWtlTEh2MG1nPT0tLW16dzJzYmYxVmZDdW9wa2VRUytraXc9PQ%3D%3D--16f392eaf5f45fcf9e1e6536313fb2e6080ff8b8; path=/; HttpOnly

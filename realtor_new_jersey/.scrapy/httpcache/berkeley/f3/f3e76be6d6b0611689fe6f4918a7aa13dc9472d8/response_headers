@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: bbea2f57-9134-48f3-94a0-c13af075be8d
+X-Runtime: 0.504071
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 05:38:26 GMT
+Set-Cookie: threshold_value=51; path=/; expires=Sun, 22 Apr 2018 05:38:26 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 05:38:26 -0000
+Set-Cookie: __vst=558309d5-eba3-4c08-97a6-3e6bfef39dba; path=/; expires=Mon, 22 Feb 2038 05:38:26 -0000
+Set-Cookie: __ssn=d03c0ccd-dc7c-42b7-ac6b-27982e131dea; path=/
+Set-Cookie: __ssnstarttime=1519277906; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DGrassy-Sound_NJ%26lo%3DGrassy%2BSound%26st%3Dcity%2Cgs%3DCape-May-County_NJ%26lo%3DCape%2BMay%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DGrassy+Sound%2C+NJ%26locSlug%3DGrassy-Sound_NJ%26lat%3D38.996946%26long%3D-74.829874%26status%3D1%26pg%3D1%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DGrassy+Sound%26state_id%3DNJ%26county_fips%3D34009%26county_fips_multi%3D34009; domain=realtor.com; path=/
+Set-Cookie: srchID=3251ceb04c2c46e7b168659cb3533144; path=/
+Set-Cookie: _rdc-next_session=MUxrdEdSTGNHcklxTmFpeERuZjdBamlaWFBNcnlLUDBacnFUeFFJRElHaGRiUi9TYVVkUVBYVi85eG9YTTNHN2Z5NkpzVXpRWGMwaklmc1BhcWRDNkZ5Rmt2bGUxQmNiMS9BZkZMSjk0d2ZLam04cGFJSDgzSVFqWnJkcW9VRGRXYllRbTM0ampXbkZveG51bjZDMytRPT0tLU9rRjNBNlBpeWpnNWF0UHE2enZZeXc9PQ%3D%3D--bd2c7f908914add4a7e7c1a684fe55cd603ae8fb; path=/; HttpOnly

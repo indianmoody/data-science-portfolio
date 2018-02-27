@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 5572cb14-9173-4963-91b9-e00b6eea3e1e
+X-Runtime: 0.593085
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 06:48:56 GMT
+Set-Cookie: threshold_value=74; path=/; expires=Sun, 22 Apr 2018 06:48:55 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 06:48:55 -0000
+Set-Cookie: __vst=2eac8558-db81-4e79-93ba-4c6e666b1f70; path=/; expires=Mon, 22 Feb 2038 06:48:55 -0000
+Set-Cookie: __ssn=979799a9-b170-4eaa-b0f1-f3e8f48b28d7; path=/
+Set-Cookie: __ssnstarttime=1519282135; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DNorth-Wildwood_NJ%26lo%3DNorth%2BWildwood%26st%3Dcity%2Cgs%3DCape-May-County_NJ%26lo%3DCape%2BMay%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DNorth+Wildwood%2C+NJ%26locSlug%3DNorth-Wildwood_NJ%26lat%3D38.996946%26long%3D-74.829874%26status%3D1%26pg%3D14%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DNorth+Wildwood%26state_id%3DNJ%26county_fips%3D34009%26county_fips_multi%3D34009; domain=realtor.com; path=/
+Set-Cookie: srchID=76fc3ff3139f40d4949257512d5bbc54; path=/
+Set-Cookie: _rdc-next_session=a2tsaUpvR2E1bnM1REw2aHh2MFNtRlArY2xSekxtc1ZWY09pZ1RhRkg0TWhjZnJEQU90S2NCVWdmUEkwc3ZhMkE0WVUyTlMwaitUV1E0RUNqWWhHUk16ZGtQVjI2V1JuaEFyTzNKWE9LZGRSZ0JiNHNPeWtPY2x5L0VuQWhXWFBlMWJzLzFpM1ZVRG5aOEhyZHFXaUhnPT0tLTFCWlBkOUtSd2JiZHk5WXJRSU1Db3c9PQ%3D%3D--e4605e97780d5ee304cb8bda3e2802c46700fb0d; path=/; HttpOnly

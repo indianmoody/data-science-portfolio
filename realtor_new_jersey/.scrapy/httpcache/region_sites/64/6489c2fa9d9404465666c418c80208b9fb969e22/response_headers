@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 1901b00a-fe56-4987-83eb-eeabe8d311f0
+Etag: W/"e1ed0cfdc58d1c3447307418f1506a29"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.437135
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:40:32 GMT
+Set-Cookie: threshold_value=98; path=/; expires=Sat, 21 Apr 2018 10:40:31 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:40:31 -0000
+Set-Cookie: __vst=4348dc0a-5d85-4152-90c7-02173ad02e5a; path=/; expires=Sun, 21 Feb 2038 10:40:31 -0000
+Set-Cookie: __ssn=3f08d5f7-e007-463f-81b8-488b3b76ab66; path=/
+Set-Cookie: __ssnstarttime=1519209631; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: criteria=locSlug%3DShaw-Crest_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=bE1UUHNzN0JvQTdieTBpby96bERTeFBrZDh4SHgreUE4Rm1vYVVZNVM3dnpFZGMzSjJyTVd2K0xXSWQ4c1E4bXh3U3hNQVZiSzJjeUlwZWs1V3pOektXcjNPbzlIUlJTeHJLbmlvWkRpSEFqaEp2M0JFd3NDNEJOTS9FTTBKM1dKdnFyYUk4WnZlaXptc0ZaaitKd2l3PT0tLW9PWHpMaXZEY1NPRDBnampjM3AzSGc9PQ%3D%3D--e165e62f73aaf96f34866bfcebc05284860f9c82; path=/; HttpOnly

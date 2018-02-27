@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: c8ba0b27-3fde-49bc-be00-4d4d53f56e7b
+Etag: W/"26ecb55e20018ebf2c65b344409ce6fb"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.642060
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:38:18 GMT
+Set-Cookie: threshold_value=21; path=/; expires=Sat, 21 Apr 2018 10:38:18 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:38:18 -0000
+Set-Cookie: __vst=5aaa0fd9-56e2-421a-8afa-786dc804ff10; path=/; expires=Sun, 21 Feb 2038 10:38:18 -0000
+Set-Cookie: __ssn=84f097c5-faea-40e0-b818-6aefc9e7a5c8; path=/
+Set-Cookie: __ssnstarttime=1519209498; path=/
+Set-Cookie: basecamp=true; path=/
+Set-Cookie: criteria=locSlug%3DToms-River-Township_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=K2lxN3hiT1hKcENyYTQvQWhGWFR5MGd6bVVKUTlEeDRoYUQxRVZMQWJOV0F4VitGK3lsejdZV2FheEZjNGJKWW9uZG1zOVl3SDFIYm5kWkhkNDFqMndUZHBXWWJER2ZLWVpEc081KzQ1eTJxN2diWkNBQ1R5UkN1ODQrMmtKbHlpaDZHcktnK3puMnhsUHQwOUY4VXJRPT0tLU80MFZIMGs2NkpKbmtnS1pxbStFWVE9PQ%3D%3D--047c0bfd5bd0579579c4323561bb02b8192229a4; path=/; HttpOnly

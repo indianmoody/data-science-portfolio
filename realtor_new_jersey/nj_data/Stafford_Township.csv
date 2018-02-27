@@ -1,0 +1,621 @@
+price,beds,baths,area_sqft,car_space_garage,street,city,district,postal,broker
+"$259,900",,,,,19 Jeffrey Dr,Beach Haven West,NJ,08050,"VAN DYK GROUP, INC."
+"$99,000",2,2,"1,126",1,25 Sycamore Rd Unit 7,Stafford Township,NJ,08050,Van Dyk Group
+"$489,900",3,2,"1,784",,141 Bruce Dr,Stafford Township,NJ,08050,"VAN DYK GROUP, INC."
+"$245,000",3,2,"1,380",1,155 Albatross Ave,Stafford Township,NJ,08050,GREATER COASTAL REALTY INC.
+"$319,000",3,2,"1,800",2,140 Gangway Ln,Stafford Township,NJ,08050,RE/MAX at Barnegat Bay
+"$442,025",5,3,"3,242",2,111 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$422,290",4,3,"3,564",2,103 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$182,000",3,1,800,,16 Virginia Dr,Beach Haven West,NJ,08050,Home Alliance Realty
+"$30,000",2,1,900,,24 Potomac Ct,Barnegat,NJ,08005,"HOME ALLIANCE REALTY, LLC"
+"$405,567",5,3,"2,628",2,107 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$394,566",4,2+,"2,665",2,109 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$469,000",4,2+,,2,36 Hannah Lee Rd,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$259,000",4,2,"1,800",1,100 Dover Ct,Barnegat,NJ,08005,Keller Williams Preferred Properties
+"$275,000",3,2+,"1,600",1,66 Windward Dr,Stafford Township,NJ,08050,Van Dyk Group
+"$329,900",3,2,"1,584",,924 Jane Dr,Stafford Township,NJ,08050,"VAN DYK GROUP, INC."
+"$65,000",2,2,"1,152",,20 Holly Rd,Eagleswood Township,NJ,08092,RE/MAX NEW BEGINNINGS REALTY
+"$159,900",2,2,"1,360",1,10 Arrow Wood Ct,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$174,000",2,1,974,,87 Water St,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$393,500",6,3+,"3,222",2,16 Orchid Ln,Barnegat,NJ,08005,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$55,000",,,,,Forge Rd,Eagleswood Township,NJ,08092,RE/MAX at Barnegat Bay
+"$55,000",,,,,Forge Rd,West Creek,NJ,08092,RE/MAX at Barnegat Bay
+"$375,000",3,2+,"1,965",2,20 Jeffrey Dr,Little Egg Harbor,NJ,08050,Prudential Zack Shore Properties-Ma
+"$349,900",5,2+,,2,1033 Crew Ln,Manahawkin,NJ,08050,Keller Williams Shore Properties
+"$360,000",4,2+,"2,200",2,13 Janelle Dr,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$210,000",3,1,"1,164",,202 Village Dr,Barnegat,NJ,08005,"Diane Turton, Realtors - Point Pleasant Office"
+"$319,900",3,2+,"1,965",2,11 Jeffrey Dr,Little Egg Harbor,NJ,08050,Prudential Zack Shore Properties-Ma
+"$329,900",3,2+,"1,965",2,3 Jeffrey Dr,Little Egg Harbor,NJ,08050,Prudential Zack Shore Properties-Ma
+"$374,900",5,3,"2,542",2,181 Forge Rd,Eagleswood Township,NJ,08092,Van Dyk Group
+"$799,000",5,4,"2,920",2,1203 Jennifer Ln,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$299,900",3,1+,"1,552",1,110 Hatteras Rd,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$269,900",3,3,"2,170",2,20 Hingham Ln,Barnegat,NJ,08005,C21/ Action Plus Rlty
+"$269,900",3,3,"2,170",2,20 Hingham Ln,Barnegat,NJ,08005,C21/ Action Plus Rlty
+"$240,000",2,2,"1,650",2,65 Quail Rd,Barnegat,NJ,08005,Van Dyk Group - Barnegat
+"$150,000",,,,,126 Bengal Blvd,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$334,900",4,3+,"2,100",2,6 Liberty Ct,Barnegat,NJ,08005,VAN DYK GROUP
+"$319,900",3,2+,"1,965",2,13 Jeffrey Dr,Little Egg Harbor,NJ,08050,Prudential Zack Shore Properties-Ma
+"$439,000",4,2+,"3,252",2,36 Carriage Way,Barnegat,NJ,08005,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$325,000",4,1+,"1,200",2,19 Ruth Ann Dr,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$160,000",2,1,700,,2548 1st Ave,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$49,900",3,1+,"1,130",,11 Potomac Ct,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$649,900",4,2+,"2,400",1,1271 Mill Creek Rd,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$125,000",4,1+,"1,432",1,47 Lamp Post Dr,Barnegat,NJ,08005,Williamson Realtors
+"$340,000",3,1+,,,152 Rodman Dr,Manahawkin,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$549,000",3,2+,"1,860",2,188 Peter Rd,Stafford Township,NJ,08050,Pacesetter Realty
+"$145,500",2,1+,"1,460",3,97 Beach Ave,Manahawkin,NJ,08050,Home Alliance Realty
+"$22,900",,,,,124 Lakeview Dr,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$22,900",,,,,120 Lakeview Dr,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$22,900",,,,,118 Lakeview Dr,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$22,900",,,,,122 Lakeview Dr,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$115,000",2,1+,,,35 Carribean Ct,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$370,420",3,3,"2,529",2,50 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$354,990",3,3,"2,401",2,44 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$200,000",4,1+,,1,6 Mizzen Dr,Barnegat,NJ,08005,Gloria Nilson & Co Real Estate
+"$335,525",4,2+,"2,148",2,36 Savannah Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$373,252",3,2,"1,905",3,48 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$373,364",4,3,"2,422",2,54 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$340,990",3,2+,"2,169",2,35 Savannah Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$279,000",2,2,"2,002",2,4 Pond View Cir,Barnegat,NJ,08005,"VAN DYK GROUP, INC."
+"$364,900",3,2,"1,684",,8 Peggy Ln,Beach Haven West,NJ,08050,GREATER COASTAL REALTY INC
+"$162,900",2,2,"1,600",1,44 Pine Oak Blvd,Barnegat,NJ,08005,VAN DYK GROUP
+"$199,900",3,1+,,1,15 Ravenwood Blvd,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$195,000",3,1+,,1,20 Commodore Ct,Barnegat,NJ,08005,Gloria Nilson & Co Real Estate
+"$398,000",4,2+,"2,500",2,74 Highland Dr,Barnegat,NJ,08005,"Weichert, Realtors - Long Beach Island"
+"$299,900",3,1+,"1,152",,67 Nancy Dr,Stafford Township,NJ,08050,GREATER COASTAL REALTY INC
+"$379,900",4,2+,,2,1157 Hawser Ave,Manahawkin,NJ,08050,Berkshire Hathaway Healy Realtors
+"$79,000",,,,,1525 Forecastle Ave,Stafford Township,NJ,08050,Van Dyk Group
+"$249,900",,,,,1088 Walter Blvd,Stafford Township,NJ,08050,"Mary Allen Realty, Inc."
+"$364,900",3,2+,"1,793",2,12 Nelson Dr,Barnegat,NJ,08005,"Weichert, Realtors - Long Beach Island"
+"$274,500",4,2,,2,516 Outrigger Ln,Stafford Township,NJ,08050,Pacesetter Realty
+"$164,900",2,2,"1,344",1,208 Pine Oak Blvd,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$339,900",4,2+,"2,802",2,19 Aphrodite Dr,Barnegat,NJ,08005,Coldwell Banker Home Connection Realty
+"$240,000",3,2,"1,550",,405 Nautilus Dr,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$594,900",4,3,"2,418",1,28 Glenn Dr,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$350,000",4,2+,"2,254",3,8 Hannah Lee Rd,Barnegat,NJ,08005,"Weichert, Realtors - Forked River"
+"$423,900",3,1+,"1,505",1,48 Peggy Ln,Stafford Township,NJ,08050,"Weichert, Realtors - Long Beach Island"
+"$509,900",4,3,"1,825",,79 Morris Blvd,Beach Haven West,NJ,08050,"VAN DYK GROUP, INC."
+"$269,900",2,2+,"1,548",1,,Stafford Township,NJ,08050,Barrood Real Estate
+"$70,000",3,2,"1,416",,151 Mill St,Eagleswood Township,NJ,08092,RE/MAX At Barnegat Bay
+"$259,700",4,2+,"2,407",yes,510 Nautilus Dr,Manahawkin,NJ,08050,RealHome Services & Solutions
+"$259,000",3,2+,"2,300",1,10 Island Breeze Ct,Stafford Township,NJ,08050,Pacesetter Realty
+"$759,000",5,2,"2,700",3,26 Frank Dr,Beach Haven West,NJ,08050,Van Dyk Group - Barnegat
+"$599,000",5,3+,"3,630",2,154 Beachview Ave,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$299,000",4,2+,,2,141 Gaff Rd,Manahawkin,NJ,08050,RE/MAX at Barnegat Bay
+"$374,900",3,3,"2,445",2,121 Heritage Point Blvd,Barnegat,NJ,08005,CENTURY 21 Action Plus Realty
+"$399,900",3,1+,,1,196 Matilda Dr,Manahawkin,NJ,08050,RE/MAX at Barnegat Bay
+"$239,000",3,2,"1,302",2,132 Mooring Rd,Stafford Township,NJ,08050,Van Dyk Group
+"$689,000",4,3,"2,556",4,972 Jennifer Ln,Stafford Township,NJ,08050,Keller Williams Realty - Moorestown
+"$98,900",1,1,,,23 Chesapeake Ct,Barnegat,NJ,08005,Coldwell Banker Home Connection Realty
+"$290,000",4,2,"1,712",1,321 Tuscarora Ave,Ocean Township Waretown,NJ,08005,RE/MAX At Barnegat Bay
+"$44,900",1,1,,,6 Cranberry Rd,Stafford Township,NJ,08050,Exit Realty Ocean City
+"$302,000",2,2,"1,428",2,50 Butler Dr,Barnegat,NJ,08005,Lennar Sales Corp.
+"$360,000",2,2,"1,728",2,62 Butler Dr,Barnegat,NJ,08005,Lennar Sales Corp.
+"$54,900",,,,,4 Harpoon Dr,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$54,900",,,,,6 Harpoon Dr,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$309,000",2,2,"2,022",2,114 Lakeland Dr,Barnegat,NJ,08005,Crossroads Realty - Brick
+"$425,000",4,2+,"2,200",1,38 Gajewski Ln,West Creek,NJ,08092,Keller Williams Realty - Monmouth/Ocean
+"$500,000",4,3,"2,800",2,149 Beachview Ave,Manahawkin,NJ,08050,"RE/MAX REAL ESTATE, LTD."
+"$899,000",6,3,"3,305",2,120 Harborage Pl,Ocean Township Waretown,NJ,08005,Keller Williams Village Square Realty
+"$225,000",2,2,"1,600",2,25 Highland Dr,Stafford Township,NJ,08050,Keller Williams Realty Metropolitan
+"$139,900",4,2,"1,406",1,30 Georgetown Blvd,Barnegat,NJ,08005,"HOME ALLIANCE REALTY, LLC"
+"$439,900",4,2+,"2,472",2,191 Emerson Ln,Barnegat,NJ,08005,"Elite, Realtors"
+"$369,900",4,2+,"2,300",2,944 Painter Ln,Manahawkin,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$179,900",3,1,"1,500",,7 Denville St,Barnegat,NJ,08005,Keller Williams Realty - Monmouth/Ocean
+"$106,900",2,2,"1,126",1,35 Magnolia Rd Unit 18,Manahawkin,NJ,08050,Coldwell Banker Residential Brokerage - Princeton Office
+"$106,900",2,2,"1,126",,35 Magnolia Rd,Manahawkin,NJ,08050,Coldwell Banker Residential Brokerage - Princeton Office
+"$347,500",4,2+,"2,004",1,13 Morgan Dr,Barnegat,NJ,08005,Davies and DeGennaro Real Estate
+"$63,900",,,,,104 Mallard Rd,Stafford Township,NJ,08050,CBRivieraRealty3109
+"$63,900",,,,,212 Gaff Rd,Stafford Township,NJ,08050,CBRivieraRealty3109
+"$99,900",2,1,,,33 S Seas Ct,Barnegat,NJ,08005,Striker Realty
+"$424,900",4,2,,,44 Florence Ln,Beach Haven West,NJ,08050,GREATER COASTAL REALTY INC
+"$314,900",4,2+,"2,321",2,27 Eagle Ridge Ln,West Creek,NJ,08092,RE/MAX at Barnegat Bay
+"$459,900",5,2+,,,2 Inman Ct,Stafford Township,NJ,08092,RE/MAX At Barnegat Bay
+"$124,900",4,1+,"1,972",,188 Main St,Eagleswood Township,NJ,08092,"HOME ALLIANCE REALTY, LLC"
+"$5,000",,,,,422 Yeoman Rd,Manahawkin,NJ,08050,C21/ Action Plus Rlty
+"$5,000",,,,,424 Yeoman Rd,Manahawkin,NJ,08050,C21/ Action Plus Rlty
+"$5,000",,,,,4 Mounty Ct,Barnegat,NJ,08005,C21/ Action Plus Rlty
+"$259,900",3,2,,2,100 Canvas Ct,Manahawkin,NJ,08050,Office
+"$429,000",4,3+,"2,920",2,1 Carriage Way,Barnegat,NJ,08005,ERA Central Realty Group
+"$659,900",3,2,"1,662",2,2060 Mill Creek Rd,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$239,000",3,2+,"1,426",2,11 Tanglewood Dr,Barnegat,NJ,08005,"Diane Turton, Realtors - Toms River Office"
+"$429,000",4,3+,"2,176",1,664 E Bay Ave,Barnegat,NJ,08005,HARDENBERGH CANETTI & HILL INC
+"$389,000",4,2+,"2,525",2,1049 Buccaneer Ln,Stafford Township,NJ,08050,RE/MAX NEW BEGINNINGS REALTY
+"$348,000",4,2,"1,394",1,3 Benjamin Blvd,Stafford Township,NJ,08050,Island Realty - S
+"$419,900",4,2+,,2,302 Bay Shore Dr,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$379,900",3,2+,"2,100",2,0H Grace Pl,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$229,500",3,2+,"1,988",1,10 Bucks Dr,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$99,900",2,1+,"1,040",,13 Mediterranean Ct,Barnegat,NJ,08005,CBRivieraRealty3109
+"$345,135",3,2+,"2,169",2,34 Savannah Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$239,000",3,1,713,,8 Phyllis Ln,Stafford Township,NJ,08050,G. Anderson Agency - Hb
+"$239,900",2,2,"1,543",2,1 Duxbury Ln,Barnegat,NJ,08005,C21/ Action Plus Rlty
+"$229,900",3,2,,,1462 Forecastle Ave,Manahawkin,NJ,08050,VAN DYK GROUP
+"$284,900",4,2+,"2,122",2,18 Herkimer Ct,Barnegat,NJ,08005,Veltri & Realtors Corporate Office
+"$299,990",2,3+,"1,730",,401 Bay Shore Dr Unit 2A,Barnegat,NJ,08005,"Silver And Oak Realty, Llc"
+"$496,400",4,2+,"2,397",2,155 Littleworth Rd,Stafford Township,NJ,08050,Keller Williams Atlantic Shore
+"$269,900",2,2,"1,275",,401 Bay Shore Dr Unit 2B,Barnegat,NJ,08005,Van Dyk Group - Barnegat
+"$199,900",6,2,"2,624",1,26 Powell Ln,Barnegat,NJ,08005,"Linda Schroeck Realty Group, LLC"
+"$349,900",3,2+,"1,690",2,6 Tahoe Ln,Manahawkin,NJ,08050,"VAN DYK GROUP, INC."
+"$349,000",4,2+,"2,116",,17 Jennings Rd,Stafford Township,NJ,08050,EXIT Realty East Coast
+"$295,000",3,1,,,215 Rahway Rd,Barnegat,NJ,08005,Exit Realty Elite
+"$224,000",2,2,,,11 Maple Ave,Barnegat,NJ,08005,"Weichert, Realtors - Forked River"
+"$54,900",3,1,880,,440 N Main St,Barnegat,NJ,08005,Keller Williams Preferred Properties
+"$290,000",3,2+,"2,450",1,103 Windward Dr,Stafford Township,NJ,08050,BAYSHORE AGENCY
+"$599,900",4,3+,"3,700",,187 Forge Rd,West Creek,NJ,08092,Keller Williams Realty - Moorestown
+"$599,999",5,5+,"5,220",3,42 Ross Ct,Manahawkin,NJ,08050,"Mary Allen Realty, Inc."
+"$299,900",4,2+,"2,000",2,1133 Fathom Ave,Stafford Township,NJ,08050,Keller Williams Atlantic Shore
+"$225,000",3,1+,"2,194",6,14 2nd St,Barnegat,NJ,08005,Keller Williams Preferred Properties
+"$374,900",3,3,,2,167 Bluejacket Ave,Manahawkin,NJ,08050,Van Dyk Group - Barnegat
+"$360,000",3,2,"1,567",2,342 Tuscarora Ave,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$300,000",4,2+,"2,119",2,281 Mermaid Dr,Stafford Township,NJ,08050,BAYSHORE AGENCY
+"$299,000",3,3,"2,314",1,116 Seaspray Rd,Stafford Township,NJ,08050,Coldwell Banker Home Connection
+"$319,900",3,3,"2,531",2,37 Fountain View Dr,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$329,900",3,2,"1,895",5,137 Division St,Manahawkin,NJ,08050,"Mary Allen Realty, Inc."
+"$274,900",4,2+,"1,907",2,16 Teakwood Ln,Barnegat,NJ,08005,Paschon Realty
+"$370,414",3,2,"2,422",2,14 Raccoon Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$348,448",4,3,"2,270",2,46 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$130,000",3,1,"1,184",1,135 Bay Shore Dr,Barnegat,NJ,08005,"HOME ALLIANCE REALTY, LLC"
+"$359,900",4,2+,"2,760",2,19 Benjamin Ct,Barnegat,NJ,08005,RE/MAX ON THE MOVE REALTY
+"$242,500",3,1+,"1,400",1,198 Ravenwood Blvd,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$809,000",4,3,"2,400",2,1316 Paul Blvd,Stafford Township,NJ,08050,"Mary Allen Realty, Inc."
+"$248,900",3,2,,2,88 1st St,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$359,900",4,2+,"2,177",2,565 Lighthouse Dr,Manahawkin,NJ,08050,Home Alliance Realty
+"$139,000",2,1,,1,11 Tulsa Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$326,950",3,2,"1,846",2,Chapel Hill,Barnegat Township,NJ,08005,Lennar
+"$334,950",2,2,"1,936",2,Barnegat,Barnegat Township,NJ,08005,Lennar
+"$289,950",2,2,"1,448",2,Absecon,Barnegat Township,NJ,08005,Lennar
+"$200,000",4,2+,,1,19 Sloop Ct,Barnegat,NJ,08005,KELLER WILLIAMS REALTY - Monmouth Ocean
+"$480,000",3,1,"1,004",,68 Ruth Dr,Stafford Township,NJ,08050,Mary Allen Realty INC
+"$327,900",2,2,"2,169",2,Valencia,Manahawkin,NJ,08050,Paramount Homes
+"$469,000",4,2+,"3,410",2,4 Ryan Rd,Barnegat,NJ,08005,NEUHAUS REALTY INC.
+"$242,900",3,2,"1,275",1,7 Aspen Cir,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$314,500",4,2+,"2,349",2,7 Freedom Hills Dr,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$999,000",7,6+,"5,852",1,101 Stillwater Rd,Ocean Township Waretown,NJ,08005,RE/MAX at Barnegat Bay
+"$245,000",4,2,,,1 Bridge Rd,Barnegat,NJ,08005,"Elite Team Realty, LLC"
+"$285,000",3,2+,"1,820",2,178 Lighthouse Dr,Stafford Township,NJ,08050,CENTURY 21 Action Plus Realty
+"$399,000",3,2,"1,392",3,16 Phyllis Ln,Manahawkin,NJ,08050,Weichert Coastal
+"$189,900",3,1,"1,056",,1026 Cutlass Ave,Stafford Township,NJ,08050,"Mary Allen Realty, Inc."
+"$950,000",3,2+,"3,478",2,1823 Mill Creek Rd,Beach Haven West,NJ,08050,"Diane Turton, Realtors - Beach Haven Office"
+"$283,900",3,2,,1,374 Mermaid Dr,Manahawkin,NJ,08050,"Diane Turton, Realtors - Beach Haven Office"
+"$469,900",4,2+,"2,700",2,207 Oak Ave,Stafford Township,NJ,08092,Keller Williams Preferred Properties
+"$799,000",4,3,"2,400",2,31 Joshua Dr,Stafford Township,NJ,08050,"Mary Allen Realty, Inc."
+"$314,950",2,2,"1,728",2,Cape May,Barnegat Township,NJ,08005,Lennar
+"$304,900",2,2,"1,866",2,Andalucia,Manahawkin,NJ,08050,Paramount Homes
+"$275,000",,,,,Coxs Crossing Rd,Eagleswood Township,NJ,08092,Keller Williams Realty Atlantic Shore
+"$275,000",,,,,Coxs Crossing Rd,Eagleswood Township,NJ,08092,Keller Williams Atlantic Shore
+"$349,900",4,2+,"1,776",1,139 Autumn Oak Ln,Manahawkin,NJ,08050,CBRivieraRealty3109
+"$228,900",3,2+,"1,782",1,16 Bayside Dr,Barnegat,NJ,08005,C21/ Gemini Realty Llc
+"$669,900",4,3+,"3,857",3,22 Anise Ct,Manahawkin,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$669,900",4,2+,"3,857",3,22 Anise Ct,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$284,900",3,2,"1,518",,136 Cruise Rd,Stafforc,NJ,08050,RE/MAX At Barnegat Bay
+"$185,000",3,1,"1,118",,545 Nautilus Dr,Stafford Township,NJ,08050,RE/MAX at Barnegat Bay
+"$319,900",3,2+,"2,400",1,4 Crane Ct,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$235,000",3,2+,"1,567",1,978 Barnacle Dr,Stafford Township,NJ,08050,remax 1st advantage
+"$374,900",2,2,"2,693",2,Monte Carlo,Manahawkin,NJ,08050,Paramount Homes
+"$364,990",4,2+,"2,867",2,11 Adrift Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$294,900",5,2+,"2,530",2,10 Willowtree Ct,Barnegat,NJ,08005,Exit Realty Jersey Shore
+"$324,900",4,2,"1,650",1,26 Hillside Ave,Barnegat,NJ,08005,"Weichert, Realtors - Long Beach Island"
+"$235,000",3,2+,,,280 Buoy Ave,Manahawkin,NJ,08050,"Linda Schroeck Realty Group, LLC"
+"$419,875",3,2,,2,54 Butler Dr,Barnegat,NJ,08005,Glen Kelly Real Estate LLC
+"$46,500",2,2,"1,152",,15 Susan Dr,Barnegat,NJ,08005,RE/MAX OF LONG BEACH ISLAND
+"$69,999",2,1,864,1,15 Nautilus Ave,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$79,900",,,,,561 Nautilus Dr,Manahawkin,NJ,08050,"Mary Allen Realty, Inc."
+"$329,000",4,2+,"2,200",2,10 Eagle Ridge Ln,Eagleswood Township,NJ,08092,RE/MAX at Barnegat Bay
+"$55,000",,,,,213 Forge Rd,Eagleswood Township,NJ,08092,"Jersea Realty, LLC"
+"$59,900",,,,,38 Lincoln Ave,Barnegat,NJ,08005,Coldwell Banker Home Connection Realty
+"$399,900",3,2,"1,400",,36 Andrew Dr,Stafford Township,NJ,08050,C21/ Action Plus Rlty
+"$83,200",3,1+,"1,348",,109 Barnegat Blvd S,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$349,950",4,3+,"2,302",2,167 Emerson Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$219,000",3,2,"1,516",1,136 Ravenwood Blvd,Barnegat,NJ,08005,CENTURY 21 Action Plus Realty
+"$299,000",3,2+,"1,946",2,104 Mooring Rd,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$283,300",6,4,"3,000",,233 Leeward Rd,Manahawkin,NJ,08050,RealHome Services & Solutions
+"$350,900",2,3,"2,197",2,Portofino,Manahawkin,NJ,08050,Paramount Homes
+"$84,900",2,2,"1,126",1,2A Magnolia Rd Unit 26,Stafford Township,NJ,08050,MEZZINA REAL ESTATE
+"$659,000",4,2,"1,700",1,45 Railroad Ave,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$279,900",4,2+,"2,326",2,452 Lighthouse Dr,Stafford Township,NJ,08050,RE/MAX at Barnegat Bay
+"$99,900",1,1,818,,18 Chesapeake Ct,Barnegat,NJ,08005,CENTURY 21 Action Plus Realty
+"$250,000",3,2+,"2,100",2,139 Albatross Ave,Manahawkin,NJ,08050,"RE/MAX REAL ESTATE, LTD."
+"$42,000",,,,,25 Cedar St,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$350,000",4,2+,"2,408",2,73 Nautilus Dr,Barnegat,NJ,08005,"Weichert, Realtors - Long Beach Island"
+"$235,000",2,2,,2,112 Longwood Dr,Manahawkin,NJ,08050,VAN DYK GROUP
+"$169,900",3,2,"1,275",,22 Longboat Ave,Barnegat,NJ,08005,"Elite Team Realty, Llc"
+"$327,900",2,2,"1,866",2,Capri,Manahawkin,NJ,08050,Paramount Homes
+"$699,000",5,3+,"2,400",2,372 Morris Blvd,Stafford Township,NJ,08050,GREATER COASTAL REALTY INC.
+"$157,900",3,1+,"1,378",,27A Denville St Unit A,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$349,000",3,2,"1,736",,836 Mill Creek Rd,Beach Haven West,NJ,08050,VAN DYK GROUP
+"$529,900",5,4+,"3,187",2,20 Rodeo Dr,West Creek,NJ,08092,Crossroads Realty - Executive Office
+"$339,000",4,2+,"2,494",2,985 Barnacle Dr,Manahawkin,NJ,08050,"VAN DYK GROUP, INC."
+"$244,900",3,2,"1,700",2,311 Lighthouse Dr,Stafford Township,NJ,08050,Pacesetter Realty
+"$245,000",3,3,"2,464",2,21 Plymouth Way,Barnegat,NJ,08005,"HOME ALLIANCE REALTY, LLC"
+"$299,000",3,2,,2,254 Junction Dr,West Creek,NJ,08092,RE/MAX  ON THE MOVE REALTY
+"$56,000",2,2,"1,000",,1 Sun Ln,Eagleswood Township,NJ,08092,Keller Williams Atlantic Shore
+"$334,900",3,2+,"2,000",2,119 Thousand Oak Ln,Stafford Township,NJ,08050,Greater Coastal Realty Inc
+"$439,000",5,3,"3,300",2,39 5th St,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$344,900",4,2+,,2,9 Orchid Ln,Barnegat,NJ,08005,"Linda Schroeck Realty Group, LLC"
+"$377,129",3,2+,"2,181",2,5 Raccoon Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$355,929",3,3,"2,401",2,18 Raccoon Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$344,645",2,2,"1,748",2,49 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$365,752",3,2,"1,905",2,55 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$345,839",4,3,"2,270",2,6 Raccoon Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$335,000",4,2+,"2,500",2,32 Hannah Lee Rd,Barnegat,NJ,08005,Eastport Realty
+"$283,500",4,3+,"2,642",1,415 Morris Blvd,Stafford Township,NJ,08050,"HOME ALLIANCE REALTY, LLC"
+"$350,000",4,3+,,1,37 Sugarhill Rd,Manahawkin,NJ,08050,RCL Realty
+"$420,000",3,2,"2,082",3,164 Catherine Ln,Manahawkin,NJ,08050,John K. Katzbeck Real Estate
+"$189,000",3,1+,"1,275",1,22 Aspen Cir,Barnegat,NJ,08005,Crossroads Realty - Berkeley
+"$359,900",3,2,"1,232",,1408 Mill Creek Rd,Manahawkin,NJ,08050,"Mary Allen Realty, Inc."
+"$359,900",4,2+,"2,328",2,112 Dolphin Rd,Manahawkin,NJ,08050,"Mary Allen Realty, Inc."
+"$244,900",4,2+,"2,701",,570 Nautilus Dr,Stafford Township,NJ,08050,"HOME ALLIANCE REALTY, LLC"
+"$299,900",3,1,"1,130",,16 Amy Dr,Beach Haven West,NJ,08050,GREATER COASTAL REALTY INC
+"$112,900",3,1,,1,57 Windward Dr,Barnegat Light,NJ,08005,The Real Estate Company
+"$299,000",2,2,"1,912",2,41 Newport St,Barnegat,NJ,08005,C21/ Action Plus Rlty
+"$219,900",2,1+,"1,518",2,195 Sprague Ave,Eagleswood Township,NJ,08092,PACESETTER REALTY
+"$228,000",3,1,,,30 Ravenwood Blvd,Barnegat,NJ,08005,"Keller Williams Preferred Properties, Ship Bottom"
+"$277,965",3,2+,"2,663",2,348 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$194,900",2,1+,"1,068",1,79 Mermaid Dr,Stafford Township,NJ,08050,RE/MAX OF LONG BEACH ISLAND
+"$249,900",4,2,"1,614",,7 Ridgeway St,Barnegat,NJ,08005,United Real Estate Associates
+"$239,900",3,1,"1,104",2,169 Yeoman Rd,Stafford Township,NJ,08050,Van Dyk Group - Barnegat
+"$364,990",4,2+,"2,867",2,43 Savannah Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$679,900",5,2+,"2,370",2,1215 S Walter Blvd,Stafford Township,NJ,08050,"VAN DYK GROUP, INC."
+"$299,000",3,2+,"2,031",2,25 Deer Run Dr,Barnegat,NJ,08005,Van Dyk Group - Barnegat
+"$299,000",3,2+,,2,25 Deer Run Dr,Barnegat,NJ,08005,VAN DYK GROUP
+"$110,000",2,1,880,1,661 E Bay Ave,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$259,900",3,1+,"1,500",1,124 Surf Ave,Manahawkin,NJ,08050,RE/MAX Platinum
+"$279,000",2,2,"2,057",2,27 Aqua View Ln,Barnegat,NJ,08005,Coldwell Banker Residential Brokerage - Spring Lake Office
+"$348,978",4,3,"2,270",2,47 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$295,000",3,2,"1,872",2,226 Mirage Blvd,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$699,900",3,3,"2,142",2,1290 Jennifer Ln,Beach Haven West,NJ,08050,"VAN DYK GROUP, INC."
+"$369,900",4,2+,"3,036",2,35 Tina Way,Barnegat,NJ,08005,"Elite Team Realty, Llc"
+"$278,000",3,3,"2,170",2,11 Duxbury Ln,Barnegat,NJ,08005,C21/ Action Plus Rlty
+"$370,414",3,2+,"2,181",2,17 Raccoon Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$371,964",3,2+,"2,181",2,11 Raccoon Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$232,000",2,2,"1,428",2,65 Robin Ln,Barnegat,NJ,08005,C21/ Action Plus Rlty
+"$339,990",3,2+,"1,906",2,22 Nautilus Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$334,990",4,2+,"1,906",2,7 Savannah Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$372,000",3,2,"1,840",2,56 Butler Dr,Barnegat,NJ,08005,Lennar Sales Corp.
+"$689,900",4,2+,"2,582",1,55 Linda Rd,Stafford Township,NJ,08050,"VAN DYK GROUP, INC."
+"$67,500",2,1,910,,21 Potomac Ct,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$350,000",3,3+,"2,300",2,71 Nautilus Dr,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$539,900",4,2+,"2,003",,51 Clarence Dr,Beach Haven West,NJ,08050,"VAN DYK GROUP, INC."
+"$499,000",4,1+,,1,968 Mill Creek Rd,Beach Haven West,NJ,08050,Pacesetter Realty
+"$249,900",4,1+,"2,000",2,49 Highland Dr,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$325,000",2,2,"1,848",2,8 Sturgeon St,Barnegat,NJ,08005,C21/ Action Plus Rlty
+"$144,000",4,2,"1,704",,321 Holly Dr,Stafford Township,NJ,08050,RE/MAX at Barnegat Bay
+"$184,900",3,1,915,1,232 Compass Rd,Stafford Township,NJ,08050,Realmart Realty - Flat Fee to 1% Full Service
+"$449,000",4,2+,"2,500",2,86 Lamson Rd,West Creek,NJ,08092,"Weichert, Realtors - Long Beach Island"
+"$398,900",4,2+,"2,500",2,16 2nd St,Barnegat,NJ,08005,"Weichert, Realtors - Long Beach Island"
+"$295,000",4,2,"2,216",1,498 Nautilus Dr,Manahawkin,NJ,08050,Berkshire Hathaway Healy Realtors
+"$259,000",3,3+,"2,100",2,205 Inlet Ave,Stafford Township,NJ,08050,C21/ Action Plus Rlty
+"$309,900",5,2+,"2,256",2,280 Academy Ln,Manahawkin,NJ,08050,RE/MAX at Barnegat Bay
+"$74,000",,,,,End of Hatteras Way,Barnegat,NJ,08005,BAYSHORE AGENCY
+"$259,000",4,2,"1,484",,356 Neptune Dr,Stafford Township,NJ,08050,RE/MAX at Barnegat Bay
+"$379,000",4,2+,"2,613",2,13 Dori Ln,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$529,900",4,2+,"3,251",2,56 Kingston Blvd,Eagleswood Township,NJ,08092,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$337,900",4,2+,"2,300",2,7 Nantucket Ave,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$337,900",4,2+,"2,300",2,9 Nantucket Ave,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$20,000",2,2,,,101 Cypress Ln,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$359,764",3,2,"1,958",2,51 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$358,852",3,2,1,2,3 Raccoon Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$346,765",2,2,"1,865",2,53 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$154,900",3,1+,"1,688",2,254 Mermaid Dr,Stafford Township,NJ,08050,"HOME ALLIANCE REALTY, LLC"
+"$268,000",2,1,884,,1263 E Mallard Dr,Stafford Township,NJ,08050,OCEANSIDE REALTY - H
+"$155,400",4,1+,"2,084",,3 Hull Ct,Barnegat,NJ,08005,Carrington Real Estate Services Llc
+"$337,900",4,2+,"2,300",2,5 Nantucket Ave,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$299,000",4,3+,"2,500",2,25 Hannah Lee Rd,Barnegat,NJ,08005,BOB GRIMM AGENCY
+"$339,373",3,2,"1,865",2,9 Raccoon Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$369,109",3,3,"2,570",2,10 Raccoon Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$229,900",2,2,"1,772",1,95 Robin Ln,Barnegat,NJ,08005,Van Dyk Group - Barnegat
+"$317,869",3,2,"1,664",2,7 Raccoon Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$196,000",2,1,"1,167",2,18 Manor Dr,Manahawkin,NJ,08050,Crossroads Realty - Berkeley
+"$235,000",3,2,"1,600",1,208 Wave Rd,Manahawkin,NJ,08050,RE/MAX At Barnegat Bay
+"$139,900",3,1,,1,140 Torpedo Rd,Stafford Township,NJ,08050,The Real Estate Company
+"$489,900",4,3,"1,780",1,27 Barry Ln,Beach Haven West,NJ,08050,RE/MAX Alliance
+"$259,000",3,1+,"1,688",2,5 Hearth Ct,Barnegat,NJ,08005,C21/ Action Plus Rlty
+"$599,000",4,3+,"3,800",2,167 Sprague Ave,Eagleswood Township,NJ,08092,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$474,900",3,3,"2,167",1,494 S Main St,Eagleswood Township,NJ,08092,Island Realty - S
+"$244,900",4,3,"2,745",2,827 W Bay Ave,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$207,500",3,2+,,2,158 Ravenwood Blvd,Barnegat,NJ,08005,Home Alliance Realty
+"$149,000",5,2+,"2,500",,232 Seaman Ln,Eagleswood Township,NJ,08092,CBRivieraRealty3109
+"$249,900",4,1,"1,152",,121 Lawrence Dr,Beach Haven West,NJ,08050,"VAN DYK GROUP, INC."
+"$164,400",3,1+,,,84 David Dr,Beach Haven West,NJ,08050,Home Alliance Realty
+"$440,000",4,3,"3,356",2,11 Mulberry Dr,Stafford Township,NJ,08050,Van Dyk Group - Barnegat
+"$249,900",3,2,"1,364",1,10 Driftwood Ct,Barnegat,NJ,08005,ERA Central Realty Group
+"$281,420",3,3+,"2,800",2,4 Passage Ln,Barnegat,NJ,08005,CBRivieraRealty3109
+"$349,900",4,2+,"2,422",2,1183 Treasure Ave,Manahawkin,NJ,08050,Keller Williams Preferred Properties
+"$279,900",3,2+,"1,700",2,67 Deer Run Dr S,Barnegat,NJ,08005,CBRivieraRealty3109
+"$394,500",3,2+,"1,422",,12 Kevin Ln,Stafford Township,NJ,08050,GREATER COASTAL REALTY INC.
+"$259,900",3,1+,"1,464",2,55 Hillside Ave,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$95,000",,,,,10 Bog Hollow Ct,Stafford Township,NJ,08092,Pacesetter Realty
+"$219,000",3,2+,"1,890",2,107 Deerfield Dr,Manahawkin,NJ,08050,VAN DYK GROUP
+"$375,000",,,,,108 Eliza Ln,Manahawkin,NJ,08050,Keller Williams Realty - Monmouth/Ocean
+"$99,900",3,2,"1,008",,927 S Main St,Stafford Township,NJ,08092,MEZZINA REAL ESTATE
+"$249,100",5,3,"2,523",yes,1679 Breakers Dr,Manahawkin,NJ,08050,RealHome Services & Solutions
+"$225,000",2,2,"1,554",1,43 Sandpiper Rd,Barnegat,NJ,08005,Van Dyk Group - Barnegat
+"$299,999",5,4,,2,132 Launch Rd,Manahawkin,NJ,08050,RE/MAX At Barnegat Bay
+"$224,500",2,2,"1,565",1,19 Lakeland Dr,Barnegat,NJ,08005,"Weichert, Realtors - Long Beach Island"
+"$385,000",5,3+,"3,000",2,95 Freedom Hills Dr,Barnegat,NJ,08005,Century 21 Jrs Realty
+"$799,000",4,3,"2,400",2,32 Marin Ln,Stafford Township,NJ,08050,"Mary Allen Realty, Inc."
+"$345,135",4,2+,"2,169",3,6 Hopper Ave,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$369,990",4,2+,"2,867",2,7 Cape Cod Ave,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$336,960",4,2+,"1,906",2,26 Avalon Ave,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$369,990",4,2+,"2,867",2,7 Catalina Ave,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$299,990",3,2,"1,664",2,5 Cape Cod Ave,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$349,900",4,2+,,2,15 Hearth Ct,Barnegat,NJ,08005,Robert Defalco Realty
+"$469,900",3,2,"1,321",,243 William Cook Blvd,Stafford Township,NJ,08050,"VAN DYK GROUP, INC."
+"$219,900",4,1+,"2,204",1,580 Shark Ln,Manahawkin,NJ,08050,Paschon Realty
+"$178,000",2,2,,1,13 Sequoia Ct,Barnegat,NJ,08005,Keller Williams Preferred Properties
+"$219,000",3,1,,,283 S Main St,Barnegat,NJ,08005,RE/MAX CENTRAL
+"$143,000",3,2,"1,336",1,9A Emerald Dr Unit A,Barnegat,NJ,08005,Keller Williams Preferred Properties
+"$353,900",2,2,"1,866",2,39 Garden Path Dr,Barnegat,NJ,08005,THE MARKETING DIRECTORS INC
+"$242,887",3,2+,"2,678",1,332 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$242,887",3,2+,"2,678",1,330 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$242,887",3,2+,"2,678",1,334 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$299,900",4,2+,"2,372",2,515 Shark Ln,Manahawkin,NJ,08050,CBRivieraRealty3109
+"$277,672",3,2+,"2,663",2,338 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$749,900",3,2,"1,560",1,1266 Jennifer Ln,Beach Haven West,NJ,08050,"VAN DYK GROUP, INC."
+"$294,900",4,2+,"2,552",,124 Launch Rd,Manahawkin,NJ,08050,VRI Homes Marlboro
+"$249,000",3,1+,"1,630",1,56 Bowline St,Barnegat,NJ,08005,Keller Williams Elite
+"$74,900",3,1,996,,116 6th St,Ocean Township Waretown,NJ,08005,Our Shore Real Estate
+"$354,990",5,3+,"2,814",2,9 Catalina Ave,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$319,990",4,2+,"1,906",2,24 Tina Way,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$319,990",4,2+,"1,906",2,27 Catalina Ave,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$129,000",2,2,"1,320",,19 Spring Lake Rd,Stafford Township,NJ,08050,"Elite Team Realty, Llc"
+"$374,547",3,2,"1,905",2,43 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$331,530",2,2,"1,748",2,2 Raccoon Ct,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$388,000",4,2+,"2,800",2,220 Commodore Rd,Manahawkin,NJ,08050,CBRivieraRealty3109
+"$239,900",3,2,"1,350",,537 Nautilus Dr,Stafford Township,NJ,08050,Van Dyk Group
+"$244,900",3,1+,"1,865",1,9 Maplewood Ct,Barnegat,NJ,08005,G. Anderson Agency - Hb
+"$69,900",,,,,234 Forge Rd,Eagleswood Township,NJ,08092,RE/MAX At Barnegat Bay
+"$315,000",5,3,"2,052",,151 Seaspray Rd,Manahawkin,NJ,08050,RE/MAX at Barnegat Bay
+"$348,215",4,2,"1,958",2,39 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$346,995",2,2,"1,748",2,41 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$343,130",2,2,"1,748",2,37 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$279,900",3,3,"2,346",2,118 Marshfield Hills Blvd,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$229,000",3,2,"1,538",1,937 Canoe Ln,Stafford Township,NJ,08050,G. Anderson Agency - Hb
+"$235,000",3,2,,1,268 Academy Ln,Manahawkin,NJ,08050,C21/ Action Plus Rlty
+"$324,900",3,2+,"2,750",1,2 Sea Breeze Ct,Manahawkin,NJ,08050,"VAN DYK GROUP, INC."
+"$239,900",5,2+,"2,420",,1030 Cutlass Ave,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$234,900",3,2+,"2,100",1,255 Hawthorne Ln,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$139,000",3,1+,,1,45 Mizzen Dr,Barnegat,NJ,08005,Coldwell Banker Residential Brokerage - Spring Lake Office
+"$99,900",4,1+,"1,614",1,6 Commodore Ct,Barnegat,NJ,08005,Realmart Realty - Flat Fee to 1% Full Service
+"$265,000",3,2,"1,536",1,889 Sandy Cir,Manahawkin,NJ,08050,"Diane Turton, Realtors - Lacey Office"
+"$139,900",,,,,404 Dock Rd,Eagleswood Township,NJ,08092,Coldwell Banker Riviera Realty
+"$29,900",,,,,Dock Rd,West Creek,NJ,08092,CBRivieraRealty3109
+"$29,900",,,,,Dock Rd,Eagleswood Township,NJ,08092,Coldwell Banker Riviera Realty
+"$164,500",4,2,"1,566",,184 Dolphin Rd,Stafford Township,NJ,08050,CBRivieraRealty3109
+"$85,000",,,,,1639 Breakers Dr,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$85,000",,,,,1639 Breakers/124 Hull Dr,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$54,900",3,2,"1,300",,162 Brighton Rd,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$739,000",4,3,"2,300",,29 Lillian Dr,Stafford Township,NJ,08050,RE/MAX NEW BEGINNINGS REALTY
+"$353,081",4,2,"1,958",2,25 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$359,819",4,2,"1,958",2,35 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$348,242",3,2,"1,905",2,34 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$310,840",2,2,"1,748",2,30 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$318,844",3,2,"1,664",2,32 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$329,869",3,2,"1,664",2,29 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$244,322",3,2+,"2,678",1,340 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$249,366",3,2+,"2,678",1,342 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$380,000",2,2,"1,728",2,53 Butler Dr,Barnegat,NJ,08005,Lennar Sales Corp.
+"$351,000",3,2,"1,840",2,60 Butler Dr,Barnegat,NJ,08005,Lennar Sales Corp.
+"$115,000",,,,,310 S Lakeshore Dr,Stafford Township,NJ,08050,Van Dyk Group
+"$145,000",,,,,322 S Lakeshore Dr,Stafford Township,NJ,08050,Van Dyk Group
+"$130,000",,,,,316 S Lakeshore Dr,Stafford Township,NJ,08050,Van Dyk Group
+"$145,000",,,,,298 S Lakeshore Dr,Stafford Township,NJ,08050,Van Dyk Group
+"$251,160",3,2+,"2,678",1,346 Hawthorne Ln,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$259,900",4,1+,"1,800",1,2 Knox Ct,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$299,000",2,2,"1,829",2,50 Rocky Brook Dr,Barnegat,NJ,08005,Berkshire Hathaway Homesvcs Fox & Roach
+"$629,000",5,2+,"3,864",2,131 Kristine Ave,Stafford Township,NJ,08050,"Raritan Bay Realty, Llc"
+"$179,000",3,2,"1,179",1,121 Village Dr,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$250,000",5,2,"1,994",,104 Railroad Ave,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$293,000",3,2+,"2,029",1,1127 Steamer Ave,Stafford Township,NJ,08050,C21/ Action Plus Rlty
+"$259,900",3,2,"1,723",,202 Atlantis Ave,Manahawkin,NJ,08050,"Shelanu Realty , Llc"
+"$489,000",5,3+,"3,080",2,5 Michael Ave,Barnegat,NJ,08005,Van Dyk Group - Barnegat
+"$399,900",3,2,"1,288",,133 Jeteemale Dr,Manahawkin,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$139,000",3,2,"1,318",1,6 Red Coat Dr,Barnegat,NJ,08005,Coldwell Banker Flanagan Realty
+"$295,000",3,2+,"2,200",2,9 Willowtree Ct,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$275,000",3,1,"2,057",1,720 W Bay Ave,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$125,000",,,,,775 W Bay Ave,Barnegat,NJ,08005,Pacesetter Realty
+"$289,999",2,1,840,1,47 Claudia Ln,Stafford Township,NJ,08050,Pacesetter Realty
+"$299,999",2,2+,"2,332",1,3 Bay Breeze Ct,Stafford Township,NJ,08050,Beach House Realty
+"$194,500",3,2,"1,375",,102 Beverly Dr,Barnegat,NJ,08005,remax 1st advantage
+"$110,000",,,,,20 Jeri Ann Dr,Manahawkin,NJ,08050,Van Dyk Group - Barnegat
+"$399,900",3,2,"1,120",,146 Eileen Ln,Stafford Township,NJ,08050,"Elite Team Realty, Llc"
+"$205,000",3,2,"1,421",1,75 Highland Dr,Barnegat,NJ,08005,"Weichert, Realtors - Long Beach Island"
+"$79,000",2,1,800,1,238 West St,Eagleswood Township,NJ,08092,BAYSHORE AGENCY
+"$259,900",3,2+,"2,085",1,204 Hawthorne Ln,Barnegat,NJ,08005,J J ELEK GUARANTEE SALES
+"$350,470",3,2,"1,865",2,27 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$320,990",3,2,"1,865",2,28 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$449,900",3,2,"1,852",1,104 Thomas Ln,Manahawkin,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$229,000",4,1+,"1,473",1,1074 Windlass Dr,Manahawkin,NJ,08050,Coldwell Banker Flanagan Realty
+"$229,000",3,2,"1,933",,133 Brook St,Barnegat,NJ,08005,Long Beach Island Real Estate - Bhc
+"$349,900",4,2+,,1,72 Benjamin Blvd,Stafford Township,NJ,08050,Home Alliance Realty
+"$68,000",2,2,952,,81 Brighton Rd,Barnegat,NJ,08005,Pacesetter Realty
+"$351,990",5,3+,"2,814",2,53 Tina Way,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$500,000",4,2+,"1,900",,979 Beach Haven West Blvd,Stafford Township,NJ,08050,Gloria Nilson & Company-Pe
+"$324,700",,,,,1307 Mill Creek Rd,Manahawkin,NJ,08050,"Weichert, Realtors - Long Beach Island"
+"$259,000",3,2,,2,132 Liberty Ave,Stafford Township,NJ,08050,"Weichert, Realtors - Middletown"
+"$150,000",,,,,16 Woodmansee Blvd,Barnegat,NJ,08005,Van Dyk Group - Barnegat
+"$429,900",5,2+,"2,225",4,660 E Bay Ave,Barnegat,NJ,08005,Van Dyk Group
+"$869,900",3,2+,"2,626",1,114 Harborage Pl,Ocean Township Waretown,NJ,08005,Van Dyk Group
+"$469,000",4,3+,"3,456",2,82 Rose Hill Rd,Barnegat,NJ,08005,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$475,000",,,,,32-34 Woodmansee Blvd,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$429,000",2,1,816,1,351 Bay Shore Dr,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$389,900",3,3+,"3,407",2,55 Whitewater Dr,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$244,000",5,2,"1,500",,232 Nautilus Dr,Stafford Township,NJ,08050,RE/MAX at Barnegat Bay
+"$249,000",3,1,820,,8 Lillian Dr,Stafford Township,NJ,08050,Keller Williams Atlantic Shore
+"$275,000",3,1,"1,008",,110 Gregg Dr,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$235,000",,,,,49 Sylvia Ln,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$60,000",,,,,29 Gunning River Rd,Barnegat,NJ,08005,G. Anderson Agency - Hb
+"$635,000",6,4+,"3,465",1,8 Merle Dr,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$229,900",3,2,,,232 Crows Nest Rd,Stafford Township,NJ,08050,Home Alliance Realty
+"$350,000",,,,,4 Union Blvd,Barnegat,NJ,08005,Crossroads Realty - Executive Office
+"$89,900",2,1+,"1,079",,30 Mediterranean Ct,Barnegat,NJ,08005,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$145,000",3,1,988,,59 Schooner Ave,Barnegat,NJ,08005,Williamson Realtors
+"$389,900",2,2+,"2,277",2,30 Norwalk Ln,Barnegat,NJ,08005,Beach House Realty
+"$639,900",4,3,"2,400",2,28 Phyllis Ln,Stafford Township,NJ,08050,"Mary Allen Realty, Inc."
+"$329,000",3,2,,5,2530 Circle Dr,Stafford Township,NJ,08050,Van Dyk Group
+"$135,000",3,1+,"1,508",1,415 S Main St,Stafford Township,NJ,08092,RE/MAX NEW BEGINNINGS REALTY
+"$342,990",4,2+,"2,169",3,5 Pilot Ct,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$249,900",2,1,"1,576",,310 Dock Rd,Eagleswood Township,NJ,08092,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$311,990",4,2+,"2,093",2,9 Tradewinds Ave,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$499,900",4,3,,2,104 Laurel Hill Ln,West Creek,NJ,08092,RE/MAX at Barnegat Bay
+"$849,900",5,3,"2,325",,197 Southard Dr,Manahawkin,NJ,08050,Schneider Real Estate Agency
+"$299,000",3,2,"2,160",2,251 West St,Eagleswood Township,NJ,08092,Van Dyk Group
+"$689,000",4,3+,"2,400",2,52 Claudia Ln,Manahawkin,NJ,08050,Gloria Nilson & Co. Real Estate
+"$684,900",4,2+,"2,800",2,1860 Mill Creek Rd,Stafford Township,NJ,08050,"Garabedian Realty Group, Llc"
+"$149,000",3,1,616,,1100 Mill Creek Rd,Stafford Township,NJ,08050,"Weichert, Realtors - Princeton"
+"$259,900",3,2+,"2,350",1,124 Bryce Ln Unit 811,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$349,000",5,2+,"2,527",2,2 Sterling Ln,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$405,000",3,2,"1,400",,8 Joy Rd,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$674,850",4,3,,9,146 Mary Bell Rd,Manahawkin,NJ,08050,Long & Foster Real Estate Inc.
+"$219,900",3,2+,"2,000",1,116 Nautilus Dr,Manahawkin,NJ,08050,Pacesetter Realty
+"$160,000",3,1,"1,104",,1067 Rudder Ave,Stafford Township,NJ,08050,C21 Action Plus Realty
+"$299,999",3,3,"2,504",2,9 Wadsworth Pl,Barnegat,NJ,08005,"Weichert, Realtors - Toms River"
+"$369,000",,,,,Cox Crossing Rd,Eagleswood Township,NJ,08092,Keller Williams Atlantic Shore
+"$334,990",4,3,"2,270",2,21 Woodchuck Dr,Barnegat,NJ,08005,Keller Williams Shore Properties
+"$279,000",3,2+,"2,344",1,123 Windward Dr,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$695,000",,,,,320 Old Cedar Bridge Rd,Barnegat,NJ,08005,Van Dyk Group-Beach Haven Terrace
+"$359,900",2,2+,"2,206",2,22 Passage Ln,Barnegat,NJ,08005,Northfield
+"$299,987",4,2,"1,420",2,343 Cedar Dr,Stafford Township,NJ,08050,MEZZINA REAL ESTATE
+"$179,900",5,2,"1,700",,43 Gunning River Rd,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$334,900",3,1,"1,442",,228 Rahway Rd,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$299,900",3,1+,"1,672",,116 Lee Dr,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$399,000",3,2,"1,200",,2560 Bay Ave,Stafford Township,NJ,08050,G. Anderson Agency - Hb
+"$337,500",3,2,"1,620",1,117 Emily Dr,Stafford Township,NJ,08050,"C21 MARY ALLEN REALTY, INC."
+"$25,000",,,,,114 Lakeview Dr,Barnegat,NJ,08005,CBRivieraRealty3109
+"$96,141",5,3,"1,178",,230 Maine St,West Creek,NJ,08092,Carrington Real Estate Services Llc
+"$634,900",5,3+,"4,653",yes,188 Kristine Ave,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$184,000",,,,,208 Sprague Ave,Eagleswood Township,NJ,08092,RE/MAX at Barnegat Bay
+"$290,000",4,2+,,,1053 Vessel Ln,Stafford Township,NJ,08050,"MID-REALTY, INC."
+"$214,990",4,2,"1,563",,96 N Lamson Rd,Stafford Township,NJ,08092,THE TEAM OF LINDA AND JOHN BEELITZ
+"$394,000",2,2,"2,285",2,57 Butler Dr,Barnegat,NJ,08005,Van Dyk Group - Barnegat
+"$888,000",5,5+,"3,050",2,16 Julia Dr,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$440,000",2,2+,"2,229",2,95 Mission Way,Barnegat,NJ,08005,CBRivieraRealty3109
+"$99,900",,,,,711 Cedar Run Dock Rd,Stafford Township,NJ,08092,GREATER COASTAL REALTY INC
+"$237,500",,,,,136 Lawrence Dr,Stafford Township,NJ,08050,GREATER COASTAL REALTY INC
+"$389,900",3,1+,"2,390",,84 Jennings Rd,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$675,000",4,2,,,72 Muriel Dr,Stafford Township,NJ,08050,Rand Realty Bhg-Wayne
+"$219,900",3,1+,"1,420",,1045 Cutlass Ave,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$474,900",4,2+,,,28 Lynn Ann Ln,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$329,900",,,,,91 Bennington Way,Eagleswood Township,NJ,08092,"Mary Allen Realty, Inc."
+"$144,900",3,1+,"1,390",1,207 6th St,Ocean Township Waretown,NJ,08005,RE/MAX at Barnegat Bay
+"$150,000",4,1,"1,088",,15 Albert Dr,Manahawkin,NJ,08050,"Weichert, Realtors - Brick"
+"$99,900",,,,,117 Bengal Blvd,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$394,900",4,3,"3,412",2,34 Mulberry Dr,Stafford Township,NJ,08050,"VAN DYK GROUP, INC."
+"$249,000",4,2,"1,152",,428 E Bay Ave,Barnegat,NJ,08005,Keller Williams Preferred Properties
+"$139,900",,,,,841 Buccaneer Ln,Stafford Township,NJ,08050,Keller Williams Shore Properties
+"$125,000",3,2+,,2,95 Village Dr,Barnegat,NJ,08005,"Weichert, Realtors - Brick"
+"$60,000",2,1,916,,14 Potomac Ct,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$60,000",2,1,916,,91 Lexington Blvd,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$369,000",3,3+,"3,323",2,17 Mountain Stream Ct,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$615,000",4,3+,"2,300",2,13 Harry Dr,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$99,900",,,,,520 Cedar Run Dock Rd,Eagleswood Township,NJ,08092,Keller Williams Atlantic County
+"$399,900",4,3,"3,424",2,2 Mulberry Dr,Manahawkin,NJ,08050,"VAN DYK GROUP, INC."
+"$49,900",,,,,1576 Breakers Dr,Stafford Township,NJ,08050,Van Dyk Group
+"$249,000",2,1,,,434 Dock Rd,West Creek,NJ,08092,RE/MAX At Barnegat Bay
+"$269,000",4,2+,"2,136",1,3 Southwind Ct,Barnegat,NJ,08005,Van Dyk Group
+"$439,900",3,3,"2,554",2,0G Grace Pl,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$499,000",3,2+,"2,600",,16 Steven Dr,Stafford Township,NJ,08050,Island Realty - S
+"$220,000",2,1+,"1,608",,441 E Bay Ave Unit 9,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$49,900",,,,,243 Brant Dr,Eagleswood Township,NJ,08092,"VAN DYK GROUP, INC."
+"$230,000",3,1+,"1,520",1,211 Montclair Rd S,Barnegat,NJ,08005,Pacesetter Realty
+"$179,000",4,2,"1,614",,374 N Main St,Barnegat,NJ,08005,Van Dyk Group
+"$62,000",1,1,816,,16 Mediterranean Ct,Barnegat,NJ,08005,RealHome Services & Solutions
+"$149,000",3,1,,,113 Village Dr,Barnegat,NJ,08005,C21/ VALUE PLUS REALTY
+"$474,900",3,2,"2,623",,237 Bay Shore Dr,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$149,900",,,,,Province Rd,Eagleswood Township,NJ,08092,RE/MAX At Barnegat Bay
+"$149,900",,,,,Province Rd,Eagleswood Township,NJ,08092,RE/MAX At Barnegat Bay
+"$329,000",2,2,"1,623",yes,59 Butler Dr,Barnegat,NJ,08005,Keller Williams Real Estate-Princeton
+"$574,500",4,3+,"3,538",2,66 Beckers Cor,Eagleswood Township,NJ,08092,G. Anderson Agency - Hb
+"$355,000",4,2+,"2,300",2,19 Pulaski Dr,Barnegat,NJ,08005,Keller Williams Realty West Monmouth
+"$389,900",3,2,"1,750",,665 Cedar Run Dock Rd,Stafford Township,NJ,08092,"Mary Allen Realty, Inc."
+"$299,900",3,2+,"2,450",1,4 Sea Breeze Ct,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$299,900",3,2+,,1,4 Sea Breeze Ct Unit 8,Manahawkin,NJ,08050,RE/MAX At Barnegat Bay
+"$384,000",4,2+,"2,346",2,71 Eno Rd,Stafford Township,NJ,08092,BAYSHORE AGENCY
+"$419,900",4,2+,"2,800",2,0D Grace Pl,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$359,900",3,2+,"1,890",2,0A Grace Pl,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$374,900",4,2+,"2,080",2,0B Grace Pl,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$379,900",3,2+,"1,865",2,0E Grace Pl,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$399,900",4,2+,"2,550",2,0C Grace Pl,Barnegat,NJ,08005,RE/MAX NEW BEGINNINGS REALTY
+"$336,000",4,2+,"2,555",2,120 Tuna Ct,Stafford Township,NJ,08050,RE/MAX at Barnegat Bay
+"$104,900",4,1+,"1,773",1,31 Capstan St,Barnegat,NJ,08005,RE/MAX at Barnegat Bay
+"$315,000",3,1,"1,126",1,703 Cedar Run Dock Rd,Stafford Township,NJ,08092,Keller Williams Preferred Properties
+"$315,000",3,1,,1,703 Cedar Run Dock Rd,Stafford Township,NJ,08050,"Keller Williams Preferred Properties, Ship Bottom"
+"$155,000",,,,,290 S Main St,Barnegat,NJ,08005,ERA American Towne Realty
+"$99,000",,,,,74 Anchor/974 Starboard Dr,Stafford Township,NJ,08050,ISLAND REALTY-SURF CITY
+"$199,900",3,3+,,1,124 Spruce Cir N,Barnegat,NJ,08005,ERA American Towne Realty
+"$99,900",3,2,"1,250",1,800 Jane Dr,Manahawkin,NJ,08050,Paschon Realty
+"$229,000",3,1,,1,221 Bay Shore Dr,Barnegat,NJ,08005,Re/Max West Realtors
+"$1,000",,,,,46 Twain Ave,Barnegat,NJ,08005,Van Dyk Group
+"$1,000",,,,,47 Luke Ave,Barnegat,NJ,08005,Van Dyk Group
+"$1,000",,,,,50 Twain Ave,Barnegat,NJ,08005,Van Dyk Group
+"$3,000",,,,,47 Twain Ave,Barnegat,NJ,08005,Van Dyk Group
+"$299,900",4,1+,"1,800",yes,209 Montclair Rd S,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$409,900",3,2+,"2,640",1,124 Temple Ave,Stafford Township,NJ,08050,G. Anderson Agency - Hb
+"$650,000",3,2,"1,392",1,86 Howard Dr,Stafford Township,NJ,08050,Van Dyk Group
+"$59,000",,,,,On Harry Pond,Barnegat,NJ,08005,Nai Atlantic Coast Realty
+"$90,000",,,,,62 Fawcett Blvd,Barnegat Light,NJ,08005,BHHS New Jersey Properties Westfield
+"$90,000",,,,,1954 Breakers Dr,Barnegat Light,NJ,08050,BHHS New Jersey Properties Westfield
+"$769,000",5,3+,"5,104",2,162 Beachview Ave,Stafford Township,NJ,08050,LBI Realty Group - Broker / Owner
+"$349,999",3,2,"2,270",2,164 Warren Grove Rd,Barnegat,NJ,08005,BHHS New Jersey Properties Millstone
+"$449,900",3,2,"2,300",2,4 Garden Path Dr,Barnegat,NJ,08005,"The Marketing Directors, Inc."
+"$161,500",3,1,"1,180",,13 Commodore Ct,Barnegat,NJ,08005,Pacesetter Realty
+"$499,000",,,,,478 S Main St,Stafford Township,NJ,08092,Keller Williams Shore Properties
+"$319,900",3,2+,"1,965",2,7 Jeffrey Dr,Little Egg Harbor,NJ,08050,Prudential Zack Shore Properties-Ma
+"$319,900",3,2+,"1,965",2,9 Jeffrey Dr,Little Egg Harbor,NJ,08050,Prudential Zack Shore Properties-Ma
+"$1,100,000",5,3+,"3,030",2,339 Bay Shore Dr,Barnegat,NJ,08005,Coldwell Banker Home Connection
+"$199,000",2,1+,800,,232 S Creek Dr,West Creek,NJ,08092,RE/MAX At Barnegat Bay
+"$50,000",,,,,27 Tina Way,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$60,000",,,,,55 Tina Way,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$50,000",,,,,29 Tina Way,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$145,000",,,,,410 Dock Rd,Eagleswood Township,NJ,08092,"Elite Team Realty, Llc"
+"$145,000",3,2,"1,336",1,10A Opal Ct Unit A,Barnegat,NJ,08005,Keller Williams Preferred Properties
+"$174,900",3,1+,"1,235",1,30 1st St,Barnegat,NJ,08005,"HOME ALLIANCE REALTY, LLC"
+"$319,900",5,2,"1,680",,4 Weaver Dr,Stafford Township,NJ,08050,Bayshore Agency
+"$359,900",5,3+,"3,200",,47,Schoenb Oxycocus Road,NJ,08050,Keller Williams Shore Properties
+"$299,900",,,,,235 Route 72,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$153,000",4,1+,"1,588",2,1 Woodmere Ct,Barnegat,NJ,08005,"HOME ALLIANCE REALTY, LLC"
+"$29,900",2,1,,,236 West St,West Creek,NJ,08092,Exit Realty Elite
+"$299,900",,,,,235 239 Route 72,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$349,900",,,,,540 N Main St,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$299,900",,,,,235-239 Route 72 Rte,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$130,000",4,1+,"1,609",1,149 Village Dr,Barnegat,NJ,08005,Keller Williams Atlantic Shore
+"$399,900",4,2+,"2,700",2,12 Highland Dr,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$469,000",2,1+,"1,700",1,837 Cedar Run Dock Rd,Stafford Township,NJ,08092,"Mary Allen Realty, Inc."
+"$79,900",,,,,588 Coral/544 Shark Ln,Stafford Township,NJ,08050,Pacesetter Realty
+"$224,900",2,1,"1,104",,90 Burr St,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$249,000",,,,,289 Route 72 Hwy,Barnegat,NJ,08005,"Mary Allen Realty, Inc."
+"$10,700",,,,,49 Windjammer Dr,Barnegat,NJ,08005,ERA American Towne Realty
+"$257,000",3,2,"2,110",2,10 Revere Ct,Barnegat,NJ,08005,Glen Kelly Real Estate LLC
+"$49,000",,,,,15 Fair Oaks Dr,Barnegat,NJ,08005,ERA/ East Port Realty
+"$169,000",3,2,"1,200",,1081 Buccaneer Ln,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$240,000",3,1,,,11 Ronnie Dr,Stafford Township,NJ,08050,"OPTION 1 REALTY GROUP, LLC"
+"$27,000",,,,,66 Gunning River Rd,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$374,900",4,2,"1,394",,100 Bernard Dr,Stafford Township,NJ,08050,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$144,900",,,,,Stone Rd,Eagleswood Township,NJ,08092,CBRivieraRealty3109
+"$144,900",,,,,Stone Rd Rd,Eagleswood Township,NJ,08092,Coldwell Banker Riviera Realty
+"$239,900",3,2+,"2,148",1,137 Atlantis Ave,Stafford Township,NJ,08050,Keller Williams Atlantic Shore
+"$49,900",,,,,17 Cedar Ln,Stafford Township,NJ,08092,Pacesetter Realty
+"$63,900",,,,,216 Gaff Rd,Stafford Township,NJ,08050,"VAN DYK GROUP, INC."
+"$63,900",,,,,220 Gaff Rd,Stafford Township,NJ,08050,"VAN DYK GROUP, INC."
+"$63,900",,,,,224 Gaff Rd,Stafford Township,NJ,08050,"VAN DYK GROUP, INC."
+"$63,900",,,,,237 Gaff Rd,Stafford Township,NJ,08050,"VAN DYK GROUP, INC."
+"$50,000",0,1,,,1209 Curlew Rd,Stafford Township,NJ,08050,RE/MAX At Barnegat Bay
+"$26,500",,,,,8 Conrad Ave,Barnegat,NJ,08005,Pacesetter Realty
+"$6,000",,,,,109 Tide Ct,Manahawkin,NJ,08050,CBRivieraRealty3109
+"$69,000",,,,,73 Highland Dr,Barnegat,NJ,08005,"HOME ALLIANCE REALTY, LLC"
+"$150,000",,,,,223 Bay Shore Dr,Barnegat,NJ,08005,Re/Max Homeland West
+"$11,900",,,,,S Creek Dr,West Creek,NJ,08092,"VAN DYK GROUP, INC."
+"$11,900",,,,,S Creek Dr,Eagleswood Township,NJ,08092,"VAN DYK GROUP, INC."
+"$68,000",,,,,384 Lighthse/1002 Mariner,Stafford Township,NJ,08050,Pacesetter Realty
+"$39,900",,,,,81 Gunning River Rd,Barnegat,NJ,08005,Coldwell Banker Riviera Realty
+"$194,900",,,,,1021 W Bay Ave,Barnegat,NJ,08005,RE/MAX At Barnegat Bay
+"$450,000",4,2+,"2,731",2,210 Holly Ave,Stafford Township,NJ,08050,RE/MAX at Barnegat Bay
+"$895,000",,,,,140 Route 72 W,Stafford Township,NJ,08050,ISLAND REALTY-SURF CITY
+"$45,000",,,,,105 Tide Ct,Manahawkin,NJ,08050,Pacesetter Realty
+"$180,000",3,2+,"1,664",2,60 Barnegat Blvd S,Barnegat,NJ,08005,CBRivieraRealty3109
+"$2,999",,,,,5 Route 72,Barnegat,NJ,08005,Kalos-Vessio Agency Inc.
+"$3,999",,,,,1 Route 72,Barnegat,NJ,08005,Kalos-Vessio Agency Inc.
+"$15,990",,,,,46 Gunning River Rd,Barnegat,NJ,08005,Kalos-Vessio Agency Inc.
+"$299,999",,,,,1 Rt 9 and Gunning River Rd,Barnegat,NJ,08005,Kalos-Vessio Agency Inc.
+"$6,999",,,,,1 Railroad Ave,Barnegat,NJ,08005,Kalos-Vessio Agency Inc.
+"$45,000",,,,,68 Matisse Ave and Seurat St,Barnegat,NJ,08005,Kalos-Vessio Agency Inc.

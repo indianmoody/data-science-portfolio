@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: ac47a81e-fcc5-4723-9198-3194cca403c7
+X-Runtime: 0.491172
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 08:46:42 GMT
+Set-Cookie: threshold_value=70; path=/; expires=Sun, 22 Apr 2018 08:46:42 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 08:46:42 -0000
+Set-Cookie: __vst=a9d23c1a-7be4-4b68-845f-0b2ffa1a12a9; path=/; expires=Mon, 22 Feb 2038 08:46:42 -0000
+Set-Cookie: __ssn=57b52b93-7da8-4f5f-8d5b-57582264b083; path=/
+Set-Cookie: __ssnstarttime=1519289202; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DTrenton_NJ%26lo%3DTrenton%26st%3Dcity%2Cgs%3DMercer-County_NJ%26lo%3DMercer%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DTrenton%2C+NJ%26locSlug%3DTrenton_NJ%26lat%3D40.214617%26long%3D-74.685428%26status%3D1%26pg%3D13%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DTrenton%26state_id%3DNJ%26county_fips%3D34021%26county_fips_multi%3D34021-34005-34025; domain=realtor.com; path=/
+Set-Cookie: srchID=782a2eb7690c4eef957dc77bb5e65052; path=/
+Set-Cookie: _rdc-next_session=cFg4c25KUnUzL0NQeE9rVUVOb2Y5NFlTcEtqQW43allzcFlBVTVtM3BoVkhYZ1pYQzNhTHVvWUVKYW44U3A3MTQ3SUplQitzekMvWkt3TkF2MjQ5M1NvZGpZK1V4NlRsZ1IwYUJWT0JzOEpvN3V2eUtFYkQreEx4eURBdHZpaTYwVlJkc0NhSWg1alU3bTVwWGt6aE5RPT0tLXU2RzJORlpBVVl3U2tORi9TTlYzVmc9PQ%3D%3D--ded69713b5aa5f0a5d6ce1a8ceb00ba3f1fa121c; path=/; HttpOnly

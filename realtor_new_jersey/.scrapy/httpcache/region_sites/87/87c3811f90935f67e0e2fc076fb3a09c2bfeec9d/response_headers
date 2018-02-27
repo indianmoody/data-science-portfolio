@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: b74a43d9-62ad-4818-a577-ef278e0d7880
+Etag: W/"07cd70016805ae7b4953732e7efbae17"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.511265
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:35:35 GMT
+Set-Cookie: threshold_value=70; path=/; expires=Sat, 21 Apr 2018 10:35:34 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:35:34 -0000
+Set-Cookie: __vst=f98502ac-c072-423e-9fd1-a1e8dd40406c; path=/; expires=Sun, 21 Feb 2038 10:35:34 -0000
+Set-Cookie: __ssn=b37d9d0a-0373-43f6-ab3b-7163c745030a; path=/
+Set-Cookie: __ssnstarttime=1519209334; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: criteria=locSlug%3DHamilton-Township_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=M3JWRE51V0pYa2Fad0U1SlBlL3ovcXkwOE9haTVUZ2w4emEwMzc0SFN3Vk9POUtlYWcwUThLZUhCVHNkN0s0YlFPb2IyczZQQ1h0ZmR2clFyMFNyLzJvcTVjeDhSSHZwMTRTTkMxcW03L1ZTWlpEMUdKR3hieVA1Z2RqbVNBYVM4RmxlUVNtNUpuREVUQm1HaFdwZDlBPT0tLWI3cElkWGFOZURTeDB3TEx6NUhSUEE9PQ%3D%3D--9da0bde46ac59f515fd64faa9820c4a85babf8c1; path=/; HttpOnly

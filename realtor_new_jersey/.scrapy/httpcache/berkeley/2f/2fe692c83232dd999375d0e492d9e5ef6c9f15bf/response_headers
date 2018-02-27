@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 44c7db63-d3e2-4845-ad84-59e962ce9ff6
+X-Runtime: 0.554079
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 08:37:02 GMT
+Set-Cookie: threshold_value=89; path=/; expires=Sun, 22 Apr 2018 08:37:01 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 08:37:01 -0000
+Set-Cookie: __vst=556a1e55-7bdd-4823-9389-7911abf1760f; path=/; expires=Mon, 22 Feb 2038 08:37:01 -0000
+Set-Cookie: __ssn=052cd3d2-2964-4ff0-9b71-1e3065e7c41f; path=/
+Set-Cookie: __ssnstarttime=1519288621; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DToms-River-Township_NJ%26lo%3DToms%2BRiver%2BTownship%26st%3Dcity%2Cgs%3DOcean-County_NJ%26lo%3DOcean%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DToms+River+Township%2C+NJ%26locSlug%3DToms-River-Township_NJ%26lat%3D39.981036%26long%3D-74.214133%26status%3D1%26pg%3D3%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DToms+River+Township%26state_id%3DNJ%26county_fips%3D34029%26county_fips_multi%3D34029; domain=realtor.com; path=/
+Set-Cookie: srchID=35cbdb508cd0477892a6278bf5027b31; path=/
+Set-Cookie: _rdc-next_session=dDN4QVZleDBWWkxKeHA4YnpzNWtBcVRJRWNMMGVXYW5WMUwzN29iZWVFd1NwUSsrNkN6L3RKWFFBUExST2ZGQkdubzJ3bVJkK1EyUDQzbE9pQ2pjLzYrU2puKzRtOXp6bDFXL1hKd3NOVmFRZkVRd2JFOEpDY1RORW93RHBwbGVFNEQ5eCtQMjJmK2JKeGh2Tk9FZlVRPT0tLTEvOVY0NmcxTlV1cVI2NmhrNlVHWUE9PQ%3D%3D--56314277b25c65e0a7aaf658fa9683e50629dc52; path=/; HttpOnly

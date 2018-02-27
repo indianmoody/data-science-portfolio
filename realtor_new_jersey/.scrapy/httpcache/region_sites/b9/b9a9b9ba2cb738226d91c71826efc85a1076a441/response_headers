@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: b75fb6a9-8c22-4294-8615-be8150abf98a
+Etag: W/"8357d5014d505df90eec908e9899e9bb"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.739547
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:34:33 GMT
+Set-Cookie: threshold_value=90; path=/; expires=Sat, 21 Apr 2018 10:34:32 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:34:32 -0000
+Set-Cookie: __vst=4ac2cc24-d2ec-4ba6-85ea-c381e8ad7401; path=/; expires=Sun, 21 Feb 2038 10:34:32 -0000
+Set-Cookie: __ssn=7c608d9a-a4f7-4cfd-8acd-fc52e8334ee5; path=/
+Set-Cookie: __ssnstarttime=1519209272; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: criteria=locSlug%3DBerkeley-Township_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=RG5ISktoblpsanl1NkdZNmtqNFlJbU1CSEJzbHJSVXlUQVFMMCtxVGIxZEVTcWlMaVVwWDEwL1JpK25NYTBiWXFIL1FYZlhWcWhuOGFMR0ExclkzRTFTejdvUWxqUUZYWm9VbmMyUk02RnNmY3cweDVLR0hMamhsY3JIc0lobk9kOE5KaE4xU25HUjZneEp1QllBOGZ3PT0tLTZVWGtiMkVsejJRNWl3UHJMS212S3c9PQ%3D%3D--b78e7444bcf3c45f61ed56afb96ef2015b9862dc; path=/; HttpOnly

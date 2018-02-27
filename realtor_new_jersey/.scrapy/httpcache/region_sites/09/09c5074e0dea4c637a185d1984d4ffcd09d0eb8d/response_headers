@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 7b05ac2d-fe25-400e-909a-8b2bb1b92006
+Etag: W/"2abe7f13ac61e0be03afba2628cd245e"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.631069
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:35:02 GMT
+Set-Cookie: threshold_value=7; path=/; expires=Sat, 21 Apr 2018 10:35:01 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:35:01 -0000
+Set-Cookie: __vst=aa1d5fab-7575-4916-8339-df64fa2c68a9; path=/; expires=Sun, 21 Feb 2038 10:35:01 -0000
+Set-Cookie: __ssn=962bfd06-7953-4dd7-92a5-d209e4bd8c58; path=/
+Set-Cookie: __ssnstarttime=1519209301; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: criteria=locSlug%3DGrassy-Sound_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=QStrTEY3T2ZjNEo3K2l2azFtUkxkaFlFWmtrcjdyVU5tOEtpT1NQTDBxSVpEZ0RPMXBZYklxZEFaTVRqRUhrZXVPM2FDK2pFRXIrdGRHTlZXZFVqRWhmWFBCZkxiKzEzeFk1ZGprQjd5Q2lhTk45Zk1ySjdUWDhCT0FuRFlkWjdSeVNEZy94dVdiS3NaakRBTkZ1OGx3PT0tLVc4QVhlRCtFTU94TEFXYkpxN3pYUHc9PQ%3D%3D--57b625c41ba6e0e0daa53617d744a6eab72a0db2; path=/; HttpOnly

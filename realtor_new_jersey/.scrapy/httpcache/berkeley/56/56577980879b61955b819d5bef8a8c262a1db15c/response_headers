@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 577eea38-cbda-4ca4-9baf-4962eecb5379
+X-Runtime: 0.499679
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 06:02:35 GMT
+Set-Cookie: threshold_value=52; path=/; expires=Sun, 22 Apr 2018 06:02:34 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 06:02:34 -0000
+Set-Cookie: __vst=320cb355-f94b-4c12-8592-13bd82abf725; path=/; expires=Mon, 22 Feb 2038 06:02:34 -0000
+Set-Cookie: __ssn=709e3bc0-a894-48f3-98ad-b9d58bd92273; path=/
+Set-Cookie: __ssnstarttime=1519279354; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DLacey-Township_NJ%26lo%3DLacey%2BTownship%26st%3Dcity%2Cgs%3DOcean-County_NJ%26lo%3DOcean%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DLacey+Township%2C+NJ%26locSlug%3DLacey-Township_NJ%26lat%3D39.809671%26long%3D-74.31628%26status%3D1%26pg%3D1%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DLacey+Township%26state_id%3DNJ%26county_fips%3D34029%26county_fips_multi%3D34029-34005; domain=realtor.com; path=/
+Set-Cookie: srchID=b99260347def4c4faee8d1e3b6857af7; path=/
+Set-Cookie: _rdc-next_session=dFp2V2dDMXFHR3JGZllrbFlqSC95bEVsRVo3Rld5Z1B0SjkwMXVNQW40U0VXekV4VGpCS056cXJwVGhiS2lZVlpiK0NEOGlkVXBUaWtabFdNMmZYay9oK1RXYmlHZngvSm9YR1FMcFVZbSthY2c2QlBJTFlXSjB2d3hFYXR4Y0FmMzBJWm9LR2pOeGUrVFRSSTNOTUlBPT0tLStJb2c3V2s2V09Nd25ESVNKM3FDSVE9PQ%3D%3D--68f1779d78254e82f6ea366a1e6eb3051c3c8ef4; path=/; HttpOnly

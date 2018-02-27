@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 90c61395-2129-48ea-b623-b1d033907729
+X-Runtime: 0.447056
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Wed, 21 Feb 2018 08:54:29 GMT
+Set-Cookie: threshold_value=8; path=/; expires=Sat, 21 Apr 2018 08:54:28 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 08:54:28 -0000
+Set-Cookie: __vst=b1f395e8-cf6a-4f89-9a0b-1474a1997b7b; path=/; expires=Sun, 21 Feb 2038 08:54:28 -0000
+Set-Cookie: __ssn=3a0eaf11-60e7-439a-9b12-d504c397d20a; path=/
+Set-Cookie: __ssnstarttime=1519203268; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DDiamond-Beach_NJ%26lo%3DDiamond%2BBeach%26st%3Dcity%2Cgs%3DCape-May-County_NJ%26lo%3DCape%2BMay%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DDiamond+Beach%2C+NJ%26locSlug%3DDiamond-Beach_NJ%26lat%3D38.996946%26long%3D-74.829874%26status%3D1%26pg%3D4%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DDiamond+Beach%26state_id%3DNJ%26county_fips%3D34009%26county_fips_multi%3D34009; domain=realtor.com; path=/
+Set-Cookie: srchID=347a2570827a4ccea37bb52a37e0b86a; path=/
+Set-Cookie: _rdc-next_session=OE8vaXJCYXlYVGF2OC9tK2c4R0NCTGNCVjhkalc1ZzlOd1AyWTUrRzNyRU5OTmI3ZXUwbzZzTkwzNTFBQmREMDJPMHpTWUdqUkFZUGphRlN6OHNZWForVCt0S1hpck9MQnBUTHc2K3d4VmJCS2pDVllNNTdjd1FtZTNQVVlCZ1liMUc1eWJkWWgxUW0wc21HU3g4ZVdRPT0tLTMvYjB3b2g1ci91ZU5iRUd5U2cyVXc9PQ%3D%3D--8b89288b7aba6f4721808f13e0945388a1c14c50; path=/; HttpOnly

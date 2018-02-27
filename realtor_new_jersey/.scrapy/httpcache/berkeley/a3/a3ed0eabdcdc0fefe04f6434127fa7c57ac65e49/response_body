@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Service Unavailable</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <style type="text/css">
+    *{
+        padding:0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+        line-height: 1.1;
+        color: inherit;
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+    .hero-img-background{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background: url(/images/server-down.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        z-index: -1;
+    }
+    .container{
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .wrapper{
+        padding: 0 30px 0;
+        position: absolute;
+        width: 100%;
+        -webkit-transform: translateY(-30%);
+        -ms-transform: translateY(-30%);
+        -o-transform: translateY(-30%);
+          transform: translateY(-30%);
+        top: 30%;
+    }
+    .svg-logo-realtor img{
+        width: 215px;
+        margin-bottom: 25px;
+    }
+    h1{
+        font-size: 2.9em;
+        color: #fff;
+        font-weight: 300;
+    }
+    h2{
+        font-size: 1.7em;
+        margin: 35px 0 30px 0;
+        display: block;
+        color:#C9CDD0;
+        font-weight: 300;
+    }
+    @media only screen and (max-width : 766px){
+        .wrapper{padding: 0 15px;}
+        h1{ font-size: 2.0em;}
+        h2{font-size: 1.4em; }
+    }
+  </style>
+</head>
+
+<body>
+    <div class="hero-img-background">
+    </div>
+    <section class="container">
+        <div class="wrapper">
+            <figure class="svg-logo-realtor">
+                <img src="/images/rdc-logo.svg", alt="Realtor.com" >
+            </figure>
+            <h1> We'll be back up momentarily.</h1>
+            <h2> Sorry for the inconvenience. Please try again later. </h2>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: b235c21a-6bdd-4f71-874a-6a34562703f4
+Etag: W/"177a143aad341091ce7214c923b7d1fa"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.632626
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:40:39 GMT
+Set-Cookie: threshold_value=69; path=/; expires=Sat, 21 Apr 2018 10:40:38 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:40:38 -0000
+Set-Cookie: __vst=f6676633-fd36-4880-b379-587b79c249e0; path=/; expires=Sun, 21 Feb 2038 10:40:38 -0000
+Set-Cookie: __ssn=222dada3-ae13-41d8-8837-ac88ab691306; path=/
+Set-Cookie: __ssnstarttime=1519209638; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: criteria=locSlug%3DDiamond-Beach_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=eXFRc25zcUdxMkFhU3IyZk0rZEtxZDFZUXFFZ0JWSS93Sy9iUXkvdmM1bktKYnZhR3F1MDFoMXh5aXc2dVpFZGhiZy8xUzJxN3FCRmR3Q2ExTXphOFM4YlNxSzQ3dHkrZGY2bi95d0hNMXZGM3pldDc5a04zMWYvYmNJelY3MHUrUS85clBmZDZhOEJBWUhMVGZGNkx3PT0tLTBMSmRLQlVSejgxclg4ZTRCcEtlN3c9PQ%3D%3D--e54b90da1cd3d70db1ec7789efb8680533660166; path=/; HttpOnly

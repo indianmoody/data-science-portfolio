@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: fd199edb-1fb3-4e7d-aac7-d6c92b8659a1
+X-Runtime: 0.482663
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 06:31:26 GMT
+Set-Cookie: threshold_value=55; path=/; expires=Sun, 22 Apr 2018 06:31:25 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 06:31:25 -0000
+Set-Cookie: __vst=51a87324-21ea-41c3-ba17-8ccb71f8c244; path=/; expires=Mon, 22 Feb 2038 06:31:25 -0000
+Set-Cookie: __ssn=78e105b8-e7ad-47b5-bd1b-3e6ebbc800d5; path=/
+Set-Cookie: __ssnstarttime=1519281085; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DNewark_NJ%26lo%3DNewark%26st%3Dcity%2Cgs%3DEssex-County_NJ%26lo%3DEssex%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DNewark%2C+NJ%26locSlug%3DNewark_NJ%26lat%3D40.721987%26long%3D-74.172652%26status%3D1%26pg%3D9%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DNewark%26state_id%3DNJ%26county_fips%3D34013%26county_fips_multi%3D34013-34039-34017; domain=realtor.com; path=/
+Set-Cookie: srchID=b7e8869d0aa64e73b64dc8aa827de940; path=/
+Set-Cookie: _rdc-next_session=TWcxUVd6RDh3REV4ZVZjYVZISWJSYVdZSHplLzkwamRVelRXWEhRMnNnUEpDS0NOS0RYUlRnVldobXI3VXdSMFlVVm5aRGR4RGNucll2Ynp1bnd6eEVWeXdVeEV1dGdWK0QzRGhqOU1Ka1cwYmdRVXhjYUMrQzJYVUdCS0FrZzJjaC9TcDMxMHowbzdva1RrQTIvdmNRPT0tLXNlbnoxSnRRblhWR2dGN1FBWDZ6TVE9PQ%3D%3D--8b62c891edb300436386effbb0a0348c40821bdd; path=/; HttpOnly

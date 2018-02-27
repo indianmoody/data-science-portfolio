@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: cfb57027-9102-45c4-8665-9dcaf831e580
+X-Runtime: 0.544118
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 09:05:34 GMT
+Set-Cookie: threshold_value=25; path=/; expires=Sun, 22 Apr 2018 09:05:33 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 09:05:33 -0000
+Set-Cookie: __vst=ece8744f-bebf-4929-aa73-f85439205fbc; path=/; expires=Mon, 22 Feb 2038 09:05:33 -0000
+Set-Cookie: __ssn=76697c33-8687-4d70-986b-0af27a662971; path=/
+Set-Cookie: __ssnstarttime=1519290333; path=/
+Set-Cookie: basecamp=true; path=/
+Set-Cookie: header_slugs=gs%3DWall-Township_NJ%26lo%3DWall%2BTownship%26st%3Dcity%2Cgs%3DMonmouth-County_NJ%26lo%3DMonmouth%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DWall+Township%2C+NJ%26locSlug%3DWall-Township_NJ%26lat%3D40.167002%26long%3D-74.140279%26status%3D1%26pg%3D11%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DWall+Township%26state_id%3DNJ%26county_fips%3D34025%26county_fips_multi%3D34025-34029; domain=realtor.com; path=/
+Set-Cookie: srchID=a6a52c4094594ffaa17dfdf632ae9b5e; path=/
+Set-Cookie: _rdc-next_session=NjVDR0JqNXJJeWJ0Q3JPd3JYU05JM2phQnNQby9mdkZibmdWY0p2M2d0VHp2aStQZlh4RjlPMzNHdWNjQzY5dk9MWjlLNUFKSzdSOURTWG9YaGdubGN0Y1NJdlVoZGFYb2ZvSWlVUEo1SlgybkVoOUFHSmptV3pjbTdEaUlCQUdUcUpRdVVGcmtKRDU5T2ZIaDZEb2FnPT0tLWFuUTJjbG5OMksrVVBlNk1vSlhMTUE9PQ%3D%3D--b8286f4daf0a6131445712ba5ee5890606af16c5; path=/; HttpOnly

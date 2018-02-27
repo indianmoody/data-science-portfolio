@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: ed8620de-6b7e-477c-83fb-b25ef85f863d
+X-Runtime: 0.617759
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Wed, 21 Feb 2018 16:47:53 GMT
+Set-Cookie: threshold_value=22; path=/; expires=Sat, 21 Apr 2018 16:47:52 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 16:47:52 -0000
+Set-Cookie: __vst=0adbb8aa-b23a-4c30-bf86-5713e7b86de9; path=/; expires=Sun, 21 Feb 2038 16:47:52 -0000
+Set-Cookie: __ssn=0a71aad1-d343-4eb6-8501-3a82e53d32f2; path=/
+Set-Cookie: __ssnstarttime=1519231672; path=/
+Set-Cookie: basecamp=true; path=/
+Set-Cookie: header_slugs=gs%3DStafford-Township_NJ%26lo%3DStafford%2BTownship%26st%3Dcity%2Cgs%3DOcean-County_NJ%26lo%3DOcean%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DStafford+Township%2C+NJ%26locSlug%3DStafford-Township_NJ%26lat%3D39.736424%26long%3D-74.317106%26status%3D1%26pg%3D4%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DStafford+Township%26state_id%3DNJ%26county_fips%3D34029%26county_fips_multi%3D34029-34005; domain=realtor.com; path=/
+Set-Cookie: srchID=1cc3091f4fd94e3c9ae0bf8e8172988a; path=/
+Set-Cookie: _rdc-next_session=NnZDSU9ReFgrMmhDNThKc3VkVlQ4blpmRnFmQ2Z3TW1ESlc5Z1dWb1N6NzdSMmpYNVdGcHMyYWlVcW9pbXRZenNBMFM2azBRTWw2RUFjeDFuWjZhNEtqZDZxVk04bmJKdkt2MStRbjNSYXkxTHUxRk5ZQUNHOVcwNXoyaHhXYTRVUDExTm9jMWpxZ0FySGJ5ZVo1UHFRPT0tLW1qSDlkZU16SmI4SWFhaWZZUnFVQ2c9PQ%3D%3D--b9732cfa5e07dd77d34be015a6308a8e75531b02; path=/; HttpOnly

@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: a9a6cb51-f877-4c14-bd07-add12c499a17
+Etag: W/"aba8fb25e84e57bf5c090013ec4ba81e"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.598719
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:38:47 GMT
+Set-Cookie: threshold_value=6; path=/; expires=Sat, 21 Apr 2018 10:38:47 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:38:47 -0000
+Set-Cookie: __vst=b05f748a-1e38-42f8-94e2-c31b0810344a; path=/; expires=Sun, 21 Feb 2038 10:38:47 -0000
+Set-Cookie: __ssn=bdadfae1-eace-4180-a1d5-00f9c1719c72; path=/
+Set-Cookie: __ssnstarttime=1519209527; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: criteria=locSlug%3DWall_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=YjRHeEN6eGdWUjJ1ZVM1RlBLZXJzayt6djFnK0ZHcGhERWRnMUVPUG1iemFaalQ4OHBjd2JHSnZLNWdIcjdyUzByOUlySGc5WC8yOUVLR05HSmkrRUUzN1ozZ0dNRFFpRW1GY2xraCt4MXJpWlhWUDhKZHpjS3N0UGtCNkJqTVpBRk1Rd2tsVVhYYUdtWHdncnpoZ1BBPT0tLStRcTgzaFlMWjVLd1JMNEZuMXJkWWc9PQ%3D%3D--8a7782f235bafff3ed1f71b410aa602869b5cfcc; path=/; HttpOnly

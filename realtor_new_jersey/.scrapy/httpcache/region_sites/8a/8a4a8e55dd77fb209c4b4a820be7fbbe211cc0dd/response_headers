@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 594ef7d8-c796-43e4-9b60-855046b6bad5
+Etag: W/"c5aa2168ad710041be41df848e3b070a"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.547207
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:37:43 GMT
+Set-Cookie: threshold_value=65; path=/; expires=Sat, 21 Apr 2018 10:37:42 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:37:42 -0000
+Set-Cookie: __vst=9e3fb016-af2d-4105-9f82-26cc7f9368ce; path=/; expires=Sun, 21 Feb 2038 10:37:42 -0000
+Set-Cookie: __ssn=9b1c4315-3178-4768-afde-5c15affb2fd6; path=/
+Set-Cookie: __ssnstarttime=1519209462; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: criteria=locSlug%3DStafford-Township_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=VWxGVGNQU3NrdGNaQzJneUNERHlRck0yUmVFRmgyRXRvaWZrQWpoY3NsSUJpOTdtdGpTTWNzbGtDRWJsV0c1bkJGMnpYWHljRW1WK1pjUkhvUnVwSk4vRk5PUXVHZm1YTkNhTnZCdzJaL3hPRE9oOW8yMHBTRUxYazVaSHp2ZmNXQzZKZCsrTFA2U2g5NHhYSHlMWnZ3PT0tLTMzU3oxV2Z3bmRQWHEwMnRuSS9VM3c9PQ%3D%3D--4f2f006c9898cf63ac8fc79150f9309a55a48396; path=/; HttpOnly

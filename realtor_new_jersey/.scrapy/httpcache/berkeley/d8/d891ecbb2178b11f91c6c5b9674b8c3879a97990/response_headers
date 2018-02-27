@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 4004ffc4-2149-4557-865c-318e42c85046
+X-Runtime: 0.596385
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 09:10:58 GMT
+Set-Cookie: threshold_value=18; path=/; expires=Sun, 22 Apr 2018 09:10:57 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 09:10:57 -0000
+Set-Cookie: __vst=6afcb9f2-0751-4b29-a0f4-41ef56fd116a; path=/; expires=Mon, 22 Feb 2038 09:10:57 -0000
+Set-Cookie: __ssn=0cd2b98e-2cd1-4496-af85-ad3c0da285eb; path=/
+Set-Cookie: __ssnstarttime=1519290657; path=/
+Set-Cookie: basecamp=true; path=/
+Set-Cookie: header_slugs=gs%3DWest-Deptford_NJ%26lo%3DWest%2BDeptford%26st%3Dcity%2Cgs%3DGloucester-County_NJ%26lo%3DGloucester%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DWest+Deptford%2C+NJ%26locSlug%3DWest-Deptford_NJ%26lat%3D39.83496%26long%3D-75.166669%26status%3D1%26pg%3D2%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DWest+Deptford%26state_id%3DNJ%26county_fips%3D34015%26county_fips_multi%3D34015-34007; domain=realtor.com; path=/
+Set-Cookie: srchID=e1b4e83ad78b423aadf6ffff993a8e4a; path=/
+Set-Cookie: _rdc-next_session=NUtiUWpnM3Z2QjdpRWU3OTIrOElQNGNTRHpCV1YrRHdmQUVRREQrYjFTOGdYZFpCczgzcDVVMlA3UlFZV25KSHpFN2Z5cW0vQ2c3czFncjRnWmRwU1k0cy9nbFAvMU9RTHZvV1ljRHB0aDRhV2hMd1N1RElwTWRTMW5NK0ZWQVVHam8yeW80Q1BzV1BBdVpCS2VhVVZ3PT0tLTczRDJwRW9VbnFMRjA2NUprQ3JJOUE9PQ%3D%3D--4c506a4223249f6a3837b66e061feef57e5f837e; path=/; HttpOnly

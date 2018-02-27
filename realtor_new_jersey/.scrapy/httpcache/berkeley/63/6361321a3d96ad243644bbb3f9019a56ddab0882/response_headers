@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: ccb780b9-8b05-450d-b32c-3b2bcec9912e
+X-Runtime: 0.455937
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Wed, 21 Feb 2018 14:48:54 GMT
+Set-Cookie: threshold_value=44; path=/; expires=Sat, 21 Apr 2018 14:48:53 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 14:48:53 -0000
+Set-Cookie: __vst=4d7d3fb4-b162-4cf4-ab43-90b8fac14b70; path=/; expires=Sun, 21 Feb 2038 14:48:53 -0000
+Set-Cookie: __ssn=c6c5b68d-d3e5-4966-a45f-fca1b5b87f6a; path=/
+Set-Cookie: __ssnstarttime=1519224533; path=/
+Set-Cookie: basecamp=true; path=/
+Set-Cookie: header_slugs=gs%3DHamilton_NJ%26lo%3DHamilton%26st%3Dcity%2Cgs%3DMercer-County_NJ%26lo%3DMercer%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DHamilton%2C+NJ%26locSlug%3DHamilton_NJ%26lat%3D40.208508%26long%3D-74.655117%26status%3D1%26pg%3D12%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DHamilton%26state_id%3DNJ%26county_fips%3D34021%26county_fips_multi%3D34021-34025-34005; domain=realtor.com; path=/
+Set-Cookie: srchID=21d6d505704f43eca546521dee14ce7f; path=/
+Set-Cookie: _rdc-next_session=d0VkS2l0S1U2T0kxUnNuMzZqYk00MnpQK0d2UHZMSndvbktkekd4TjVEN21WSTVOeit2THRCMTZMY3FqNGorTXNjWmZiV3VBNGtuWkRLOEhUZnpIRGlVSDZVVklkZTZoVjFRZEE4TVkvak1rdW9JSE40WENMWElmd1NIbnhQNUd1cXFORjBVRmZoZklPWHdlOEdHZHdnPT0tLTZjb2ZpL2txZ3d0UFErSEk1Q2lsK3c9PQ%3D%3D--65842300008cd2766c51029bc413ff23eae24698; path=/; HttpOnly

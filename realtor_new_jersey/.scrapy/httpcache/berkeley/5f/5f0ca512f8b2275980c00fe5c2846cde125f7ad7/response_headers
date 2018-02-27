@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: f2c45692-62d7-4505-be50-505241924ce3
+X-Runtime: 0.474040
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 06:24:18 GMT
+Set-Cookie: threshold_value=61; path=/; expires=Sun, 22 Apr 2018 06:24:18 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 06:24:18 -0000
+Set-Cookie: __vst=e77da4dc-bf33-418e-9fc0-8d68683fd544; path=/; expires=Mon, 22 Feb 2038 06:24:18 -0000
+Set-Cookie: __ssn=2eafc97b-eda7-41f0-a2d4-34a3d38279de; path=/
+Set-Cookie: __ssnstarttime=1519280658; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DManchester-Township_NJ%26lo%3DManchester%2BTownship%26st%3Dcity%2Cgs%3DOcean-County_NJ%26lo%3DOcean%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DManchester+Township%2C+NJ%26locSlug%3DManchester-Township_NJ%26lat%3D39.966406%26long%3D-74.304843%26status%3D1%26pg%3D26%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DManchester+Township%26state_id%3DNJ%26county_fips%3D34029%26county_fips_multi%3D34029-34005; domain=realtor.com; path=/
+Set-Cookie: srchID=67c6aa11114b46568cc965b121f3b78c; path=/
+Set-Cookie: _rdc-next_session=TnRzdzg4QWV6VnNBWXV4TDhHYnVPZ3ZNdy9Tdy9URzR4VDRqb2JhdTFDN21HTTIxSEtHNjdJbEwwRmVHelV4NmhCc3I4WXI4WkhFUHBpdkZvTjdHeFhmcUxHS1FLdDhNTG9scGpRRU00SWIwOTRvZjdpZzZpSVo0Q0lIMlo3MHp1M1FBcjRoL0JZYlZVNmpXdUdJMDF3PT0tLUE2anlWSGdnYjNOMms3MXU1SWNIWWc9PQ%3D%3D--8041e80aa14f4318d3594b6b94964fc6fd99b129; path=/; HttpOnly

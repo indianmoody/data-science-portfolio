@@ -1,0 +1,725 @@
+price,beds,baths,area_sqft,car_space_garage,street,city,district,postal,broker
+"$555,000",3,2,,2,777 North Dr,Brick,NJ,08724,RIVEREDGE REALTY
+"$749,000",4,2,"1,400",,315 4th Ave,Belmar,NJ,07719,Century 21 Action Plus Realty
+"$359,000",3,2,,1,400 Deuce Dr,Wall,NJ,07719,D'AMICO & MCCONNELL REALTORS
+"$315,990",3,2,"1,256",1,32 Virginia Dr,Howell,NJ,07731,CENTURY 21 Lawrence Realty
+"$594,900",3,3+,"2,748",2,6 Augusta Ct,Neptune Township,NJ,07753,Raritan Bay Realty
+"$459,950",4,2+,"2,431",2,288 Van Ave,Brick,NJ,08724,Weichert Realtors
+"$675,000",4,4,"3,792",3,124 Five Points Rd,Howell,NJ,07731,Keller Williams Realty - Monmouth/Ocean
+"$595,000",2,2+,"2,313",1,3 Marina Ct,Belmar,NJ,07719,Coldwell Banker Residential Brokerage - Rumson/Fair Haven Office
+"$345,000",3,2,"1,658",1,19 Kensington Dr,Howell,NJ,07731,Realmart Realty - Flat Fee to 1% Agent Assist Service
+"$285,000",4,2,"1,659",,255 Morris Ave,Brick,NJ,08724,"RE/MAX REAL ESTATE, LTD."
+"$499,000",,,,,Alexander Ave,Howell,NJ,07731,Keller Williams Realty Central Monmouth
+"$499,000",,,,,1 Alexander Ave,Howell,NJ,07731,Keller Williams Realty Central Monmouth
+"$519,000",5,3,,1,334 Alexander Ave,Howell,NJ,07731,C21/ VALUE PLUS REALTY
+"$499,999",3,2+,"2,200",2,105 Prospect Ave,Neptune Township,NJ,07753,"Diane Turton, Realtors - Point Pleasant Office"
+"$292,900",3,1,,1,77 Western Dr,Howell,NJ,07731,Re/Max Real Estate Ltd.
+"$469,900",3,2+,"1,910",,325 Highland Ave,Neptune Township,NJ,07753,Ward Wight Sotheby's International Realty
+"$999,000",4,3+,"4,460",3,2121 Friar Ct,Wall,NJ,07719,Gloria Nilson & Co. Real Estate
+"$380,000",4,2,,,518 Woodmere Ave,Neptune Township,NJ,07753,Oliver Brothers
+"$409,900",4,2+,,2,41 Sami Dr,Howell,NJ,07731,RE/MAX Homeland REALTORS
+"$249,000",2,2,"1,498",1,9 Olympus Way,Brick,NJ,08724,Coldwell Banker Flanagan Realty
+"$599,900",3,2+,,2,1630 Marconi Rd,Wall,NJ,07719,Re/Max Real Estate Ltd.
+"$249,999",3,1,,1,145 Coolidge Dr,Brick,NJ,08724,KELLER WILLIAMS REALTY
+"$309,000",3,1,"1,651",,2811 Hayes St,Wall,NJ,07719,Gloria Nilson & Co. Real Estate
+"$149,900",,,,,391 Conover St,Howell,NJ,07731,Birchler Realtors
+"$239,000",3,2,,1,505 Oak St,Brick,NJ,08724,"RE/MAX Bay Point, REALTORS"
+"$320,000",3,1+,,,130 W 3rd St,Howell,NJ,07731,Four Points Realty
+"$299,000",3,1+,"1,674",1,445 19th Ave,Brick,NJ,08724,"Diane Turton, Realtors - Point Pleasant Office"
+"$339,000",3,2,,2,127 S Main St,Farmingdale,NJ,07727,RE/MAX REALTY 9
+"$489,900",3,2+,"2,299",1,165 Tennis Ct,Wall,NJ,07719,D'AMICO & MCCONNELL REALTORS
+"$289,000",4,2,,1,25 Manor Dr,Neptune Township,NJ,07753,The Gallery Residential Brokerage
+"$340,000",4,2,"1,576",1,754 Maple Ave,Brick,NJ,08724,Keller Williams Realty Ocean Point
+"$275,900",3,1,"1,149",,453 Shady Ln,Howell,NJ,07731,"Weichert, Realtors - Middletown"
+"$340,000",3,2,,1,1808 Central Ave,Wall,NJ,07719,The Gallery Residential Brokerage
+"$348,500",3,2+,,1,784 Constitution Dr,Brick,NJ,08724,"CENTURY 21 Herbertsville Real Estate Company, Inc"
+"$199,900",3,1,"1,167",,504 Georgia Tavern Rd,Howell,NJ,07731,Keller Williams Realty - Monmouth/Ocean
+"$149,900",2,1+,,,128 Northrup Dr,Brick,NJ,08724,Four Points Realty
+"$1,285,000",,,,,2012 Ocean Ave,Belmar,NJ,07719,RE/MAX Paradigm Realty Group
+"$278,000",3,1,,,104 Hemlock Dr,Neptune Township,NJ,07753,Coldwell Banker Residential Brokerage - Wall Township Office
+"$419,000",3,2+,,2,4 Rainbow Dr,Howell,NJ,07731,"RE/MAX REAL ESTATE, LTD."
+"$699,900",3,3,"1,622",,1402 C St,Belmar,NJ,07719,CENTURY 21 Coastal Realtors
+"$349,900",2,1,,,1830 Laurel Ter,Lake Como,NJ,07719,Ward Wight Sotheby's International Realty
+"$319,000",3,2,,1,10 Jumping Bush Way,Howell,NJ,07731,"Weichert, Realtors - Howell"
+"$234,000",3,1,,1,106 Malmy Dr,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$269,900",3,2+,"1,640",1,36 Saxton Rd,Farmingdale,NJ,07727,REMAX GATEWAY
+"$359,000",3,2+,,2,5 Blueberry Path,Howell,NJ,07731,Realmart Realty - Flat Fee to 1% Agent Assist Service
+"$399,000",4,2+,,,12 Jeanne Dr,Neptune Township,NJ,07753,Better Homes and Gardens Real Estate Murphy & Co.
+"$220,000",3,2,"1,358",2,603 Highland Ave,Neptune Township,NJ,07753,"Diane Turton, Realtors - Point Pleasant Office"
+"$284,900",3,2+,"1,521",1,3 Woodchuck Ct,Tinton Falls,NJ,07753,Realmart Realty - Flat Fee to 1% Agent Assist Service
+"$314,500",4,2+,,2,12 Tinker Ct,Howell,NJ,07731,Iinj Realty
+"$159,900",2,1,,1,50 Watkins Rd,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$287,000",2,1+,"1,429",1,92 Sleepy Hollow Dr,Brick,NJ,08724,CENTURY 21 Solid Gold Realty Inc.
+"$984,997",4,4+,"5,691",3,1 Natures Dr,Farmingdale,NJ,07727,Encore Real Estate
+"$410,000",4,2+,"2,025",1,610 Marion St,Neptune Township,NJ,07753,Oliver Brothers
+"$536,900",4,2+,,2,28 Callaghan Rd,Brick,NJ,08724,"Diane Turton, Realtors - Bay Head"
+"$875,000",5,4,"3,684",2,1711 River Rd,Belmar,NJ,07719,"Weichert, Realtors - Holmdel"
+"$299,000",5,2,"1,920",,749 Princeton Ave,Brick,NJ,08724,Keller Williams Shore Properties
+"$399,000",5,4,"2,592",1,1118 Sally Ike Rd,Brick,NJ,08724,Berkshire Hathaway Home Services Signature Properties
+"$649,900",4,2+,"3,098",2,2393 Orchard Crest Blvd,Wall Township,NJ,08736,"RE/MAX REAL ESTATE, LTD."
+"$624,900",5,2+,"2,384",,1901 Wall Church Rd,Wall,NJ,07719,Oliver Brothers
+"$325,000",3,2,,1,12 Toomin Dr,Neptune Township,NJ,07753,Oliver Brothers
+"$325,500",3,1,"1,076",1,1005 Lakewood Farmingdale Rd,Howell,NJ,07731,Keypoint Realty Llc
+"$329,999",2,2+,"1,424",1,99 Steiner Ave Unit 24,Neptune City,NJ,07753,Gloria Nilson & Co. Real Estate
+"$262,000",2,2+,"1,854",,62 Winged Foot Ct Unit 1000,Howell,NJ,07731,Redfin
+"$384,999",3,2+,,1,53 Racquet Rd,Wall,NJ,07719,KELLER WILLIAMS REALTY
+"$234,500",4,1,,,114 Harding Dr,Brick,NJ,08724,Re/Max Real Estate Ltd.
+"$282,500",3,1+,"1,342",,43 Alan Ter,Howell,NJ,07731,"Weichert, Realtors - Howell"
+"$419,000",4,3+,,1,1 Muir Ln,Howell,NJ,07731,Imperial Real Estate Agency
+"$299,000",3,1,952,,202 Cliffwood Dr,Neptune Township,NJ,07753,Oliver Brothers
+"$259,900",3,2+,,2,24 Spruce Hollow Dr,Howell,NJ,07731,RE/MAX ACROSS TOWN REALTY
+"$99,800",2,1,800,,132 W 2nd St,Howell,NJ,07731,KELLER WILLIAMS REALTY
+"$399,000",,,,,337 Fisher Ave,Neptune Township,NJ,07753,Berkshire Hathaway Homeservice Signature Properties
+"$795,000",,,,,1126 Corlies Ave,Neptune Township,NJ,07753,Berkshire Hathaway Homeservice Signature Properties
+"$365,000",3,2+,,,27 Gettysburg Dr,Howell,NJ,07731,Keller Williams Realty - Monmouth/Ocean
+"$269,900",2,2+,"1,900",,163 Dorado Beach Ct,Howell,NJ,07731,Gloria Nilson & Company Real Estate
+"$429,900",4,4,,2,8 Beacon Dr,Howell,NJ,07731,Realmart Realty - Flat Fee to 1% Agent Assist Service
+"$199,500",4,2,"1,736",,34 Belle Pl,Neptune City,NJ,07753,"Weichert, Realtors - Old Bridge"
+"$290,000",4,1,"1,408",1,17 Stratford Dr,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$175,000",2,2,,,464 Magnolia Ct,Howell,NJ,07731,Keller Williams Realty - Monmouth/Ocean
+"$269,900",3,1,,,208 Hemlock Dr,Neptune Township,NJ,07753,Oliver Brothers
+"$249,000",2,2+,"1,221",,9 Jodhpur Ct,Tinton Falls,NJ,07753,Heritage House Sotheby's International Realty
+"$345,000",4,2+,,1,102 Pine Needle St,Howell,NJ,07731,Ward Wight Sotheby's International Realty
+"$519,000",4,2+,,2,3410 Quaker St,Wall,NJ,07719,D'AMICO & MCCONNELL REALTORS
+"$344,000",4,2,"2,025",2,7 Sunset Dr,Howell,NJ,07731,RE/MAX REALTY 9
+"$299,000",4,2,"1,859",1,144 Princeton Ave,Brick,NJ,08724,D'Amico & McConnell Realtors
+"$349,900",3,1+,,2,3 Aspen Ln,Howell,NJ,07731,MARIAN J. FALLON REALTY
+"$285,000",3,2,"1,415",1,224 Sunset Ln,Howell,NJ,07731,"Weichert, Realtors - Forked River"
+"$279,000",3,1,,,123 Meridian Dr,Brick,NJ,08724,"Diane Turton, Realtors - Spring Lake Office"
+"$324,900",4,2+,"2,000",2,126 Walnut St,Neptune Township,NJ,07753,RE/MAX at Barnegat Bay
+"$269,000",3,2+,"1,576",,515 Laurelwood Ct,Howell,NJ,07731,ERA Central Realty Group
+"$299,900",2,1+,,,360 Newark Dr,Brick,NJ,08724,"Weichert, Realtors - Forked River"
+"$374,900",4,2+,"2,368",2,45 Snowdrift Ln,Howell,NJ,07731,RE/MAX CHAMPIONS
+"$444,990",3,3,"2,662",2,Monterey Loft,Farmingdale,NJ,07727,K. Hovnanian's Four Seasons
+"$269,900",3,2+,,,175 Dorado Beach Ct Unit 1000,Howell,NJ,07731,CENTURY 21 ACTION PLUS REALTY
+"$369,000",2,2,"1,100",,1713 Main St Unit 202,Lake Como,NJ,07719,Re/Max Gateway
+"$319,500",3,1+,,1,696 Aldrich Rd,Howell,NJ,07731,RE/MAX SELECT
+"$179,900",2,2,"1,300",,98 Belinda Ct,Brick,NJ,08724,Wayne Basilotto
+"$225,000",3,1+,,,98 Stephan Rd,Brick,NJ,08724,"Weichert, Realtors - Brick"
+"$349,500",2,2,,,1713 Main St Unit 301,Lake Como,NJ,07719,"Weichert, Realtors - Sea Girt"
+"$187,200",4,2,"1,350",1,1698 Forge Pond Rd,Brick,NJ,08724,RE/MAX At Barnegat Bay
+"$169,000",2,1+,,,145 Greenwood Loop Rd,Brick,NJ,08724,KELLER WILLIAMS REALTY
+"$1,735,000",4,4+,"5,300",2,37 Robbins St,Brick,NJ,08724,BHHS New Jersey Properties Manalapan
+"$342,900",3,1+,"1,400",2,8 Hampton Rd,Howell,NJ,07731,H & R Realty Inc.
+"$349,900",4,2+,,2,71 Newbury Rd,Howell,NJ,07731,Bay Front Realty
+"$176,900",2,1+,"1,144",,644 Denise Ct,Brick,NJ,08724,C21/ VALUE PLUS REALTY
+"$249,900",3,2+,"1,567",1,1403 Gardenia Dr,Brick,NJ,08724,Exit All Around Real Estate
+"$274,900",2,2,"1,607",1,5 Brant Dr,Brick,NJ,08724,"RE/MAX Bay Point, REALTORS"
+"$425,000",4,2+,,1,28 Appletree Rd,Howell,NJ,07731,Re/Max Real Estate Ltd.
+"$299,900",4,1,"1,152",,142 Brighton Ave,Neptune Township,NJ,07753,Ward Wight Sotheby's International Realty
+"$179,900",2,1+,,,1220 Sandra Pl,Brick,NJ,08724,Re/Max Real Estate Ltd.
+"$275,000",4,2,,2,106 Elm Dr,Neptune Township,NJ,07753,WOODWARD REALTY GROUP
+"$379,900",3,2+,,2,1437 Cedar Ave,Brick,NJ,08724,Premier Coastal Properties Llc
+"$436,990",2,2,"2,422",2,Anegada II Loft,Farmingdale,NJ,07727,K. Hovnanian's Four Seasons
+"$310,000",3,1,,1,5099 Drift Rd,Wall,NJ,07719,Gloria Nilson & Co. Real Estate
+"$135,000",2,1+,"1,346",,136 Sawmill Rd Unit 618,Brick,NJ,08724,Keller Williams Realty - Monmouth/Ocean
+"$210,000",3,1,900,,730 Old Burnt Tavern Rd,Brick,NJ,08724,"Hollston Realty Group, Llc"
+"$581,900",4,3+,"4,015",3,3408 Allaire Rd,Wall,NJ,07719,"RE/MAX REAL ESTATE, LTD."
+"$109,900",2,2,"1,026",,2107 Bradley Ave,Neptune Township,NJ,07753,Veltri & Realtors Corporate Office
+"$98,000",2,1,,,236 Sawmill Rd Unit B,Brick,NJ,08724,"Weichert, Realtors - Jackson"
+"$875,000",4,3+,"5,083",2,1211 Gully Rd,Wall,NJ,07753,RE/MAX Paradigm Realty Group
+"$770,000",3,3+,"3,235",3,2409 Xanadu Ln,Wall,NJ,07719,CHRIS SMITH REALTY
+"$499,900",5,2+,"2,937",2,524 Alexander Ave,Brick,NJ,08724,Crossroads Realty - Brick
+"$439,900",2,2,"1,540",1,2323 Xanadu Ln,Wall,NJ,07719,"Diane Turton, Realtors - Sea Girt Office"
+"$525,000",3,2,,2,517 15th Ave,Belmar,NJ,07719,Keller Williams Shore Properties
+"$150,000",2,1+,"1,088",,1118 Sawmill Rd,Brick,NJ,08724,Keller Williams Realty Services
+"$432,990",3,3,"2,503",2,Grenada Loft,Farmingdale,NJ,07727,K. Hovnanian's Four Seasons
+"$109,900",,,,,Birch Dr,Farmingdale,NJ,07727,Coldwell Banker Residential Brokerage - Howell Office
+"$485,000",4,2+,"2,724",2,387 N Lake Dr,Brick,NJ,08724,"Diane Turton, Realtors - Point Pleasant Office"
+"$314,900",2,1,730,,514 18th Ave,Lake Como,NJ,07719,Jack Green Realty
+"$335,000",3,2,"1,355",1,2 Stratton Dr,Howell,NJ,07731,VRI Homes Marlboro
+"$344,500",4,1+,,,423 Driscol Dr,Brick,NJ,08724,"CENTURY 21 Herbertsville Real Estate Company, Inc"
+"$85,900",3,2,,,24 Ruffian Way,Howell,NJ,07731,BHHS New Jersey Properties Manalapan
+"$149,900",2,1+,,,964 Sids Ct,Brick,NJ,08724,Four Points Realty
+"$170,000",2,1+,"1,200",,1004 Tammy Ct,Brick,NJ,08724,"Weichert, Realtors - Brick"
+"$249,900",4,3,,,259 Old Tavern Rd,Howell,NJ,07731,Iinj Realty
+"$369,500",5,2+,"2,458",,611 Thoroughfare Rd,Brick,NJ,08724,Keller Williams Realty East Monmouth
+"$409,990",2,2,"1,993",2,Barbuda,Farmingdale,NJ,07727,K. Hovnanian's Four Seasons
+"$400,990",2,2,"1,873",2,Monterey II,Farmingdale,NJ,07727,K. Hovnanian's Four Seasons
+"$404,990",2,2,"1,833",2,Anegada II,Farmingdale,NJ,07727,K. Hovnanian's Four Seasons
+"$429,895",6,3+,"2,450",1,99 Taylor Blvd,Brick,NJ,08724,"Diane Turton, Realtors - Toms River Office"
+"$679,000",5,3+,"4,217",1,1 Island Ct,Brick,NJ,08724,Keller Williams Realty East Monmouth
+"$307,500",3,1+,,2,419 Maple Ave,Neptune Township,NJ,07753,Keller Williams Realty West Monmouth
+"$560,000",2,2,"1,992",2,8 Tall Pines Dr,Neptune Township,NJ,07753,VRI Homes Marlboro
+"$134,900",3,2,,,68 Larrabee Blvd,Howell,NJ,07731,Keller Williams Realty - Monmouth/Ocean
+"$176,000",3,1,"1,295",2,857 Hulses Corner Rd,Howell,NJ,07731,C21/ VALUE PLUS REALTY
+"$115,500",1,2,888,1,518 Laurel Brook Dr Apt B,Brick,NJ,08724,Crossroads Realty - Berkeley
+"$475,000",4,2+,"2,200",2,2 Country Ln,Howell,NJ,07731,Crossroads Realty - Toms River West
+"$320,000",3,1+,"1,572",1,27 Standish Dr,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Spring Lake Office
+"$349,000",3,2+,,2,23 Plymouth Dr,Howell,NJ,07731,Encore Real Estate
+"$349,000",4,2,"2,030",1,43 Crest Dr,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$495,000",3,2+,,2,181 S Manor Ct Unit 1810,Wall,NJ,07719,"Diane Turton, Realtors - Spring Lake Office"
+"$397,990",2,2,"1,747",2,Grenada,Farmingdale,NJ,07727,K. Hovnanian's Four Seasons
+"$369,000",4,2,,,2532 Belmar Blvd,Belmar,NJ,07719,KELLER WILLIAMS REALTY - West Monmouth
+"$225,000",3,1,,1,115 Rainbow Dr,Brick,NJ,08724,"Weichert, Realtors - Brick"
+"$285,000",2,2,"1,351",2,71 Maypink Ln,Howell,NJ,07731,"Boutique Realty, Llc"
+"$240,000",2,2,"1,300",1,7 Heywood Ct,Brick,NJ,08724,Keller Williams Realty Ocean Point
+"$269,900",3,1+,"1,313",,29 Roberts Dr,Neptune Township,NJ,07753,Striker Realty
+"$399,000",3,1,"1,408",,1121 18th Ave,Wall,NJ,07719,"FOXTONS, Inc"
+"$349,000",4,2+,"1,822",2,13 Feathertree Ct,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Howell Office
+"$264,000",3,2+,"1,672",1,255 Moses Milch Dr,Howell,NJ,07731,Keller Williams Realty - Monmouth/Ocean
+"$109,900",3,1,928,,130 Leonard Ave,Neptune Township,NJ,07753,Pittenger  Realty
+"$129,900",,,,,304 Michelle Ct,Neptune Township,NJ,07753,Veltri & Realtors Corporate Office
+"$399,987",4,2,"2,000",1,19 Salem Hill Rd,Howell,NJ,07731,BHHS New Jersey Properties Manalapan
+"$535,000",3,2,,2,182 Casino Dr,Farmingdale,NJ,07727,ERA Central Realty Group
+"$929,999",3,3+,,2,612 North Blvd,Lake Como,NJ,07719,D'AMICO & MCCONNELL REALTORS
+"$410,000",4,2+,"1,898",2,29 Melissa Ln,Howell,NJ,07731,RE/MAX REALTY 9
+"$369,000",3,2+,,2,57 Sweetbriar Trl,Howell,NJ,07731,Century 21 Action Plus Realty
+"$389,900",3,2+,,2,11 Sweet Gum Rd,Howell,NJ,07731,Keller Williams Realty - Monmouth/Ocean
+"$439,000",4,3,,1,149 Berkeley Dr,Brick,NJ,08724,Re/Max Real Estate Ltd.
+"$168,888",2,1+,"1,224",,1024 Sawmill Rd,Brick,NJ,08724,"CENTURY 21 Ailor, LLC"
+"$279,900",3,1,"1,125",,392 5th Ave,Brick,NJ,08724,Coldwell Banker Flanagan Rlty - Tr
+"$2,699,000",4,4+,"5,514",3,487 Princeton Ave,Brick,NJ,08724,Keller Williams Shore Properties
+"$450,000",3,1+,,1,3 Almar Ave,Tinton Falls,NJ,07753,Keller Williams Realty - Monmouth/Ocean
+"$485,000",5,2,"1,512",,723 17th Ave,Lake Como,NJ,07719,Crossroads Realty - Executive Office
+"$399,000",3,1,,,1810 Bradley Ter,Lake Como,NJ,07719,Lake Como Realty
+"$235,000",2,1,,,354 Iroquois Dr,Brick,NJ,08724,"Diane Turton, Realtors - Bay Head"
+"$349,900",3,2,,2,1603 16th Ave,Belmar,NJ,07719,Coldwell Banker Residential Brokerage - Wall Township Office
+"$290,000",2,1,,1,1024 3rd Ave,Wall,NJ,07719,Coldwell Banker Residential Brokerage - Marlboro/Manalapan Office
+"$219,900",2,1+,,,167 Frontier Way,Tinton Falls,NJ,07753,RE/MAX 1ST. CLASS
+"$2,395,000",5,5+,"3,565",2,200 5th Ave,Belmar,NJ,07719,Paragano Real Estate
+"$215,000",3,1+,,,504 Linda Ct,Brick,NJ,08724,Century 21 Action Plus Realty
+"$135,000",,,,,350 Iroquois Dr,Brick,NJ,08724,"Diane Turton, Realtors - Bay Head"
+"$249,900",4,2,,1,532 Nebraska Ave,Brick Township,NJ,08724,The Real Estate Company
+"$529,000",3,2,"1,190",,318 16th Ave,Belmar,NJ,07719,CENTURY 21 Schlossbach Realty
+"$499,000",3,1,"1,120",1,1234 Maplewood Rd,Belmar,NJ,07719,"Weichert, Realtors - Sea Girt"
+"$298,900",3,2,"1,620",1,16 Asbury Ave,Farmingdale,NJ,07727,Iinj Realty
+"$213,600",3,1,,1,281 W Farms Rd,Farmingdale,NJ,07727,KELLER WILLIAMS CORNERSTONE
+"$950,000",,,,,2925 Hurley Pond Rd,Wall,NJ,07719,Re/Max Innovation
+"$379,900",,,,,150 Duchess Ln,Brick,NJ,08724,Keller Williams Shore Properties
+"$248,000",,,,,Hulses Corner Rd,Howell,NJ,07731,RE/MAX Homeland REALTORS
+"$198,000",,,,,20 Addison Rd,Howell,NJ,07731,RE/MAX Homeland REALTORS
+"$349,000",3,2,"1,260",,523 Lakewood Rd,Neptune Township,NJ,07753,Oliver Brothers
+"$379,000",3,2+,"1,855",2,17 Marc Dr,Howell,NJ,07731,"NEUHAUS REALTY, INC."
+"$129,900",3,1+,"1,428",,170 Esmeralda Ct,Brick,NJ,08724,C21/ VALUE PLUS REALTY
+"$479,000",4,2,"2,064",1,1711 Belmont Ave,Lake Como,NJ,07719,BHHS New Jersey Properties Manalapan
+"$279,000",2,1,,,1828 Carmerville Rd,Wall,NJ,07719,"Diane Turton, Realtors - Point Pleasant Beach Office"
+"$319,000",3,1+,,2,701 Wakefield Rd Unit 761,Neptune Township,NJ,07753,Imperial Real Estate Agency
+"$165,900",2,2,,,6 Gait Ct,Tinton Falls,NJ,07753,EXIT Realty East Coast
+"$2,200,000",3,2+,,1,125 Inlet Ter,Belmar,NJ,07719,"THE MACGOWAN AGENCY, INC."
+"$149,000",2,1,,,23 E 2nd St,Howell,NJ,07731,KELLER WILLIAMS REALTY - Monmouth Ocean
+"$84,900",2,1,"1,014",,326 Sawmill Rd Unit B,Brick,NJ,08724,Paschon Realty
+"$1,795,000",5,3+,,2,40 Inlet Ter,Belmar,NJ,07719,RE/MAX Paradigm Realty Group
+"$424,900",2,2,"1,540",2119,2123 Xanadu Ln,Wall,NJ,07719,"Diane Turton, Realtors - Sea Girt Office"
+"$649,000",10,3,"3,102",,201 16th Ave,Belmar,NJ,07719,KELLER WILLIAMS EAST MONMOUTH
+"$999,000",4,2+,"2,200",1,502 North Blvd,Lake Como,NJ,07719,Coldwell Banker Residential Brokerage - Wall Township Office
+"$359,900",3,1,,1,1607 River Rd,Belmar,NJ,07719,Oliver Brothers
+"$129,500",,,"1,612",2,110 Borden Ave Unit 2,Neptune Township,NJ,07753,Paschon Realty
+"$249,900",3,2+,,,493 Cottonwood Ct,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Howell Office
+"$99,500",1,1,,,108 W 2nd St,Howell,NJ,07731,BHHS New Jersey Properties Manalapan
+"$579,900",4,2+,"2,494",2,1740 K St,Wall,NJ,07719,"RE/MAX Bay Point, REALTORS"
+"$775,000",4,3,,1,1706 A St,Belmar,NJ,07719,Keller Williams Shore Properties
+"$395,000",4,2,,,353 Old Squan Rd,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$319,900",4,1+,"1,774",2,8 Provincial Pl,Neptune Township,NJ,07753,Veltri & Realtors Corporate Office
+"$289,900",3,1,"1,210",,262 23rd Ave,Brick,NJ,08724,"Csi Realty Group, Inc."
+"$1,249,000",4,3+,"3,500",1,781 Princeton Ave,Brick,NJ,08724,"Diane Turton, Realtors - Spring Lake Office"
+"$195,000",2,2,,,21 Jockey Ln,Tinton Falls,NJ,07753,EXIT Realty East Coast
+"$595,000",4,2+,"3,300",2,23 Bock Blvd,Howell,NJ,07731,RE/MAX Homeland REALTORS
+"$419,900",3,1+,"1,726",1,101 Riverdale Ave,Neptune City,NJ,07753,Coldwell Banker Residential Brokerage - Wall Township Office
+"$255,900",3,1,,1,557 Pennsylvania Ave,Brick,NJ,08724,Re/Max Innovation
+"$560,000",3,1+,"1,926",,2 Steiner Ave,Neptune City,NJ,07753,Keller Williams Realty - Monmouth/Ocean
+"$315,000",3,2+,"1,710",1,51 Santa Rosa Ln,Tinton Falls,NJ,07753,Saymark Realtors
+"$230,000",5,2+,"2,164",,114 Colts Neck Rd,Farmingdale,NJ,07727,"Linda Schroeck Realty Group, LLC"
+"$999,999",4,3+,"3,576",2,566 Harbor Rd,Brick,NJ,08724,"RE/MAX Bay Point, REALTORS"
+"$339,000",4,1+,,,85 Salem Hill Rd,Howell,NJ,07731,Century 21 Action Plus Realty
+"$199,000",2,1,966,1,43 Markham Rd,Brick,NJ,08724,"Veltri & Associates, Realtors"
+"$165,400",4,1+,"2,260",,89 Maxim Rd,Howell,NJ,07731,REAL HOME SERVICES & SOLUTIONS
+"$149,900",3,1,,,410 Fisher Ave,Neptune Township,NJ,07753,Oliver Brothers
+"$189,900",3,1,"1,092",,731 Maple Ave,Brick,NJ,08724,"Weichert, Realtors - Toms River"
+"$296,900",1,1,613,,210 5th Ave Apt 18,Belmar,NJ,07719,Patrick Parker Realty
+"$150,000",3,1,,,10 Fulton Pl,Neptune Township,NJ,07753,"CENTURY 21 Charles Smith Agency, Inc."
+"$90,000",,,,,Lakewood Farmingdale Rd,Farmingdale,NJ,07727,Keller Williams Shore Properties
+"$90,000",,,,,Lakewood-Farmingdale Rd,Howell,NJ,07727,Keller Williams Shore Properties
+"$259,900",3,2+,"1,576",,244 Larchwood Ct,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Howell Office
+"$369,900",3,2,"1,860",1,36 Lake Dr,Howell,NJ,07731,Coldwell Banker Flanagan Realty
+"$79,000",,,,,W Lake Ave,Neptune Township,NJ,07753,Keller Williams Realty East Monmouth
+"$239,000",3,1+,,2,2227 W Lake Ave,Neptune Township,NJ,07753,Keller Williams Realty East Monmouth
+"$347,500",4,2+,,1,557 California Ave,Brick,NJ,08724,RE/MAX At Barnegat Bay
+"$1,500,000",5,3,,2,200 North Blvd,Belmar,NJ,07719,Gloria Nilson & Co. Real Estate
+"$299,000",3,2+,,2,37 Starlight Rd,Howell,NJ,07731,Mid-State Realty
+"$215,000",3,1,,1,114 Coral Dr,Brick,NJ,08724,C21/ ACTION PLUS REALTY
+"$199,000",,,,,140 Locust Ave,Howell,NJ,07731,"NEUHAUS REALTY, INC."
+"$569,900",4,2+,"2,500",2,22 Vardon Way,Farmingdale,NJ,07727,Keypoint Realty Llc
+"$534,900",4,3,"1,860",1,447 Prospect Ave,Neptune Township,NJ,07753,"Camassa Agency, Inc."
+"$285,000",4,1+,"1,676",1,156 Hilltop Dr,Brick,NJ,08724,"Diane Turton, Realtors - Point Pleasant Office"
+"$249,900",4,2,"1,944",,174 Glenmore St,Brick,NJ,08724,Keller Williams Shore Properties
+"$434,990",3,3,"2,580",2,Dorchester Loft,Farmingdale,NJ,07727,K. Hovnanian's Four Seasons
+"$300,000",2,1,,1,594 Princeton Ave,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$589,000",3,2,,,603 18th Ave,Lake Como,NJ,07719,O'Brien Realty
+"$269,900",2,2,"1,712",1,5 Olympus Way,Brick,NJ,08724,Keller Williams Shore Properties
+"$369,000",2,2,"1,514",,623 S Riverside Dr,Neptune Township,NJ,07753,"Weichert, Realtors - Ocean Township"
+"$165,000",2,2,,,121 Brandywine Ct Unit 311,Brick,NJ,08724,Pacesetter Realty
+"$360,000",4,3+,"2,552",2,4 Margaret Ln,Howell,NJ,07731,Century 21 Action Plus Realty
+"$287,500",2,2+,"1,558",1,8 Hawthorne Dr,Tinton Falls,NJ,07753,Saymark Realtors
+"$409,990",2,2,"1,791",2,Dorchester,Farmingdale,NJ,07727,K. Hovnanian's Four Seasons
+"$139,900",,,,,1636 Edge St,Brick,NJ,08724,"Ray Brooks Realty, Inc."
+"$287,500",2,2+,"1,558",1,8 Saratoga Ct,Tinton Falls,NJ,07753,Saymark Realtors
+"$145,600",2,2,964,,359 Sequoia Ct,Howell,NJ,07731,Keller Williams Shore Properties
+"$239,900",4,1+,"1,690",1,320 Madison Ct,Brick,NJ,08724,CENTURY 21 Lawrence Realty
+"$174,900",2,2+,,,1108 Sandra Pl,Brick,NJ,08724,Berkshire Hathaway Healy Realtors
+"$220,000",2,1,,1,20 E 3rd St,Howell,NJ,07731,RE/MAX REALTY 9
+"$449,000",4,2+,"2,356",2,356 Jarome St,Brick,NJ,08724,Re/Max The Real Estate Leaders
+"$579,000",4,2+,"2,216",1,2813 McKinley St,Wall,NJ,07719,Coldwell Banker Residential Brokerage - Wall Township Office
+"$624,900",4,2+,"2,800",2,288 Friendship Rd,Howell,NJ,07731,"RE/MAX REAL ESTATE, LTD."
+"$344,000",5,3,"2,680",,305 Jefferson Ct,Brick,NJ,08724,"RE/MAX REAL ESTATE, LTD."
+"$288,750",2,2,,1,413 Walsh Pl,Brick,NJ,08724,"Diane Turton, Realtors - Point Pleasant Office"
+"$279,000",3,2+,,1,402 Joyce Ct,Brick,NJ,08724,Keller Williams Realty - Monmouth/Ocean
+"$235,000",2,2+,,,23 Mainbraid Ct,Tinton Falls,NJ,07753,Century-21 Schecher Realty
+"$230,000",3,2,"1,267",1,1513 7th Ave,Neptune Township,NJ,07753,John C. Conover Agency
+"$185,000",2,1,"1,161",,87 Frontier Way,Tinton Falls,NJ,07753,O'Brien Realty
+"$269,000",,,,,354 Rancocas Dr,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$899,000",3,1+,,,28 New Friendship Rd,Howell,NJ,07731,Keller Williams Realty Central Monmouth
+"$272,900",,,,,Us Hwy 9 Hwy,Howell,NJ,07731,Orange Key Realty
+"$272,900",,,,,Route 9,Howell,NJ,07731,ORANGE KEY REALTY
+"$99,900",2,2+,,1,2106 Alpine Trl,Neptune,NJ,07753,Northfield
+"$269,900",4,2,,1,334 Fisher Ave,Neptune Township,NJ,07753,John C. Conover Agency
+"$239,900",2,1,,,325 N Riverside Dr,Neptune Township,NJ,07753,Toma Real Estate
+"$339,000",4,2,"1,942",,554 Carroll Fox Rd,Brick,NJ,08724,"Diane Turton, Realtors - Point Pleasant Office"
+"$149,000",2,1+,"1,224",,79 Creek Rd # 442,Brick,NJ,08724,remax 1st advantage
+"$325,000",2,1,,1,1606 Voorhees Ave,Wall,NJ,07719,Keller Williams Realty - Monmouth/Ocean
+"$499,000",4,1,,1,507 14th Ave,Belmar,NJ,07719,Jack Green Realty
+"$120,000",3,2,,1,10 A Ct E,Brick,NJ,08724,Keller Williams Realty East Monmouth
+"$259,900",3,1,"1,320",1,546 Colorado Ave,Brick,NJ,08724,Veltri & Realtors Corporate Office
+"$365,000",4,2+,"2,340",2,1092 Alaska Ave,Brick,NJ,08724,CBRivieraRealty3109
+"$159,900",3,1,"1,446",,127 Oxonia Ave,Neptune Township,NJ,07753,EXIT Realty East Coast
+"$89,900",3,1,"1,092",,134 W 5th St,Howell,NJ,07731,Keypoint Realty Llc
+"$99,000",,,,,3440 W Bangs Ave,Neptune Township,NJ,07753,"Weichert, Realtors - Ocean Township"
+"$460,000",3,3+,"2,039",1,309 Sea Spray Ln,Neptune Township,NJ,07753,CENTURY 21 Lawrence Realty
+"$274,999",3,2+,,1,337 Graham Ave,Neptune Township,NJ,07753,Orange Key Realty
+"$390,000",,,,,403 Highway 35,Neptune Township,NJ,07753,Davis Realtors
+"$98,000",,,,,635 Highway 35,Neptune Township,NJ,07753,Davis Realtors
+"$309,000",3,1+,"2,000",2,3 Princeton Dr,Howell,NJ,07731,CENTURY 21 ACTION PLUS REALTY
+"$899,900",5,5+,"5,395",3,2 Roxy Ct,Farmingdale,NJ,07727,RE/MAX Paradigm Realty Group
+"$229,900",2,2,,1,44 Dekker Ct,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$378,000",3,2+,"1,950",2,743 Point View Rd,Brick,NJ,08724,KELLER WILLIAMS REALTY - West Monmouth
+"$349,900",,,,,429B 1st Ave,Brick,NJ,08724,Ward Wight Sotheby's International Realty
+"$439,000",3,2+,,2,39 Violet Cir,Howell,NJ,07731,Re/Max Best Realty
+"$199,900",2,2,,,6 Jockey Ln,Tinton Falls,NJ,07753,Heritage House Sotheby's International Realty
+"$265,000",2,1+,,1,6 Spenser Ct,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$289,000",3,2,"1,444",2,1582 Elm St,Brick,NJ,08724,Coldwell Banker Residential Brokerage - Wall Township Office
+"$129,900",2,1,,,1567 Burrsville Rd,Brick,NJ,08724,Keller Williams Realty - Monmouth/Ocean
+"$250,000",3,2,"1,056",,285 Newark Dr,Brick,NJ,08724,CENTURY 21 Lawrence Realty
+"$525,000",6,2,,,611 8th Ave,Belmar,NJ,07719,Ward Wight Sotheby's International Realty
+"$157,000",2,1+,,,694 Denise Ct,Brick,NJ,08724,Century 21 Preferred Realty
+"$289,900",3,2,,,20 Clark Dr,Howell,NJ,07731,RE/MAX CENTRAL
+"$469,000",3,1+,"1,271",1,129 Terrace Rd,Belmar,NJ,07719,"Diane Turton, Realtors - Spring Lake Office"
+"$204,500",3,1,"1,200",1,41 Willow Ave,Howell,NJ,07731,Keller Williams Realty West Monmouth
+"$300,603",4,2+,"2,032",2,13 Pioneer Dr,Howell,NJ,07731,Iinj Realty
+"$365,000",4,2+,"2,394",2,114 N Taylor Ave,Neptune Township,NJ,07753,"Weichert, Realtors - Ocean Township"
+"$2,452,000",7,7,,2,2000 Ocean Ave,Belmar,NJ,07719,"Diane Turton, Realtors - Spring Lake Office"
+"$189,900",3,1,"1,044",1,542 California Ave,Brick,NJ,08724,Veltri & Realtors Corporate Office
+"$129,900",,,,,Windeler Rd,Howell,NJ,07731,"Weichert, Realtors - Howell"
+"$339,000",3,2+,"2,002",1,14 2nd St,Brick,NJ,08724,Weichert Realtors - Point Pleasant Beach
+"$289,000",3,2+,,,481 Cottonwood Ct,Howell,NJ,07731,"Weichert, Realtors - Howell"
+"$219,900",2,1,816,,343 Jefferson Ct,Brick,NJ,08724,CENTURY 21 ACTION PLUS REALTY
+"$489,900",3,2,,,1804 Pine Ter,Lake Como,NJ,07719,Heritage House Sotheby's International Realty
+"$212,000",2,2,,,14 Gait Ct,Tinton Falls,NJ,07753,Century-21 Schecher Realty
+"$230,000",3,1+,,1,740 Midstreams Rd,Brick,NJ,08724,Exit Realty Elite
+"$519,000",,,,,74 Fairview Ave,Brick,NJ,08724,Clayton & Clayton Inc.Realtors
+"$1,575,000",6,4+,,,103 4th Ave,Belmar,NJ,07719,"Weichert, Realtors - Sea Girt"
+"$399,000",3,2,,1,23 Brook Rd,Howell,NJ,07731,Imperial Real Estate Agency
+"$750,000",3,2+,,2,154 Lemon Rd,Farmingdale,NJ,07727,Azahria Trinka
+"$309,900",5,2,"2,864",,719 Wayside Rd,Neptune Township,NJ,07753,Coldwell Banker Residential Brokerage - Howell Office
+"$139,900",4,1+,"1,694",1,120 Hamilton Ave,Neptune Township,NJ,07753,Pittenger  Realty
+"$459,900",3,2,,2,3417 Brandon Rd,Wall,NJ,07719,"Diane Turton, Realtors - Wall Office"
+"$255,000",3,2+,"1,576",,316 Balsam Ct,Howell,NJ,07731,Gloria Nilson & Co. Real Estate
+"$249,900",3,2,"1,355",1,65 Appletree Rd,Howell,NJ,07731,CENTURY 21 ACTION PLUS REALTY
+"$240,000",3,2,,,172 Riviera Dr,Brick,NJ,08724,C21/ ACTION PLUS REALTY
+"$337,500",3,1+,"2,809",,168 Lanes Mill Rd,Howell,NJ,07731,Paschon Realty
+"$599,900",4,3,"2,440",,96 Riverview Ave,Neptune City,NJ,07753,Oliver Brothers
+"$699,000",4,2,,,100 18th Ave,Belmar,NJ,07719,M. Van Sciver Realtors
+"$409,900",4,2+,"1,800",1,1471 Green Grove Rd,Brick,NJ,08724,"Diane Turton, Realtors - Toms River Office"
+"$345,000",4,2+,,2,6 Eric Dr,Howell,NJ,07731,RE/MAX REALTY 9
+"$224,999",3,1,"1,192",,620 Hulses Corner Rd,Howell,NJ,07731,"Investors Realty Services, Llc"
+"$334,000",1,1,750,,210 5th Ave Apt 34,Belmar,NJ,07719,Patrick Parker Realty
+"$190,000",3,1,"1,209",,1904 Stratford Ave,Neptune Township,NJ,07753,"Weichert, Realtors - Howell"
+"$379,000",3,3,"2,129",2,14 Taunton Dr,Howell,NJ,07731,Keller Williams Shore Properties
+"$824,000",5,3+,,1,175 Riverside Dr N,Brick,NJ,08724,CHRIS SMITH REALTY
+"$325,000",3,1+,,2,2258 Lanes Mill Rd,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$179,000",2,1,"1,150",,12 Pharo St,Neptune Township,NJ,07753,EXIT Realty East Coast
+"$199,000",3,1,,,255 22nd Ave,Brick,NJ,08724,Toma Real Estate
+"$335,000",3,2,,1,13 White Pine Ct,Brick,NJ,08724,"The Macgowan Agency, Inc."
+"$1,595,000",,,,,1501 Highway 35,Neptune Township,NJ,07753,"Diane Turton, Realtors - Spring Lake Office"
+"$369,900",4,2+,"1,768",4,660 Hawks Nest Rd,Brick,NJ,08724,Pittenger  Realty
+"$479,000",4,2+,"2,559",2,15 Coral Dr,Howell,NJ,07731,Re/Max Central
+"$549,900",5,3,"3,500",2,657 Rolling Hills Ct,Brick,NJ,08724,CENTURY 21 ACTION PLUS REALTY
+"$253,500",3,1+,,,198 Maple Ave,Neptune Township,NJ,07753,Century-21 Schecher Realty
+"$211,200",3,2,,2,28 Hemlock Rd,Howell,NJ,07731,Keypoint Realty Llc
+"$119,000",1,1,888,,39 Marina Ln Unit 178,Brick,NJ,08724,CBRivieraRealty3109
+"$325,000",,,,,169 Riverside Dr N,Brick,NJ,08724,ERA Byrne Realty
+"$323,900",3,2+,,1,1445 Flintoft Ave,Brick,NJ,08724,C21/ VALUE PLUS REALTY
+"$415,000",5,3,,yes,59 Pinewood Rd,Howell,NJ,07731,American Realty Associates
+"$400,000",3,2+,"1,500",,,Howell,NJ,07731,Halo Realty
+"$159,900",2,1+,,,812 Jenny Ct,Brick,NJ,08724,Keller Williams Realty West Monmouth
+"$269,000",3,1+,,1,1464 Green Grove Rd,Brick,NJ,08724,Coldwell Banker Residential Brokerage - Wall Township Office
+"$599,000",3,2+,"2,787",2,35 E Sagamore Dr,Farmingdale,NJ,07727,Coldwell Banker Residential Brokerage - Rumson/Fair Haven Office
+"$261,900",4,2,"1,280",,104 Brighton Ave,Neptune Township,NJ,07753,"RE/MAX REAL ESTATE, LTD."
+"$139,000",2,1,,,1504 Monroe Ave,Neptune Township,NJ,07753,VRI Homes Keyport
+"$399,000",2,2+,"1,468",1,103 S Manor Ct,Wall,NJ,07719,Jack Green Realty
+"$164,900",2,1+,,1,5 Peacock Pl Unit 1000,Howell,NJ,07731,RE/MAX Homeland REALTORS
+"$219,000",,,,,1249 Old Farm Rd,Brick,NJ,08724,Coldwell Banker Residential Brokerage - Wall Township Office
+"$339,000",3,1,,,505 Carroll Fox Rd,Brick,NJ,08724,"RE/MAX REAL ESTATE, LTD."
+"$114,500",1,1,,,71 River Edge Dr,Brick Township,NJ,08724,"Elite Brokers, LLC"
+"$249,900",4,1+,"1,386",1,324 20th Ave,Brick,NJ,08724,CENTURY 21 Coastal Realtors
+"$349,900",3,2+,"2,246",2,429 1st Ave,Brick,NJ,08724,Ward Wight Sotheby's International Realty
+"$128,000",2,1,,,95 Northrup Dr Unit 78,Brick,NJ,08724,Re/Max Innovation
+"$524,900",5,3,,2,9 Madeline Ct,Farmingdale,NJ,07727,"At Brokers, Llc"
+"$212,000",3,2,"1,806",yes,338 Shawnee Dr,Brick,NJ,08724,RealHome Services & Solutions
+"$330,000",4,2,,4,39 Addison Rd,Howell,NJ,07731,RE/MAX REALTY 9
+"$239,900",3,2,"1,378",1,110 Bruce St,Brick,NJ,08724,CENTURY 21 Lawrence Realty
+"$250,000",4,2,,,615 Midstreams Rd,Brick,NJ,08724,Keller Williams Realty Ocean Point
+"$169,900",2,2,,,373 Brookview Ct,Howell,NJ,07731,Keller Williams Real Estate-Princeton
+"$237,500",3,1,"1,066",,125 Coolidge Dr,Brick,NJ,08724,"RE/MAX Bay Point, REALTORS"
+"$554,900",4,2+,"2,681",2,0-C Hollywood Ave,Farmingdale,NJ,07727,"Weichert, Realtors - Marlboro"
+"$539,900",4,2+,"2,681",2,0-D Hollywood Ave,Farmingdale,NJ,07727,"Weichert, Realtors - Marlboro"
+"$256,500",4,2+,"2,068",1,145 Fisher Ave,Neptune Township,NJ,07753,Keypoint Realty Llc
+"$349,000",2,1,,,403 Alexander Ave,Howell,NJ,07731,C21/ VALUE PLUS REALTY
+"$421,000",3,2,,,1309 Allaire Rd,Wall,NJ,07727,Coldwell Banker Residential Brokerage - Wall Township Office
+"$254,900",2,1,,,1838 Carmerville Rd,Wall,NJ,07719,Keller Williams Realty West Monmouth
+"$339,900",4,2,"1,840",2,5 Lake Dr,Howell,NJ,07731,remax 1st advantage
+"$449,000",4,2+,"2,050",2,25 Capitol Reef Rd,Howell,NJ,07731,"CENTURY 21 Herbertsville Real Estate Company, Inc"
+"$749,900",5,3+,,2,1205 Remsen Mill Rd,Wall,NJ,07719,VRI Homes Marlboro
+"$389,000",3,2,,1,404 Helen Ter,Neptune Township,NJ,07753,"Weichert, Realtors - Spring Lake"
+"$729,000",5,3+,,3,1644 Martin Rd,Wall,NJ,07753,Jack Green Realty
+"$359,900",3,3,,1,1812 S M St,West Belmar,NJ,07719,Jersey Shore Real Estate
+"$485,000",5,3,"3,482",2,329 Seattle Ave,Brick,NJ,08724,CENTURY 21 Lawrence Realty
+"$645,000",3,3,"3,135",2,84 E Milan Blvd,Farmingdale,NJ,07727,Lynda Aquila
+"$327,900",3,2+,"1,988",2,14 Starlight Rd,Howell,NJ,07731,REAL HOME SERVICES & SOLUTIONS
+"$415,000",4,2+,"2,427",2,17 Cleveland Ave,Brick,NJ,08724,"RE/MAX Bay Point, REALTORS"
+"$395,900",2,2,,1,43 Island Dr,Brick,NJ,08724,CBRivieraRealty3109
+"$157,800",2,1,864,,113 W 6th St,Howell,NJ,07731,ARC REAL ESTATE
+"$152,800",2,1,784,,109 W 6th St,Howell,NJ,07731,ARC REAL ESTATE
+"$249,000",2,2+,,,172 Dorado Beach Ct Unit 1000,Howell,NJ,07731,BHHS New Jersey Properties Manalapan
+"$565,000",5,3,"2,900",2,7 Tower Ct,Farmingdale,NJ,07727,Keller Williams Realty West Monmouth
+"$261,200",3,2,960,,1746 Euclid Ave,Lake Como,NJ,07719,RE/MAX At Barnegat Bay
+"$149,900",2,1,706,,507 4th Ave,Brick,NJ,08724,Paschon Realty
+"$199,900",4,3,"2,202",2,12 Arnold Ave,Neptune Township,NJ,07753,Striker Realty
+"$25,000",,,,,Hillcrest Ave,Brick,NJ,08724,A HOME FOR SALE REALTY
+"$369,900",2,2,"1,616",1,18 Springhill Dr,Brick,NJ,08724,"Diane Turton, Realtors - Brick Office"
+"$239,000",3,2,"1,606",,107 Whitesville Rd Unit 2,Neptune Township,NJ,07753,EXIT Realty East Coast
+"$554,900",4,2+,"3,385",2,618 Casino Dr,Howell,NJ,07731,Crossroads Realty - Berkeley
+"$159,900",2,1+,,,1200 Baylis Ct,Brick,NJ,08724,"Linda Schroeck Realty Group, LLC"
+"$249,900",3,1+,,1,148 Drummond Ave,Neptune Township,NJ,07753,"Weichert, Realtors - Ocean Township"
+"$224,900",2,1,,1,17 Rosalind Rd,Brick,NJ,08724,RE/MAX Homeland REALTORS
+"$250,000",1,1,625,,107 3rd Ave Apt G2,Belmar,NJ,07719,"THE MACGOWAN AGENCY, INC."
+"$339,900",2,3+,"1,890",1,3422 W Hurley Pond Rd,Belmar,NJ,07719,Veltri & Realtors Corporate Office
+"$263,900",2,1+,,1,22 Rodger Rd,Brick,NJ,08724,KELLER WILLIAMS REALTY - Monmouth Ocean
+"$174,900",3,1+,,,34 Jesse Rd Unit 1000,Howell,NJ,07731,Re/Max Gateway
+"$294,900",3,2,"1,450",1,59 Garden Ave,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$129,000",2,1,,,14 Northrup Dr Unit 217,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$264,900",4,2+,"2,003",2,368 Kelly Ave,Brick,NJ,08724,Veltri & Realtors Corporate Office
+"$249,000",2,2,,1,6 Brenner Ct,Brick,NJ,08724,"THE FOLK AGENCY REALTORS, INC."
+"$425,000",3,1,,1,362 Alexander Ave,Howell,NJ,07731,C21/ VALUE PLUS REALTY
+"$468,516",2,2,"2,120",2,6 Lily Pond Ct,Howell,NJ,07731,Terrapin Realty
+"$395,990",2,2,"1,747",2,22 Harvest Ridge Rd,Howell,NJ,07731,Terrapin Realty
+"$449,065",2,2,"1,873",2,26 Harvest Ridge Rd,Howell,NJ,07731,Terrapin Realty
+"$469,699",2,2+,"1,993",2,2 Harvest Ridge Rd,Howell,NJ,07731,Terrapin Realty
+"$434,990",3,3,"2,442",2,4 Harvest Ridge Rd,Howell,NJ,07731,Terrapin Realty
+"$399,990",2,2,"1,833",2,10 Harvest Ridge Rd,Howell,NJ,07731,Terrapin Realty
+"$399,990",2,2,"1,873",2,12 Harvest Ridge Rd,Howell,NJ,07731,Terrapin Realty
+"$144,900",2,1,,,148 Greenwood Loop Rd,Brick,NJ,08724,"Diane Turton, Realtors - Spring Lake Office"
+"$399,900",4,2+,,2,4 Hazelwood Ct,Howell,NJ,07731,J J ELEK GUARANTEE SALES
+"$189,900",1,1,,,1838 Highway 35 Unit 17,Wall,NJ,07719,BONNIE O' MALLEY REALTOR
+"$164,000",2,1+,"1,300",,97 Camille Ct,Brick,NJ,08724,Howard Beale Agency Inc
+"$699,000",4,3+,"2,424",2,4107 W Hurley Pond Rd,Wall,NJ,07719,"RE/MAX REAL ESTATE, LTD."
+"$2,175,000",5,4+,"3,780",2,1206 Ocean Ave,Belmar,NJ,07719,RE/MAX Paradigm Realty Group
+"$2,150,000",5,4+,"3,951",2,1204 Ocean Ave,Belmar,NJ,07719,RE/MAX Paradigm Realty Group
+"$279,900",5,3,,2,71 Sunnyside Rd,Howell,NJ,07731,TOM MARCO REAL ESTATE
+"$155,000",2,1+,,1,7 Pheasant Dr,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$590,000",4,2,"2,309",,412 18th Ave,Lake Como,NJ,07719,The Gallery Residential Brokerage - Wall Office
+"$269,000",5,3,"2,129",2,1226 9th Ave,Neptune Township,NJ,07753,Four Points Realty
+"$579,000",2,3+,,1,117 Seaview Ct,Neptune Township,NJ,07753,D'AMICO & MCCONNELL REALTORS
+"$134,482",2,1,,,709 E Florence Cir,Farmingdale,NJ,07727,Sitar Realty Company
+"$168,500",2,1,,,201 E Florence Cir,Farmingdale,NJ,07727,Sitar Realty Company
+"$315,000",2,1,,,2200 Shore Dr,Belmar,NJ,07719,Ward Wight Sotheby's International Realty
+"$260,000",3,2,,,121 W 3rd St,Howell,NJ,07731,Four Point Realty Llc
+"$1,500,000",5,3,"6,000",2,425 S Riverside Dr,Neptune Township,NJ,07753,ALLEGRO AGENCY REALTORS
+"$183,900",3,1+,"1,164",,517 Newtons Corner Rd,Howell,NJ,07731,Veltri & Realtors Corporate Office
+"$879,000",4,2+,"3,300",2,752 Princeton Ave,Brick,NJ,08724,Glen Mary Real Estate
+"$1,295,000",5,5,,3,2814 Concord Dr,Wall,NJ,07719,"Diane Turton, Realtors - Spring Lake Office"
+"$599,900",4,2+,"2,547",2,1440 Marconi Rd,Wall,NJ,07719,Preferred Properties Real Estate
+"$275,000",4,1,"1,162",,105 Harding Dr,Brick,NJ,08724,RE/MAX NEW BEGINNINGS REALTY
+"$319,000",,,,,1907 Barbee Ln,Wall,NJ,07719,The Gallery Residential Brokerage
+"$294,900",3,1+,"1,584",1,16 Virginia Dr,Howell,NJ,07731,Iinj Realty
+"$65,000",,,,,Larchmont Ave,Brick,NJ,08724,"RE/MAX Diamond, Realtors"
+"$426,990",3,1+,"1,684",2,164 Manorside Dr,Brick,NJ,08724,Keller Williams Shore Properties
+"$397,000",3,2+,"2,173",2,416 Princeton Ave,Brick,NJ,08724,"Weichert, Realtors - Spring Lake"
+"$264,900",4,2+,,1,61 Salem Hill Rd,Howell,NJ,07731,The Real Estate Company
+"$174,900",3,1,,,522 Georgia Tavern Rd,Howell,NJ,07731,The Real Estate Company
+"$1,449,000",4,3+,"3,770",2,789 South Dr,Brick,NJ,08724,CENTURY 21 Lawrence Realty
+"$219,900",2,1,,1,409 Middle Ln,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Spring Lake Office
+"$329,900",3,2,"1,400",1,209 Towhee Trl,Brick,NJ,08724,"Diane Turton, Realtors - Brick Office"
+"$589,000",4,2+,"2,405",2,1111 6th Ave,West Belmar,NJ,07719,"OCEAN POINTE, REALTORS"
+"$264,900",2,2,"1,370",1,57 Markham Rd,Brick,NJ,08724,RE/MAX at Barnegat Bay
+"$329,000",4,2,"1,615",1,325 18th Ave,Brick,NJ,08724,Imperial Real Estate Agency
+"$499,900",4,2+,"3,576",3,1716 Glendola Rd,Wall,NJ,07719,Veltri & Realtors Corporate Office
+"$219,900",3,1,865,,235 Midland Blvd,Howell,NJ,07731,Keller Williams East Monmouth
+"$469,900",3,2+,"2,124",2,79 Driftway Rd,Howell,NJ,07731,Keller Williams Realty - Monmouth/Ocean
+"$1,199,000",,,,,3705 Belmar Blvd,Wall,NJ,07753,Century 21 Action Plus Realty
+"$399,000",,,,,3707 Belmar Blvd,Wall,NJ,07753,Century 21 Action Plus Realty
+"$499,900",4,2+,"2,515",2,0-A Hollywood Ave,Farmingdale,NJ,07727,"Weichert, Realtors - Marlboro"
+"$519,900",4,2+,"2,515",2,0-B Hollywood Ave,Farmingdale,NJ,07727,"Weichert, Realtors - Marlboro"
+"$384,900",3,2,"9,999",,1919 Meadow Rd,West Belmar,NJ,07719,Keller Williams Realty Ocean Point
+"$975,000",,,,,567 Shark River Station Rd,Wall,NJ,07727,Coldwell Banker Residential Brokerage - Wall Township Office
+"$325,000",,,,,424 Alexander Ave,Howell,NJ,07731,C21/ VALUE PLUS REALTY
+"$2,150,000",6,4,"4,300",,202 1st Ave,Belmar,NJ,07719,Exit Realty Jersey Shore
+"$228,900",2,1+,,1,4 Fuller Ln,Brick,NJ,08724,Absolute Homes Realty
+"$399,000",,,,,,Belmar,NJ,07719,Patrick Parker Realty
+"$499,999",5,2+,"2,816",2,91 Pinewood Rd,Howell,NJ,07731,RE/Max Central
+"$814,000",5,3,"2,625",2,55 Island Dr,Brick,NJ,08724,"Weichert, Realtors - Sea Girt"
+"$366,999",4,2+,,2,14 Bronia St,Howell,NJ,07731,Gloria Nilson & Co. Real Estate
+"$184,900",3,1,"1,044",,1815 S N St,Wall,NJ,07719,Veltri & Realtors Corporate Office
+"$399,000",3,1,,,512 16th Ave,Belmar,NJ,07719,Patrick Parker Realty
+"$590,000",4,2+,,2,8 Saveria Ct,Howell,NJ,07731,CENTURY 21 ACTION PLUS REALTY
+"$179,000",2,2,,,107 Cypress Ct,Howell,NJ,07731,Exit 98 George Realty
+"$1,499,000",4,4+,"3,392",2,803 South Dr,Brick,NJ,08724,Keller Williams Realty - East Monmouth
+"$158,900",2,1+,"1,088",,32 Creek Rd Unit 274,Brick,NJ,08724,Heritage House Sotheby's International Realty
+"$137,900",2,1+,,,85 Creek Rd Unit 445,Brick,NJ,08724,"Diane Turton, Realtors - Brick Office"
+"$599,900",3,1,,,521 14th Ave,Belmar,NJ,07719,CENTURY 21 Schlossbach Realty
+"$189,900",2,1+,"1,048",1,25 Blue Bird Ln,Howell,NJ,07731,"Investors Realty Services, Llc"
+"$225,000",,,,,W First St,Howell,NJ,07731,Summit Realty Services Inc.
+"$450,000",,,,,901 Route 33,Howell,NJ,07731,Summit Realty Services Inc.
+"$779,900",4,3,,,417 15th Ave,Belmar,NJ,07719,Keller Williams Shore Properties
+"$199,000",3,2,"1,964",,519 3rd Ave,Brick,NJ,08724,RE/MAX Elite
+"$117,588",2,1,,,711 E Florence Cir,Farmingdale,NJ,07727,Sitar Realty Company
+"$124,900",3,2,"1,161",1,1220 9th Ave,Neptune Township,NJ,07753,EXIT Realty East Coast
+"$199,000",2,1,,1,211 Union Ave,Neptune Township,NJ,07753,"Weichert, Realtors - Ocean Township"
+"$649,000",4,2+,"2,458",2,112 Larrabee Blvd,Howell,NJ,07731,Imperial Real Estate Agency
+"$600,000",4,3,"3,640",3,485 Colts Neck Rd,Farmingdale,NJ,07727,BHHS New Jersey Properties Manalapan
+"$489,000",4,2+,"2,345",2,14 Capitol Reef Rd,Howell,NJ,07731,Cre Realty
+"$599,000",4,3,"2,668",2,4 E Grimaldi Dr,Farmingdale,NJ,07727,"Weichert, Realtors - Marlboro"
+"$112,400",2,1,"1,128",,477B Laurel Brook Dr,Brick,NJ,08724,RealHome Services & Solutions
+"$234,500",3,1,"1,312",1,300 Lakewood Rd,Neptune Township,NJ,07753,RE/MAX At Barnegat Bay
+"$400,000",3,2+,"2,390",2,74 Heritage Dr,Howell,NJ,07731,remax 1st advantage
+"$619,000",3,2,"2,153",1,1610 Tiltons Corner Rd,Wall,NJ,07719,Realmart Realty - Flat Fee to 1% Agent Assist Service
+"$333,000",2,1,,,1702 H St,Wall,NJ,07719,CENTURY 21 Schlossbach Realty
+"$449,000",4,3,"2,100",,69 Tinton Falls Rd,Farmingdale,NJ,07727,RE/MAX NEW BEGINNINGS REALTY
+"$550,000",4,3,"2,260",3,1503 Wyckoff Rd,Wall,NJ,07727,BHHS New Jersey Properties Manalapan
+"$269,999",3,2+,"1,576",,482 Cottonwood Ct,Howell,NJ,07731,Keller Williams Realty West Monmouth
+"$89,000",2,1,,,20 E 4th St,Howell,NJ,07731,"Blue Key Realty, Llc"
+"$235,000",1,1,,1,107 Riverview Ave Unit 159B,Neptune City,NJ,07753,Jack Green Realty
+"$359,900",3,2+,"1,706",1,118 Lakewood Rd,Neptune Township,NJ,07753,Oliver Brothers
+"$479,900",4,2+,"2,990",2,186 Arnold Blvd,Howell,NJ,07731,Keller Williams Shore Properties
+"$949,000",3,2,,1,103 20th Ave,Belmar,NJ,07719,Ward Wight Sotheby's International Realty
+"$320,000",3,1,,2,210 Cliffwood Dr,Neptune Township,NJ,07753,Oliver Brothers
+"$175,000",2,2+,"1,200",,1300 Victoria Ct,Brick,NJ,08724,CBRivieraRealty3109
+"$499,000",2,1+,,,1707 Surf Ave,Belmar,NJ,07719,Gloria Nilson & Co. Real Estate
+"$299,900",3,2+,"1,521",1,16 Pimleco Dr,Tinton Falls,NJ,07753,Re/Max Gateway
+"$314,900",4,2,"1,490",1,584 Karen Ln,Brick,NJ,08724,"Veltri & Associates, Realtors"
+"$260,000",2,2+,,,162 Dorado Beach Ct Unit 1000,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Holmdel/Colts Neck Office
+"$699,000",5,3,"3,260",3,340 Newtons Corner Rd,Howell,NJ,07731,"RE/MAX Bay Point, REALTORS"
+"$349,900",3,2,"1,750",1,386 Ramtown Greenville Rd,Howell,NJ,07731,"Diane Turton, Realtors - Spring Lake Office"
+"$429,900",4,2,,,1333 East Ct,Wall,NJ,07719,"Diane Turton, Realtors - Point Pleasant Beach Office"
+"$297,000",,,,,18 20 Gully Rd,Neptune Township,NJ,07753,"Weichert, Realtors - Sea Girt"
+"$259,999",2,1,,1,92 Taylor Blvd,Brick,NJ,08724,ROBERT DEFALCO REALTY INC.
+"$234,500",4,2,"1,872",yes,1640 Green Grove Rd,Brick,NJ,08724,RealHome Services & Solutions
+"$214,000",3,1+,,,1410 8th Ave,Neptune Township,NJ,07753,CENTURY 21 Coastal Realtors
+"$725,000",4,4+,"4,860",4,2 Littlefield Dr,Farmingdale,NJ,07727,RE/MAX REALTY 9
+"$485,000",4,2+,"2,600",2,525 Ernestine Pl,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$575,000",,,,,1622 Woodfield Ave,Wall,NJ,07753,"Diane Turton, Realtors - Spring Lake Office"
+"$1,150,000",8,4,"3,242",2,401 North Blvd,Lake Como,NJ,07719,Coldwell Banker Residential Brokerage - Wall Township Office
+"$334,900",4,2+,"2,090",2,88 Pine Needle St,Howell,NJ,07731,Keypoint Realty Llc
+"$444,900",4,2+,"2,290",2,17 Cattail Dr,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Howell Office
+"$449,900",3,1+,"2,064",,3120 18th Ave,Wall,NJ,07719,"Diane Turton, Realtors - Wall Office"
+"$339,900",6,3,"2,736",1,337 Alexander Ave,Howell,NJ,07731,Veltri & Realtors Corporate Office
+"$253,500",3,1+,,,18 Bayberry Ct,Howell,NJ,07731,Keller Williams Realty West Monmouth
+"$485,000",4,3+,"3,078",,284 Ronald Ave,Brick,NJ,08724,"Weichert, Realtors - Brick"
+"$1,750,000",4,3+,"3,856",2,99 11th Ave,Belmar,NJ,07719,Coldwell Banker Residential Brokerage - Howell Office
+"$179,950",2,1,,,23D Plz,Howell,NJ,07731,Gloria Nilson & Co Real Estate
+"$269,900",,,,,760 North Dr,Brick,NJ,08724,"Gloria Nilson Realtors, Real Living"
+"$144,000",3,2+,"1,280",,308 Sawmill Rd Rd,Brick Township,NJ,08724,Coldwell Banker Argus Real Estate
+"$439,900",4,1+,,,1101 Monmouth Blvd,Wall,NJ,07719,"RE/MAX Bay Point, REALTORS"
+"$349,900",3,2,,2,313 Friendship Rd,Howell,NJ,07731,CENTURY 21 ACTION PLUS REALTY
+"$1,099,000",7,5+,"5,980",3,140 Maxim Rd,Howell,NJ,07731,Heritage House Sotheby's International Realty
+"$359,000",3,2+,"1,768",2,506 Austin Ave,Brick,NJ,08724,Keller Williams Realty West Monmouth
+"$242,000",3,1,"1,248",1,1437 Davidson Ave,Brick,NJ,08724,"Weichert, Realtors - Jackson"
+"$1,200,000",4,2+,,5,113-117 Elizabeth Ave,Brick,NJ,08724,"Diane Turton, Realtors - Point Pleasant Office"
+"$435,000",2,2,"1,048",,2239 Allenwood Rd,Wall,NJ,07719,"Diane Turton, Realtors - Sea Girt Office"
+"$169,999",2,2,,,77 Briarwood Ct,Howell,NJ,07731,KELLER WILLIAMS REALTY
+"$29,900",,,,,Marl Rd,Farmingdale,NJ,07727,"Weichert, Realtors - Toms River"
+"$699,000",4,2+,,2,117 Elizabeth Ave,Brick,NJ,08724,"Diane Turton, Realtors - Point Pleasant Office"
+"$1,085,000",8,2+,"3,237",2,211 2nd Ave,Belmar,NJ,07719,"Diane Turton, Realtors - Spring Lake Office"
+"$294,900",3,1+,"1,742",2,10 N Chaphagen Dr,Neptune Township,NJ,07753,Exit Realty East Coast Shirvanian
+"$168,000",4,2,"2,316",,2005 Stratford Ave,Neptune Township,NJ,07753,C21/ VALUE PLUS REALTY
+"$337,500",4,2+,"2,044",1,14 Gladiola Dr,Howell,NJ,07731,C21/ VALUE PLUS REALTY
+"$550,000",,,,,113 Elizabeth Ave,Brick,NJ,08724,"Diane Turton, Realtors - Point Pleasant Office"
+"$289,000",3,1+,"1,617",,415 Hazel St,Neptune City,NJ,07753,Progressive Real Estate Agency
+"$424,900",4,3,"3,348",2,511 Carroll Fox Rd,Brick,NJ,08724,Keller Williams East Monmouth
+"$315,000",3,2,"1,439",1,1792 Belmar Blvd,Belmar,NJ,07719,"Weichert, Realtors - Spring Lake"
+"$424,000",2,1,,,767 South Dr,Brick,NJ,08724,CENTURY 21 Lawrence Realty
+"$345,500",3,1+,"1,438",1,11 Lynn Dr,Neptune Township,NJ,07753,Preferred Properties Real Estate
+"$199,000",2,1+,,1,15 Stork Ln,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Marlboro/Manalapan Office
+"$215,000",2,1,864,,67 Neptune Ave,Neptune City,NJ,07753,Oliver Brothers
+"$399,999",,,,,780 Princeton Ave,Brick,NJ,08724,"Weichert, Realtors - Spring Lake"
+"$99,900",,,,,Sally Ike Rd,Brick,NJ,08724,CBRivieraRealty3109
+"$79,900",,,,,Dakota Ave,Brick,NJ,08724,CBRivieraRealty3109
+"$329,900",3,1,,,413 Overlook Dr,Neptune Township,NJ,07753,CENTURY 21 Coastal Realtors
+"$279,000",4,1+,"1,228",,3614 Route 33,Neptune Township,NJ,07753,LINDA SCHROECK RLTY. GROUP LLC
+"$399,900",4,3,"4,200",2,280 Aldrich Rd,Howell,NJ,07731,"Weichert, Realtors - Holmdel"
+"$137,900",3,1+,"1,200",1,1633 Tilford Blvd,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$304,000",3,2,"1,600",,5 Brookside Dr,Howell,NJ,07731,RE/MAX REALTY 9
+"$439,000",4,2,,2,22 Windsor Ct,Neptune City,NJ,07753,"Weichert, Realtors - Spring Lake"
+"$499,900",5,3,"2,916",2,14 Regina Dr,Brick,NJ,08724,"Ray Brooks Realty, Inc."
+"$249,900",3,1,,,206 Colonial Dr,Brick,NJ,08724,"Ray Brooks Realty, Inc."
+"$747,000",5,3+,"4,740",2,242 Lake Rd,Brick,NJ,08724,"Formula Realty, LLC"
+"$339,900",4,2,"2,400",,603 Harbor Rd,Brick,NJ,08724,"RE/MAX Bay Point, REALTORS"
+"$799,000",4,1+,,1,411 5th Ave,Belmar,NJ,07719,Ward Wight Sotheby's International Realty
+"$1,699,000",8,7+,,5,1800 Campbell Rd,Wall,NJ,07719,"Diane Turton, Realtors - Spring Lake Office"
+"$299,000",3,2,"1,430",,750 Maple Ave,Brick,NJ,08724,RE/MAX at Barnegat Bay
+"$205,000",2,1,,,358 Hulse Ave,Brick,NJ,08724,CENTURY 21 Solid Gold Realty Inc.
+"$575,000",5,2,"1,780",1,61 Lenape Trl,Brick,NJ,08724,Ward Wight Sotheby's International Realty
+"$350,000",4,2+,"2,250",2,4 Castle Ct,Howell,NJ,07731,RE/MAX REALTY 9
+"$229,000",6,2+,"1,800",,1619 Sewall Ave,Neptune Township,NJ,07753,Re/Max Gateway
+"$790,000",5,3+,"4,377",3,200 Casino Dr,Farmingdale,NJ,07727,Keller Williams Realty East Monmouth
+"$444,000",3,2+,"2,180",1,206 Sunrise St,Brick,NJ,08724,"Diane Turton, Realtors - Toms River Office"
+"$136,854",1,1,,,320 E Florence Cir,Farmingdale,NJ,07727,Sitar Realty Company
+"$195,000",,,,,2123 Dumont Ter,Belmar,NJ,07719,Berkshire Hathaway Home Services Signature Properties
+"$75,000",3,2,,,1830 Route 35,Wall,NJ,07719,Coldwell Banker Residential Brokerage - Spring Lake Office
+"$129,900",2,1+,,,288 Sawmill Rd Unit 158,Brick,NJ,08724,"Berkshire Hathaway HomeServices Zack Shore, REALTORS®"
+"$612,000",4,3+,,2,1412 Williams Dr,Wall,NJ,07719,"Weichert, Realtors - Sea Girt"
+"$185,000",2,1,"1,144",,1008 Tammy Ct,Brick,NJ,08724,"Weichert, Realtors - Brick"
+"$449,000",4,2+,"2,064",2,11 Edie Ln,Howell,NJ,07731,Gloria Nilson & Co. Real Estate
+"$159,900",4,2,,1,745 Lakewood Farmingdale Rd,Howell,NJ,07731,RE/MAX at Barnegat Bay
+"$549,999",5,4+,,2,33 Oak Knoll Dr,Brick,NJ,08724,"Diane Turton, Realtors - Point Pleasant Beach Office"
+"$494,900",3,2+,,2,599 Casino Dr,Howell,NJ,07731,Coldwell Banker Residential Brokerage - East Brunswick Office
+"$639,000",,,,,545 Princeton Ave,Brick,NJ,08724,Patricia Brower
+"$375,000",5,3+,"2,360",2,51 Joseph Byrne Dr,Brick,NJ,08724,remax 1st advantage
+"$650,000",4,2+,"3,098",2,4 Tremont Dr,Neptune Township,NJ,07753,"RE/MAX REAL ESTATE, LTD."
+"$799,000",,,,,1442 Route 9,Howell,NJ,07731,KELLER WILLIAMS MID-TOWN DIRECT REALTY
+"$474,900",3,2+,"2,192",6,2138 Allenwood Rd,Wall,NJ,07719,KELLER WILLIAMS REALTY - Monmouth Ocean
+"$200,000",2,1+,,1,28 Blue Bird Ln Unit 1000,Howell,NJ,07731,KELLER WILLIAMS REALTY - Monmouth Ocean
+"$649,000",,,,,2570-2572 Route 9,Howell,NJ,07731,Summit Realty Services Inc.
+"$419,999",4,1+,,,2617 18th Ave,Wall,NJ,07719,"Diane Turton, Realtors - Point Pleasant Office"
+"$299,000",3,1+,"1,632",1,28 Maypink Ln,Howell,NJ,07731,Ward Wight Sotheby's International Realty
+"$266,700",3,1+,"1,536",1,12 Constitution Dr,Howell,NJ,07731,REAL HOME SERVICES & SOLUTIONS
+"$507,000",5,3,"3,100",2,346 Rancocas Dr,Brick,NJ,08724,RE/MAX Elite 444  Ocean Blvd N. Long Branch NJ 07740
+"$250,000",3,2,,,129 W 6th St,Howell,NJ,07731,C21/ ACTION PLUS REALTY
+"$449,900",4,2,"1,836",2,1903 Belmar Blvd,Wall,NJ,07719,"Weichert, Realtors - Holmdel"
+"$549,000",5,3+,,2,1614 Grace St,Wall,NJ,07719,Re/Max Real Estate Ltd.
+"$295,000",3,1,,,1760 Belmar Blvd,Wall,NJ,07719,Gloria Nilson & Co. Real Estate
+"$324,900",2,2+,"1,893",2,77 Maypink Ln,Howell,NJ,07731,VRI Homes
+"$289,900",4,1+,,2,34 Standish Dr,Howell,NJ,07731,Nj Realty Pros Llc
+"$619,900",5,3+,,2,19 Coral Dr,Howell,NJ,07731,C21/ ACTION PLUS REALTY
+"$323,000",4,3,"1,618",1,7 Mendon Dr,Howell,NJ,07731,"Weichert, Realtors - Marlboro"
+"$200,000",2,1+,"1,161",,54 Frontier Way,Tinton Falls,NJ,07753,RE/MAX Elite
+"$424,000",3,2,"2,004",2,107 Brown Rd,Howell,NJ,07731,ADK REALTY and Consulting Services LLC
+"$567,000",5,2,"2,000",,372 Alexander Ave,Howell,NJ,07731,Imperial Real Estate Agency
+"$420,000",4,2+,"2,012",2,22 Firestone Dr,Howell,NJ,07731,VRI Homes Red Bank
+"$345,000",4,2,,1,2006 Belmar Blvd,West Belmar,NJ,07719,Berkshire Hathaway HomeServices New Jersey Properties Rumson Office
+"$244,900",5,2,"1,632",,107 Anelve Ave,Neptune Township,NJ,07753,C21/ ACTION PLUS REALTY
+"$175,000",2,1,,,32 Pearl Dr,Howell,NJ,07731,VRI Homes Marlboro
+"$239,500",2,1,,1,121 Muhlen Platz Unit E,Howell,NJ,07731,C21/ ACTION PLUS REALTY
+"$65,000",,,,,Oak Glen Rd,Howell,NJ,07731,Keller Williams Realty - Monmouth/Ocean
+"$169,000",3,1+,,,12 Foxwood Ct Unit 80,Brick,NJ,08724,Ward Wight Sotheby's International Realty
+"$424,000",4,2+,,2,40 New Friendship Rd,Howell,NJ,07731,C21/ ACTION PLUS REALTY
+"$84,900",2,1,"1,014",,188A Sawmill Rd Unit 491,Brick,NJ,08724,"RE/MAX REAL ESTATE, LTD."
+"$1,124,999",5,5,"4,000",2,46 Island Dr,Brick,NJ,08724,KELLER WILLIAMS REALTY
+"$229,900",2,2,"1,527",1,3 Berkshire Ct,Brick,NJ,08724,ERA Byrne Realty
+"$265,000",2,1,"1,000",1,1530 Forge Pond Rd,Brick,NJ,08724,C21/ Action Plus Rlty
+"$465,000",,,,,783 Princeton Ave,Brick,NJ,08724,"Diane Turton, Realtors - Spring Lake Office"
+"$184,900",3,1+,"1,300",,115 Sandra Pl,Brick,NJ,08724,"Diane Turton, Realtors - Spring Lake Office"
+"$374,900",5,2,"2,101",1,878 Clair Ave,Brick,NJ,08724,Keller Williams Shore Properties
+"$615,000",5,3,,2,12 Canterbury Way,Farmingdale,NJ,07727,Re/Max Central
+"$295,000",4,2,"1,844",,812 Marbro Ave Unit 37,Brick,NJ,08724,Keller Williams Realty Services
+"$245,000",2,1,,,69 Bennett Ave,Neptune City,NJ,07753,Re/Max Gateway
+"$315,500",4,2+,"1,844",1,1445 Forest Ave,Brick,NJ,08724,"CENTURY 21 Herbertsville Real Estate Company, Inc"
+"$190,000",2,2,,,386 Brookview Ct,Howell,NJ,07731,WOODWARD REALTY GROUP
+"$249,000",,,,,Maxim Rd,Howell,NJ,07731,Gloria Nilson & Co. Real Estate
+"$299,000",3,3+,,1,2 Burke Ln,Brick,NJ,08724,Partners Realty Group
+"$275,000",3,1,,,2203 Monmouth Blvd,Wall,NJ,07719,Coldwell Banker Residential Brokerage - Wall Township Office
+"$1,695,000",6,5+,"4,284",2,547 Princeton Ave,Brick,NJ,08724,CHILDERS SOTHEBYS INT'L REALTY
+"$322,000",5,2,"2,236",1,380 N Lake Dr,Brick,NJ,08724,RE/MAX at Barnegat Bay
+"$125,000",1,1,,,131 W 3rd St,Howell,NJ,07731,Partners Realty Group
+"$79,000",,,,,1103 Green Grove Rd,Neptune Township,NJ,07753,Keller Williams Realty - Monmouth/Ocean
+"$4,999,000",7,11+,"17,000",4,583 Princeton Ave,Brick,NJ,08724,CHILDERS SOTHEBYS INT'L REALTY
+"$1,499,000",,,,,579 Princeton Ave,Brick,NJ,08724,CHILDERS SOTHEBYS INT'L REALTY
+"$342,100",4,3,,1,42 Lake Dr,Howell,NJ,07731,Keller Williams Realty West Monmouth
+"$349,000",4,2+,"3,634",2,678 Rolling Hills Ct,Brick,NJ,08724,"Diane Turton, Realtors - Point Pleasant Office"
+"$849,900",4,3+,"3,947",2,2804 Williamsburg Dr,Wall,NJ,07719,Coldwell Banker Residential Brokerage - Wall Township Office
+"$795,000",,,,,1501 Corlies Ave,Neptune Township,NJ,07753,Keller Williams Realty - Monmouth/Ocean
+"$168,000",3,1,,,154 Hawthorne Ave,Neptune Township,NJ,07753,VRI Homes Keyport
+"$169,000",4,1,,,1115 9th Ave,Neptune Township,NJ,07753,Keller Williams Realty - Monmouth/Ocean
+"$175,000",3,1,,,3 Freewood St,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Howell Office
+"$264,400",4,1+,"2,192",1,15 Arlington Dr,Howell,NJ,07731,EXIT Realty East Coast
+"$43,500",2,1,,,4 Ferdinand Ln,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Howell Office
+"$1,399,998",4,3+,,3,808 North Dr,Brick,NJ,08724,"Weichert, Realtors - Spring Lake"
+"$899,000",4,3,,7,313 Maxim Rd,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Holmdel/Colts Neck Office
+"$2,565,000",4,3+,,2,103 11th Ave,Belmar,NJ,07719,RE/MAX Paradigm Realty Group
+"$510,000",5,2+,"2,236",2,1 Victoria Ln,Neptune Township,NJ,07753,"Weichert, Realtors - Rumson"
+"$429,900",,,,,628/632 Highway 35,Neptune Township,NJ,07753,Coldwell Banker Residential Brokerage - Middletown Office
+"$29,000",,,,,Cromwell Ave,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$650,000",3,3,,2,1500 Tiltons Corner Rd,Wall,NJ,07719,"Weichert, Realtors - Ocean Township"
+"$499,000",4,2,"1,800",,103 13th Ave,Belmar,NJ,07719,Prudential Zack Shore Properties
+"$382,000",3,2+,,2,9 Flintlock Dr,Howell,NJ,07731,RE/MAX REALTY 9
+"$529,900",3,1+,"2,578",2,1770 Belmar Blvd,Wall,NJ,07719,Gloria Nilson & Co. Real Estate
+"$149,000",2,2,,,87 Brandywine Ct Unit 299,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$140,000",2,1,832,,133 W 3rd St,Howell,NJ,07731,Y & S Realty
+"$249,000",2,2,"1,498",1,26 Everest Dr,Brick,NJ,08724,"Weichert, Realtors - Point Pleasant Beach"
+"$433,900",4,2+,"2,100",2,34 Firestone Dr,Howell,NJ,07731,Century 21 Mack Morris Iris Lurie
+"$475,000",2,2+,,2,33 Abbey Rd,Tinton Falls,NJ,07753,"NEUHAUS REALTY, INC."
+"$475,000",2,2+,,2,31 Abbey Rd,Tinton Falls,NJ,07753,"NEUHAUS REALTY, INC."
+"$1,599,000",5,4,,2,49 Robbins St,Brick,NJ,08724,Ward Wight Sotheby's Int'l Realty
+"$385,000",4,2+,"2,388",7,10 Lemon Rd,Farmingdale,NJ,07727,CENTURY 21 ACTION PLUS REALTY
+"$173,900",2,1+,,,202 Samantha Ct,Brick,NJ,08724,eXp Realty
+"$299,000",2,1,,,1405 Evans Rd,Wall,NJ,07719,Coldwell Banker Residential Brokerage - Middletown Office
+"$589,900",,,,,42 Island Dr,Brick,NJ,08724,"Diane Turton, Realtors - Bay Head"
+"$394,000",,,,,42 Island Dr Unit A,Brick,NJ,08724,"Diane Turton, Realtors - Bay Head"
+"$849,000",5,3+,"5,814",,2520 Apache Rd,Wall Township,NJ,08736,Century 21 Value Plus Realty
+"$514,900",2,1,,,204 19th Ave,Belmar,NJ,07719,CENTURY 21 Schlossbach Realty
+"$289,000",5,3,,2,29 Willow Ave,Howell,NJ,07731,Keller Williams Realty West Monmouth
+"$174,900",2,1+,"1,300",,234 Samantha Ct,Brick,NJ,08724,Weidel Real Estate
+"$709,900",5,3+,"3,604",2,715 Tanager Way,Brick,NJ,08724,Keytide Realty Group
+"$131,000",2,1+,"1,200",,12 Max Pl,Howell,NJ,07731,Keller Williams Realty West Monmouth
+"$269,500",5,1+,"2,328",1,1569 Aspen St,Brick,NJ,08724,C21/ ACTION PLUS REALTY
+"$799,900",,,,,9 Us,Howell,NJ,07731,GLOBE REALTY
+"$310,000",4,1+,,1,236 22nd Ave,Brick,NJ,08724,Century-21 Schecher Realty
+"$249,900",2,1,,,370 Boland Ave,Brick,NJ,08724,CARA REALTORS
+"$799,000",3,2,,1,85 Church Rd,Howell,NJ,07731,Century 21 Action Plus Realty
+"$285,900",4,1+,"2,126",2,6 Academy St,Farmingdale,NJ,07727,"RE/MAX Bay Point, REALTORS"
+"$669,900",4,5+,"5,700",3,12 Golden Way,Howell,NJ,07731,"Diane Turton, Realtors - Brick Office"
+"$399,000",3,2,,2,511 Ely Rd,Neptune Township,NJ,07753,Jersey Shore Real Estate
+"$250,000",3,2,"1,476",,57 Freewood St,Howell,NJ,07731,"D. Cook Realty, Llc"
+"$325,000",4,2+,"1,800",1,43 Conifer St,Howell,NJ,07731,Wayne Basilotto
+"$25,000",,,,,Valley Rd,Howell,NJ,07731,"Weichert, Realtors - Jackson"
+"$25,000",,,,,Valley Rd,Howell,NJ,07731,"Weichert, Realtors - Jackson"
+"$50,000",,,,,Hannan Ave,Brick,NJ,08724,"Diane Turton, Realtors - Brick Office"
+"$25,000",,,,,Sharon Ln,Brick,NJ,08724,"Diane Turton, Realtors - Brick Office"
+"$25,000",,,,,Hannan Ave,Brick,NJ,08724,"Diane Turton, Realtors - Brick Office"
+"$899,999",3,1,,2,4035 W 18th Ave,Wall,NJ,07727,"Weichert, Realtors - Point Pleasant Beach"
+"$585,000",3,2+,"4,000",2,191 Victory Rd,Howell,NJ,07731,"Long & Foster, Kilbride & Cagnina Real Estate Group"
+"$269,900",,,,,1826 New Bedford Rd,Wall,NJ,07719,Gloria Nilson & Co. Real Estate
+"$998,900",10,5,"4,864",,24 Stoney Brook Trl,Howell,NJ,07731,Century 21 Action Plus Realty
+"$179,000",5,2,"1,600",,76 Freewood St,Howell,NJ,07731,"Weichert, Realtors - Sea Girt"
+"$1,295,000",5,4,"2,466",,111 7th Ave,Belmar,NJ,07719,RE/MAX Paradigm Realty Group
+"$799,900",5,3,,6,766 Fort Plains Rd,Howell,NJ,07731,Keller Williams Realty - Monmouth/Ocean
+"$329,900",2,1,840,,1834 Briarwood Ter,Lake Como,NJ,07719,Gloria Nilson & Co. Real Estate
+"$349,000",,,,,2450 Ridgewood Rd,Wall,NJ,07719,Patrick Parker Realty
+"$1,295,000",5,4,"2,466",,111 7th Ave,Belmar,NJ,07719,RE/MAX Paradigm Realty Group
+"$249,900",2,1,,,198 Colts Neck Rd,Farmingdale,NJ,07727,Keller Williams Realty Central Monmouth
+"$339,000",3,1+,"2,083",1,14 Canaan Ct,Howell,NJ,07731,SafariRealty
+"$430,000",,,,,1628 Woodfield Rd,Wall,NJ,07753,"Weichert, Realtors - Spring Lake"
+"$539,900",3,2,"1,428",4,1625 18th Ave,Wall,NJ,07719,ERA Byrne Realty
+"$299,000",,,,,644 Winding River Rd,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$79,900",,,,,111111 Summit Ave,Brick,NJ,08724,Allegro Agency
+"$29,900",,,,,392 Simon Pl,Brick,NJ,08724,CRS AGENCY ELITE LLC
+"$479,000",4,2+,"2,457",2,335 Iroquois Dr,Brick,NJ,08724,"Weichert, Realtors - Sea Girt"
+"$315,000",3,1,,,1803 Parkway,Lake Como,NJ,07719,CENTURY 21 Schlossbach Realty
+"$1,200,000",,,,,41 Kent Rd,Howell,NJ,07731,Century 21 Action Plus Realty
+"$795,000",,,,,212 11th Ave,Belmar,NJ,07719,MARIAN J. FALLON REALTY
+"$505,000",5,,,2,2600 E Hurley Pond Rd,Wall,NJ,07719,"Weichert, Realtors - Spring Lake"
+"$2,850,000",,,,,102 2nd Ave,Belmar,NJ,07719,Vail Realty
+"$249,000",,,,,2520 Asbury Ave,Neptune Township,NJ,07753,GLOBE REALTY
+"$245,000",,,,,569 Shark River Rd,Wall,NJ,07727,Coldwell Banker Residential Brokerage - Wall Township Office
+"$775,000",5,4+,"3,897",3,8 Princess Ct,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Howell Office
+"$655,000",4,2+,"3,346",3,1 Princess Ct,Howell,NJ,07731,Coldwell Banker Residential Brokerage - Howell Office
+"$299,900",,,,,1900 Main St,Lake Como,NJ,07719,Coldwell Banker Residential Brokerage - Wall Township Office
+"$525,000",2,2+,,2,47 Abbey Rd,Tinton Falls,NJ,07753,"NEUHAUS REALTY, INC."
+"$111,000",,,,,248 Van Zile Rd,Brick,NJ,08724,Ward Wight Sotheby's Int'l Realty
+"$135,000",2,1+,,,538 Linda Ct,Brick,NJ,08724,Exit Realty Elite
+"$32,300",,,,,Hillcrest Ave,Brick,NJ,08724,Gloria Nilson & Co. Real Estate
+"$875,000",3,2,,1,536 W Farms Rd,Howell,NJ,07731,Colts Neck Realty
+"$299,000",,,,,122 Northeast Dr,Brick,NJ,08724,Ward Wight Sotheby's International Realty
+"$174,900",,,,,1725 State Route 71,Wall,NJ,07719,Gloria Nilson & Co. Real Estate
+"$35,000",,,,,Laurel Pl,Howell,NJ,07731,"NEUHAUS REALTY, INC."
+"$699,000",,,,,213 16th Ave,Belmar,NJ,07719,Gloria Nilson & Co. Real Estate
+"$299,000",,,,,3920 Herbertsville Rd,Wall,NJ,07731,"OCEAN VENTURES REALTY, INC."

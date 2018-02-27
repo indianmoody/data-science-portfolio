@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 81f56719-31f1-49ce-83c6-1e1547b170e3
+Etag: W/"b5b6ba2f7358a138c5c7eaf0c5e52774"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.510127
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:40:46 GMT
+Set-Cookie: threshold_value=68; path=/; expires=Sat, 21 Apr 2018 10:40:45 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:40:45 -0000
+Set-Cookie: __vst=a2c63f53-5cb5-431a-8f89-e3f62cfb03b8; path=/; expires=Sun, 21 Feb 2038 10:40:45 -0000
+Set-Cookie: __ssn=d92891ab-4d8a-4b62-ae51-6bc7764c7496; path=/
+Set-Cookie: __ssnstarttime=1519209645; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: criteria=locSlug%3DWest-Wildwood_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=cVFxNjRMTVkwRzU5TzdyeWRpcnZ5QkpVWUI4Y1UzUkxQZ0hTWkdQeVAyNW5DTkRoVk03M2xMN1o1MWhRZmtUSERDY2RJVms5Ui90WmpKTCtIZjNVcWtpcGVtdzZNTzdxeWJWcUFEa2VRbC9ncWZ6N0lRMHAvR0pQL3B6dGVkOVBrRjBtOUhDMThyQlRVZWFHS1hxd3V3PT0tLWJxeUhuS3JpMHYydW9td3N2Uk9KQ0E9PQ%3D%3D--82a5a195c6977d1ff4f9f71002cc632cdc64d551; path=/; HttpOnly

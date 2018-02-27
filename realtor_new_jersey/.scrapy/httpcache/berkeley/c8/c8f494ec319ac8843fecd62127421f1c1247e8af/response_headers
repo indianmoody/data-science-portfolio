@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 7f927535-06e7-415f-9b1f-fe7b162bb934
+X-Runtime: 0.570995
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 22 Feb 2018 05:59:02 GMT
+Set-Cookie: threshold_value=35; path=/; expires=Sun, 22 Apr 2018 05:59:01 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Thu, 22 Mar 2018 05:59:01 -0000
+Set-Cookie: __vst=01b42911-8466-4b14-9ecf-665f6032f807; path=/; expires=Mon, 22 Feb 2038 05:59:01 -0000
+Set-Cookie: __ssn=eef7cc22-8a11-4d65-90b6-f49ee0ea9d00; path=/
+Set-Cookie: __ssnstarttime=1519279141; path=/
+Set-Cookie: basecamp=true; path=/
+Set-Cookie: header_slugs=gs%3DJersey-City_NJ%26lo%3DJersey%2BCity%26st%3Dcity%2Cgs%3DHudson-County_NJ%26lo%3DHudson%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DJersey+City%2C+NJ%26locSlug%3DJersey-City_NJ%26lat%3D40.71864%26long%3D-74.0701%26status%3D1%26pg%3D3%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DJersey+City%26state_id%3DNJ%26county_fips%3D34017%26county_fips_multi%3D34017; domain=realtor.com; path=/
+Set-Cookie: srchID=7161498a80434aa9beb7539ad250d3e4; path=/
+Set-Cookie: _rdc-next_session=a2dPamhnV3YwSlQ3cFlYUUltZ0xiNndjeHFEblNZR2xtS3YzTVNFRGtqeUZ4MXBGS2UweEs2VmpkbmhIS2tQODRkQ0pNRVl3OUt4R2k5bjYzb3lLbThJWFo0ZVpnUzZEemVnMjBxdUpXRzRLK29ydTdFRDRMcGs1U2swSU84VFFiNWgveVJ3b1pQY2d5WEI4Wk5jVFVnPT0tLVZ1YmNMd2tYOVhnaUdWL1RieXdoa3c9PQ%3D%3D--efe5991d844e5ababac79ef20098ca0d171aa85c; path=/; HttpOnly

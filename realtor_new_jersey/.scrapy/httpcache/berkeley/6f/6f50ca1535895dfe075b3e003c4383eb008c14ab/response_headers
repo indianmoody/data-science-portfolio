@@ -1,0 +1,25 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 9fe508d7-e6fb-4d6b-82d0-53082e68ad4e
+X-Runtime: 0.313134
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Wed, 21 Feb 2018 11:08:14 GMT
+Set-Cookie: threshold_value=51; path=/; expires=Sat, 21 Apr 2018 11:08:13 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 11:08:13 -0000
+Set-Cookie: __vst=f1369758-47c7-485c-8143-15ef9962c1ba; path=/; expires=Sun, 21 Feb 2038 11:08:13 -0000
+Set-Cookie: __ssn=ada2ee87-57b8-4dbc-b057-e96627f6df9f; path=/
+Set-Cookie: __ssnstarttime=1519211293; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: header_slugs=gs%3DAnglesea_NJ%26lo%3DAnglesea%26st%3Dcity%2Cgs%3DCape-May-County_NJ%26lo%3DCape%2BMay%26st%3Dcity; path=/
+Set-Cookie: criteria=loc%3DAnglesea%2C+NJ%26locSlug%3DAnglesea_NJ%26lat%3D38.996946%26long%3D-74.829874%26status%3D1%26pg%3D1%26pgsz%3D50%26sprefix%3D%2Frealestateandhomes-search%26city%3DAnglesea%26state_id%3DNJ%26county_fips%3D34009%26county_fips_multi%3D34009; domain=realtor.com; path=/
+Set-Cookie: srchID=cd979e8fc0ae4a7ba177eed48c355953; path=/
+Set-Cookie: _rdc-next_session=NktGL3NQQzhSSWlDd0ZsSXJHYnE2elluMUhIeGtVKzdXWHJSdFlWdUVzVWpZZUZialFwaVp1b1MvbVhNM05GT1Uyd0l6RlVXKzhBMnBaOFNpMy9aQ2RpMWZpQnQ4RmxHSDBoNkNWWUdDMjVZZ0JvREtLbGJyamVMdzgrRFBqelhEeUFvODVmV01Jd0FXN3pxUFlLaEV3PT0tLU5NNTVobS9ML0tIcUhrNG5landiWXc9PQ%3D%3D--283b0eda444a1c7d27656c97458845baf4451d5c; path=/; HttpOnly

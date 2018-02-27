@@ -1,0 +1,24 @@
+Content-Type: text/html; charset=utf-8
+Server: nginx/1.11.2
+Status: 200 OK
+Vary: Origin
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 0ddfeb5e-4caf-44d9-890b-f7d42fabc61e
+Etag: W/"46aa679708853bef520942a7096d8b5c"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.690483
+X-Content-Type-Options: nosniff
+X-Powered-By: Phusion Passenger 5.0.22
+Content-Encoding: gzip
+Cache-Control: private, must-revalidate, max-age=0
+Date: Wed, 21 Feb 2018 10:40:25 GMT
+Set-Cookie: threshold_value=4; path=/; expires=Sat, 21 Apr 2018 10:40:24 -0000
+Set-Cookie: automation=false; path=/
+Set-Cookie: clstr=; path=/; expires=Wed, 21 Mar 2018 10:40:24 -0000
+Set-Cookie: __vst=c1435d9a-887c-4f4c-be1c-0b74d0a1899b; path=/; expires=Sun, 21 Feb 2038 10:40:24 -0000
+Set-Cookie: __ssn=b330193f-85d2-4862-b9c9-b7dbb6e0041e; path=/
+Set-Cookie: __ssnstarttime=1519209624; path=/
+Set-Cookie: basecamp=false; path=/
+Set-Cookie: criteria=locSlug%3DTrenton_NJ; domain=realtor.com; path=/
+Set-Cookie: _rdc-next_session=bVRZcTlLVEs0VXBYcFR1Q0N4T3JzZmZwYVN0eXdDcjNzZ2c5aUE2SnhQNFgrc2krWjdURmx2MWtXdHJwekZQYVFSNmU4REhNd3J6Q0VNMUovYloyM09rZ1g5RXhTcGtvL0ZDaUxtM0ZIK2hJVFBEQUdqL3dWTkpHZDQ0NGJiTVUwRUQ4SU02OGFJWDlMUUZvQndsUW53PT0tLVlzZUVlM3VwVXZDNS8rcVZxbVZiQ1E9PQ%3D%3D--e014e9d116f86dfb7986dc90d02ab32b9ee63181; path=/; HttpOnly
