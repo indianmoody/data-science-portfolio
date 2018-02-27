@@ -10,4 +10,5 @@ Project | ETL | Analysis | Visualization | Prediction | Language
 [Drug Use By Age](https://github.com/indianmoody/data-science-portfolio/tree/master/drug_use_by_age) | | | &#10003; | | Python
 [Predict Blogs about to receive Maximum Comments](https://github.com/indianmoody/data-science-portfolio/tree/master/blog_comments) | | &#10003; | |&#10003; | Python
 [Minor Projects](https://github.com/indianmoody/data-science-portfolio/tree/master/mini_projects) | | | &#10003; | &#10003; | Python
-[Unemployment, Gender Equality and Foreign Education](https://github.com/indianmoody/data-science-portfolio/tree/master/edstats) | &#10003; | &#10003; | &#10003; |  | R, SQL
+[Unemployment, Gender Equality and Foreign Education](https://github.com/indianmoody/data-science-portfolio/tree/master/edstats) - [app](https://vanara.shinyapps.io/opportunities_by_countries/) | &#10003; | &#10003; | &#10003; |  | R, SQL
+[Bad Drivers in USA](https://github.com/indianmoody/data-science-portfolio/tree/master/bad_drivers) - [app](https://vanara.shinyapps.io/bad_drivers_app/) | | |&#10003; | | R
