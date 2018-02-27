@@ -8,12 +8,16 @@
 #
 
 library(shiny)
+library(plotly)
 
 # load data into csv
 df = read.csv(file = "www/bad_drivers_data.csv", stringsAsFactors = FALSE)
 
 #change column names, originals are too long
 colnames(df) = c("state", "drivers_per_billion", "perc_drivers_speeding", "perc_drivers_alcohol", "perc_drivers_not_distracted", "perc_drivers_first_time", "car_ins_premium", "loss_ins_company")
+
+# drop District of Columbia because of map limitations
+df = df[-9,]
 
 # ---------- functions for State tabPanel ----------------------------
 
@@ -151,11 +155,33 @@ ui <- navbarPage(
   tabPanel(
     "Country Data",
     
-    sidebarPanel(
+    navlistPanel(
+      "Accident Statistics",
       
-    ),
-    
-    mainPanel(
+      tabPanel(
+        "Drives in Accident per billion",
+        plotlyOutput("driver_billion_map")
+      ),
+      
+      tabPanel(
+        "Drivers with Speeding",
+        plotlyOutput("driver_speeding_map")
+      ),
+      
+      tabPanel(
+        "Drivers with Alchol",
+        plotlyOutput("driver_alcohol_map")
+      ),
+      
+      tabPanel(
+        "Drivers Not Distracted",
+        plotlyOutput("driver_not_distracted_map")
+      ),
+      
+      tabPanel(
+        "Drivers First Time Accident",
+        plotlyOutput("driver_first_time_map")
+      )
       
     )
     
@@ -237,6 +263,111 @@ ui <- navbarPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
+  
+  output$driver_billion_map = renderPlotly({
+    g <- list(
+      scope = 'usa',
+      projection = list(type = 'albers usa'),
+      showlakes = TRUE,
+      lakecolor = toRGB('white')
+    )
+    
+    plot_geo(df, locationmode = 'USA-states') %>%
+      add_trace(
+        z = ~drivers_per_billion, text = ~state.name, locations = ~state.abb,
+        color = ~drivers_per_billion, colors = 'GnBu'
+      ) %>% 
+      colorbar(title = "No. of Drivers") %>%
+      layout(
+        title = 'Number of drivers involved in fatal collisions per billion miles',
+        geo = g
+      )
+  })
+  
+  
+  output$driver_speeding_map = renderPlotly({
+    g <- list(
+      scope = 'usa',
+      projection = list(type = 'albers usa'),
+      showlakes = TRUE,
+      lakecolor = toRGB('white')
+    )
+    
+    plot_geo(df, locationmode = 'USA-states') %>%
+      add_trace(
+        z = ~perc_drivers_speeding, text = ~state.name, locations = ~state.abb,
+        color = ~perc_drivers_speeding, colors = 'GnBu'
+      ) %>% 
+      colorbar(title = "% of Drivers") %>%
+      layout(
+        title = 'Percentage Of Drivers Involved In Fatal Collisions Who Were Speeding',
+        geo = g
+      )
+  })
+  
+  
+  output$driver_alcohol_map = renderPlotly({
+    g <- list(
+      scope = 'usa',
+      projection = list(type = 'albers usa'),
+      showlakes = TRUE,
+      lakecolor = toRGB('white')
+    )
+    
+    plot_geo(df, locationmode = 'USA-states') %>%
+      add_trace(
+        z = ~perc_drivers_alcohol, text = ~state.name, locations = ~state.abb,
+        color = ~perc_drivers_alcohol, colors = 'GnBu'
+      ) %>% 
+      colorbar(title = "% of Drivers") %>%
+      layout(
+        title = 'Percentage Of Drivers Involved In Fatal Collisions Who Were Alcohol-Impaired',
+        geo = g
+      )
+  })
+  
+  
+  output$driver_not_distracted_map = renderPlotly({
+    g <- list(
+      scope = 'usa',
+      projection = list(type = 'albers usa'),
+      showlakes = TRUE,
+      lakecolor = toRGB('white')
+    )
+    
+    plot_geo(df, locationmode = 'USA-states') %>%
+      add_trace(
+        z = ~perc_drivers_not_distracted, text = ~state.name, locations = ~state.abb,
+        color = ~perc_drivers_not_distracted, colors = 'GnBu'
+      ) %>% 
+      colorbar(title = "% of Drivers") %>%
+      layout(
+        title = 'Percentage Of Drivers Involved In Fatal Collisions Who Were Not Distracted',
+        geo = g
+      )
+  })
+  
+  
+  output$driver_first_time_map = renderPlotly({
+    g <- list(
+      scope = 'usa',
+      projection = list(type = 'albers usa'),
+      showlakes = TRUE,
+      lakecolor = toRGB('white')
+    )
+    
+    plot_geo(df, locationmode = 'USA-states') %>%
+      add_trace(
+        z = ~perc_drivers_first_time, text = ~state.name, locations = ~state.abb,
+        color = ~perc_drivers_first_time, colors = 'GnBu'
+      ) %>% 
+      colorbar(title = "% of Drivers") %>%
+      layout(
+        title = 'Percentage Of Drivers Involved In Fatal Collisions Who Had Not Been Involved In Any Previous Accidents',
+        geo = g
+      )
+  })
+  
   
   output$driver_billion_state = renderPlot({plot_drivers_per_billion_state(input$state_selection)})
   output$perc_drivers_speeding = renderPlot({plot_drivers_speeding_state(input$state_selection)})
