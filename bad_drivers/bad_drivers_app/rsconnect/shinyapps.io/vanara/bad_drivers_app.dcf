@@ -1,0 +1,12 @@
+name: bad_drivers_app
+title: bad_drivers_app
+username:
+account: vanara
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 289141
+bundleId: 1242087
+url: https://vanara.shinyapps.io/bad_drivers_app/
+when: 1519719575.41255
+asMultiple: FALSE
+asStatic: FALSE
