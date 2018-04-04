@@ -13,3 +13,4 @@ Project | ETL | Analysis | Visualization | Prediction | Language
 [Unemployment, Gender Equality and Foreign Education](https://github.com/indianmoody/data-science-portfolio/tree/master/edstats) - [app](https://vanara.shinyapps.io/opportunities_by_countries/) | &#10003; | &#10003; | &#10003; |  | R, SQL
 [Bad Drivers in USA](https://github.com/indianmoody/data-science-portfolio/tree/master/bad_drivers) - [app](https://vanara.shinyapps.io/bad_drivers_app/) | | |&#10003; | | R
 [House for Sale in New Jersey - Scrapy Project](https://github.com/indianmoody/data-science-portfolio/tree/master/realtor_new_jersey) | &#10003; | | | | Python
+[Meteorite Landings on Earth](https://github.com/indianmoody/data-science-portfolio/tree/master/meteorite_landings) | | &#10003; | &#10003; | | Python
