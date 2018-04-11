@@ -1,0 +1,18 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+company = c("Alphabet", "Apple", "Amazon")
+company_value = c(745.1, 849.2, 702.5)
+ceo = c("Larry Page", "Tim Cook", "Jeff Bezos")
+ceo_net_worth = c(47.8, 0.625, 117)
+
+df = data.frame(company, company_value, ceo, ceo_net_worth)
+
+df$hover = with(df, paste("CEO: ", ceo, "<br>", "CEO Net Worth: $", ceo_net_worth, "B"))
+df
+```
+
