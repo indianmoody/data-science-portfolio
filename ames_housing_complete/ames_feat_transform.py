@@ -6,7 +6,7 @@ def trans_features(df):
     
     
     # fill missing values
-    ofdf = pd.read_excel('data/old_features_ames.xlsx', usecols="A,B,C,F")
+    ofdf = pd.read_excel('data/old_features_ames.xlsx', usecols="A,F")
     ofdf = ofdf[~ofdf['Feature'].isin(drop_list)]
     ofdf.dropna(inplace=True) #only target 'SalePrice' has NaN for 'Missing Handle'
     median_list = ofdf[ofdf['Missing Handle']=='median']['Feature'].tolist()
@@ -25,7 +25,7 @@ def trans_features(df):
     
     
     # transformations
-    log_list = ['LotFrontage','LotArea','MasVnrArea','BsmtFinSF1','BsmtFinSF2','TotalBsmtSF','1stFlrSF','GrLivArea']
+    log_list = ['LotFrontage','LotArea','TotalBsmtSF','1stFlrSF','GrLivArea']
     for logf in log_list:
         df[logf] = df[logf].apply(lambda x: np.log(x+1))
     
@@ -47,26 +47,13 @@ def trans_features(df):
         180 : 'mssub15',
         190 : 'mssub16'
     }
-
-    mosold_mapper = {
-        1 : 'january',
-        2 : 'february',
-        3 : 'march',
-        4 : 'april',
-        5 : 'may',
-        6 : 'june',
-        7 : 'july',
-        8 : 'august',
-        9 : 'september',
-        10 : 'october',
-        11 : 'november',
-        12 : 'december'
-    }
-
-    df['MSSubClass'].replace(mssubclass_mapper, inplace=True)
-    df['MoSold'].replace(mosold_mapper, inplace=True)
     
-    df['GarageYrBlt'] = df['GarageYrBlt']-1890
+    df['MSSubClass'].replace(mssubclass_mapper, inplace=True)
+    #df['MoSold'].replace(mosold_mapper, inplace=True)
+    
+    df['GarageYrBlt'] = df['GarageYrBlt'] - 1890
+    df['YearBuilt'] = df['YearBuilt'] - 1850
+    df['YearRemodAdd'] = df['YearRemodAdd'] - 1940
     
     def change_categories(x, cat_dict):
         if x in cat_dict.keys():
@@ -87,9 +74,9 @@ def trans_features(df):
     df['BldgType'] = df['BldgType'].apply(lambda x: change_categories(x, {'1Fam':'1Fam','TwnhsE':'TwnhsE'}))
     df['HouseStyle'] = df['HouseStyle'].apply(lambda x: change_categories(x, {'1Story':'1Story','1.5Fin':'1.5Fin','2Story':'2Level','2.5Fin':'2Level','rare_cat_name':'other_style'}))
     df['RoofStyle'] = df['RoofStyle'].apply(lambda x: change_categories(x, {'Hip':'Hip','Shed':'Hip','rare_cat_name':'Gable'}))
-    df['MasVnrType'] = df['MasVnrType'].apply(lambda x: change_categories(x, {'BrkFace':'Brick','None':'None','BrkCmn':'Brick','Stone':'Stone'})).value_counts()
+    df['MasVnrType'] = df['MasVnrType'].apply(lambda x: change_categories(x, {'BrkFace':'Brick','None':'None','BrkCmn':'Brick','Stone':'Stone'}))
     df['ExterQual'] = df['ExterQual'].apply(lambda x: change_categories(x, {'Po':1,'Fa':2,'TA':3,'Gd':4,'Ex':5}))
-    df['ExterCond'] = df['ExterCond'].apply(lambda x: change_categories(x, {'Po':1,'Fa':2,'TA':3,'Gd':4,'Ex':5}))
+    #df['ExterCond'] = df['ExterCond'].apply(lambda x: change_categories(x, {'Po':1,'Fa':2,'TA':3,'Gd':4,'Ex':5}))
     df['Foundation'] = df['Foundation'].apply(lambda x: change_categories(x, {'PConc':'PConc','Wood':'PConc','CBlock':'CBlock','Stone':'CBlock','BrkTil':'BrkTil','Slab':'BrkTil'}))
     df['BsmtQual'] = df['BsmtQual'].apply(lambda x: change_categories(x, {'Po':1,'Fa':2,'TA':3,'Gd':4,'Ex':5}))
     df['HeatingQC'] = df['HeatingQC'].apply(lambda x: change_categories(x, {'Po':1,'Fa':2,'TA':3,'Gd':4,'Ex':5}))
@@ -97,7 +84,7 @@ def trans_features(df):
     df['KitchenQual'] = df['KitchenQual'].apply(lambda x: change_categories(x, {'Po':1,'Fa':2,'TA':3,'Gd':4,'Ex':5}))
     df['FireplaceQu'] = df['FireplaceQu'].apply(lambda x: change_categories(x, {'Po':1,'Fa':2,'TA':3,'Gd':4,'Ex':5}))
     df['GarageType'] = df['GarageType'].apply(lambda x: change_categories(x, {'Attchd':'Attchd','BuiltIn':'BuiltIn','Detchd':'Detchd','Basment':'Detchd','2Types':'Detchd','NoGarage':'NoGarage','CarPort':'NoGarage'}))
-    df['Fence'] = df['Fence'].apply(lambda x: change_categories(x, {'NoFence':'NoFence','GdPrv':'NoFence','rare_cat_name':'MnPrv'}))
+    #df['Fence'] = df['Fence'].apply(lambda x: change_categories(x, {'NoFence':'NoFence','GdPrv':'NoFence','rare_cat_name':'MnPrv'}))
     df['SaleType'] = df['SaleType'].apply(lambda x: change_categories(x, {'New':'New','Con':'New','rare_cat_name':'WD'}))
     df['SaleCondition'] = df['SaleCondition'].apply(lambda x: change_categories(x, {'Normal':'Normal','Partial':'Partial','rare_cat_name':'Abnormal'}))
     
